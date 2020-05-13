@@ -11,6 +11,8 @@ Contents:
 > This is the bed file containing RefSeq exons +/- 100bp, extracted from the Nirvana 2.0.3 Cache GRCH37 RefSeq .gff. This file delineates the regions that are variant called by Gemini/Dias
 * :sleeping_bed: /bed_files/b37/kits/gemini/refseq_nirvana_2.0.10.bed
 > This is the bed file containing RefSeq exons +/- 0bp, extracted from the Nirvana 2.0.10 Cache GRCH37 RefSeq .gff. This file delineates the regions for coverage analysis in Gemini/Dias
+* :sleeping_bed: /bed_files/b37/kits/gemini/refseq_nirvana_2.0.10_5bp.bed
+> This is the bed file containing RefSeq exons +/- 5bp, extracted from the Nirvana 2.0.10 Cache GRCH37 RefSeq .gff. This file delineates the regions that are variant called by Gemini/Dias
 * :sleeping_bed: /bed_files/b37/kits/gemini/refseq_nirvana_2.0.10_100bp.bed
 > This is the bed file containing RefSeq exons +/- 100bp, extracted from the Nirvana 2.0.10 Cache GRCH37 RefSeq .gff. This file delineates the regions that are variant called by Gemini/Dias
 * :sleeping_bed: /bed_files/b37/kits/gemini/regions.unique_sorted_merged_5bp.bed
