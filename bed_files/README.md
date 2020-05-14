@@ -23,3 +23,8 @@ Contents:
 > This is the bed file from Illumina containing regions captured by the TSO Expanded kit. This file is used when assessing capture wide performance (e.g. eggd_vcf_qc).
 * :sleeping_bed: /bed_files/b37/kits/tso500/TST500C_manifest.bed
 > This is the bed file provided by Illumina for Trusight Oncology 500
+* :sleeping_bed: /bed_files/b37/PAR_X.bed
+> This bed file contains the PAR regions on chromosome X
+* :sleeping_bed: /bed_files/b37/PAR_Y.bed
+> This bed file contains the PAR regions on chromosome Y
+
