@@ -17,11 +17,11 @@ Contents:
 * :sleeping_bed: /bed_files/b37/kits/gemini/refseq_nirvana_2.0.10_100bp.bed
 > This is the bed file containing RefSeq exons +/- 100bp, extracted from the Nirvana 2.0.10 Cache GRCH37 RefSeq .gff.
 
-* :sleeping_bed: /bed_files/b37/kits/gemini/refseq_nirvana_2.0.10_NO_PAR_Y.bed
+* :sleeping_bed: /bed_files/b37/kits/gemini/refseq_nirvana_2.0.10_no_PAR_Y.bed
 > This is the bed file containing RefSeq exons +/- 0bp, extracted from the Nirvana 2.0.10 Cache GRCH37 RefSeq .gff. Regions in PAR on Y have been removed.
-* :sleeping_bed: /bed_files/b37/kits/gemini/refseq_nirvana_2.0.10_5bp_NO_PAR_Y.bed
+* :sleeping_bed: /bed_files/b37/kits/gemini/refseq_nirvana_2.0.10_5bp_no_PAR_Y.bed
 > This is the bed file containing RefSeq exons +/- 5bp, extracted from the Nirvana 2.0.10 Cache GRCH37 RefSeq .gff. Regions in PAR on Y have been removed. This file delineates the regions for coverage analysis in Gemini/Dias.
-* :sleeping_bed: /bed_files/b37/kits/gemini/refseq_nirvana_2.0.10_100bp_NO_PAR_Y.bed
+* :sleeping_bed: /bed_files/b37/kits/gemini/refseq_nirvana_2.0.10_100bp_no_PAR_Y.bed
 > This is the bed file containing RefSeq exons +/- 100bp, extracted from the Nirvana 2.0.10 Cache GRCH37 RefSeq .gff. Regions in PAR on Y have been removed. This file delineates the regions that are variant called by Gemini/Dias.
 
 * :sleeping_bed: /bed_files/b37/kits/gemini/regions.unique_sorted_merged_5bp.bed
