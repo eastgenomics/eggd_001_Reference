@@ -1,6 +1,6 @@
-#######################################
-# Eggd MultiQC Configuration File
-#######################################
+###########################################
+# Eggd MultiQC Configuration File for Dias
+###########################################
 
 # This file can be saved either in the MultiQC installation
 # directory, or as ~/.multiqc_config.yaml
