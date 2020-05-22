@@ -26,6 +26,8 @@ Contents:
 
 * :sleeping_bed: /bed_files/b37/kits/gemini/regions.unique_sorted_merged_5bp.bed
 > This bed file is based on Illimina Trusight Expanded clinical exome but delineates that regions that are analysed by CUH.
+* :sleeping_bed: /bed_files/b37/kits/gemini/regions_tested_5bp_200521.bed
+> This bed file is based on Illimina Trusight Expanded clinical exome but delineates that regions that are analysed by CUH. Updated 200521 to align with Nirvana 2.0.10 transcripts. Used with hap.py to assess variant calling performance.
 
 * :sleeping_bed: /bed_files/b37/kits/gemini/TruSightOne.bed
 > This is the bed file from Illumina containing regions captured by the TSO kit. This file is used when assessing capture wide performance (e.g. eggd_vcf_qc).
@@ -39,4 +41,3 @@ Contents:
 > This bed file contains the PAR regions on chromosome X
 * :sleeping_bed: /bed_files/b37/PAR_Y.bed
 > This bed file contains the PAR regions on chromosome Y
-
