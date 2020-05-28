@@ -134,7 +134,7 @@ custom_data:
                 format:  '{:,.2f}'
             gender:
                 title:  'Inferred sex'
-        
+
 
 # Overwrite module order (in report). See multiqc/utils/config_defaults.yaml for
 # the defaults.
