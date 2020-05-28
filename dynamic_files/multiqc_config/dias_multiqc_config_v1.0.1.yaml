@@ -132,6 +132,8 @@ custom_data:
                 format:  '{:,.2f}'
             X homo:het ratio:
                 format:  '{:,.2f}'
+            gender:
+                title:  'Inferred sex'
         
 
 # Overwrite module order (in report). See multiqc/utils/config_defaults.yaml for
