@@ -114,7 +114,7 @@ custom_data:
         section_name: 'Het-hom analysis'
         description: 'This plot comes from vcf_qc files'
         plot_type: 'table'
-        table_config:
+        pconfig:
             id: 'het-hom_table'
             table_title: 'Het-hom'
             'col1_header': 'Sample'
@@ -123,6 +123,18 @@ custom_data:
             'col4_header': 'het:homo ratio'
             'col5_header': 'X homo:het ratio'
             'col6_header': 'gender'
+        headers:
+            mean het ratio:
+                format:  '{:,.2f}'
+            mean homo ratio:
+                format:  '{:,.2f}'
+            het:homo ratio:
+                format:  '{:,.2f}'
+            X homo:het ratio:
+                format:  '{:,.2f}'
+            gender:
+                title:  'Inferred sex'
+
 
 # Overwrite module order (in report). See multiqc/utils/config_defaults.yaml for
 # the defaults.
