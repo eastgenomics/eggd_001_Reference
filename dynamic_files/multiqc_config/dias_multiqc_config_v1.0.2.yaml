@@ -1,6 +1,6 @@
-###########################################
-# Eggd MultiQC Configuration File for Dias
-###########################################
+###################################################
+# Eggd MultiQC Configuration File for Dias v.1.0.2
+###################################################
 
 # This file can be saved either in the MultiQC installation
 # directory, or as ~/.multiqc_config.yaml
@@ -103,8 +103,8 @@ report_imgskips: False
 # Opt-out of remotely checking that you're running the latest version
 no_version_check: False
 
-# Overwrite module order (in report). See multiqc/utils/config_defaults.yaml for
-# the defaults.
+# Overwrite module order (in report).
+# See multiqc/utils/config_defaults.yaml for the defaults.
 module_order:
     - happy:
         module_tag:
@@ -129,6 +129,34 @@ module_order:
             - RNA
             - DNA
 
+# Add code to include data from custom QC reports
+custom_data:
+    vcf_qc_files:
+        file_format: 'tsv'
+        section_name: 'Het-hom analysis'
+        description: 'This plot comes from vcf_qc files'
+        plot_type: 'table'
+        pconfig:
+            id: 'het-hom_table'
+            table_title: 'Het-hom'
+            'col1_header': 'Sample'
+            'col2_header': 'mean het ratio'
+            'col3_header': 'mean homo ratio'
+            'col4_header': 'het:homo ratio'
+            'col5_header': 'X homo:het ratio'
+            'col6_header': 'gender'
+        headers:
+            mean het ratio:
+                format:  '{:,.2f}'
+            mean homo ratio:
+                format:  '{:,.2f}'
+            het:homo ratio:
+                format:  '{:,.2f}'
+            X homo:het ratio:
+                format:  '{:,.2f}'
+            gender:
+                title:  'Inferred sex'
+
 # How to plot graphs. Different templates can override these settings, but
 # the default template can use interactive plots (Javascript using HighCharts)
 # or flat plots (images, using MatPlotLib). With interactive plots, the report
@@ -139,6 +167,29 @@ plots_force_interactive: False   # Try to use only interactive javascript graphs
 plots_flat_numseries: 200        # If neither of the above, use flat if > this number of datasets
 num_datasets_plot_limit: 100      # If interactive, don't plot on load if > this number of datasets
 max_table_rows: 500              # Swap tables for a beeswarm plot above this
+
+# Overwrite the defaults of which table columns are visible by default
+table_columns_visible:
+    bcl2fastq:
+        total: False
+    FastQC: False
+    #     percent_fails: False
+    #     total_sequences: True
+    Peddy:
+        family_id: False
+        ancestry-prediction: False
+        ancestry-prob_het_check: False
+        predicted_sex_sex_check: False
+        predicted_sex_sex_check: False    
+        sex_het_ratio: True
+        sex_error: True
+    verifyBAMID:
+        CHIPMIX: False
+
+# Set picard configs
+picard_config:
+    general_stats_target_coverage:
+        - 20
 
 table_cond_formatting_colours:
     - blue: '#337ab7'
@@ -173,7 +224,7 @@ table_cond_formatting_rules:
             - eq: 1.80
             - gt: 1.80
     mqc-generalstats-picard-PCT_TARGET_BASES_20X: # Percentage of target bases at 20x
-    #                                               number in name depends on what is set below
+                        #                        number in name depends on what is set below
         pass:
             -lt: 101
         warn:
@@ -183,33 +234,28 @@ table_cond_formatting_rules:
         fail:
             - eq: 95.0
             - lt: 95.0
-    METRIC_Recall: # don't know how to separate SNP and INDEL rows
+    METRIC_Recall: # Happy outputs
         warn:
             - lt: 0.995
         fail:
             - lt: 0.990
+        pass:
+            - lt: 0.920
         snp_warn:
             - lt: 0.850
         snp_fail:
             - lt: 0.840
-    METRIC_Precision: # Happy outputs
+    METRIC_Precision: # don't know how to separate SNP and INDEL rows
         warn:
             - lt: 0.995
         fail:
             - lt: 0.990
+        pass:
+            - lt: 0.900
         snp_warn:
             - lt: 0.640
         snp_fail:
             - lt: 0.600
-    # mqc-generalstats-verifybamid-FREEMIX: #verifyBamId Contaminantion column in verifybamid
-    #     pass:
-    #         - lt: 2
-    #     warn:
-    #         - eq: 2
-    #         - gt: 2
-    #     fail:
-    #         - eq: 5
-    #         - gt: 5
     # all_columns:
     #     pass:
     #         - s_eq: 'pass'
@@ -220,34 +266,6 @@ table_cond_formatting_rules:
     #     fail:
     #         - s_eq: 'fail'
     #         - s_eq: 'false'
-
-# Add code to include data from custom QC reports
-custom_data:
-    vcf_qc_files:
-        file_format: 'tsv'
-        section_name: 'Het-hom analysis'
-        description: 'This plot comes from vcf_qc files'
-        plot_type: 'table'
-        pconfig:
-            id: 'het-hom_table'
-            table_title: 'Het-hom'
-            'col1_header': 'Sample'
-            'col2_header': 'mean het ratio'
-            'col3_header': 'mean homo ratio'
-            'col4_header': 'het:homo ratio'
-            'col5_header': 'X homo:het ratio'
-            'col6_header': 'gender'
-        headers:
-            mean het ratio:
-                format:  '{:,.2f}'
-            mean homo ratio:
-                format:  '{:,.2f}'
-            het:homo ratio:
-                format:  '{:,.2f}'
-            X homo:het ratio:
-                format:  '{:,.2f}'
-            gender:
-                title:  'Inferred sex'
 
 # Overwrite module filename search patterns. See multiqc/utils/search_patterns.yaml
 # for the defaults. Remove a default by setting it to null.
@@ -291,29 +309,6 @@ sp:
 #     - Another field:: 'Loaded from <code>multiqc_config_example.yaml</code>'
 #     - Something different:: 'You can put any key-value pairs here'
 #     - Want to know more?: 'See the <a href="http://multiqc.info/docs" target="_blank">MultiQC docs</a>'
-
-# Overwrite the defaults of which table columns are visible by default
-table_columns_visible:
-    bcl2fastq:
-        total: False
-    FastQC: False
-    #     percent_fails: False
-    #     total_sequences: True
-    Peddy:
-        family_id: False
-        ancestry-prediction: False
-        ancestry-prob_het_check: False
-        predicted_sex_sex_check: False
-        predicted_sex_sex_check: False    
-        sex_het_ratio: True
-        sex_error: True
-    verifyBAMID:
-        CHIPMIX: False
-
-# Set picard configs
-picard_config:
-    general_stats_target_coverage:
-        - 20
 
 # Remove plots from HTML report
 remove_sections:
