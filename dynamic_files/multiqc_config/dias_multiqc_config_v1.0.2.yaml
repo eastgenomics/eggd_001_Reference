@@ -197,6 +197,7 @@ table_cond_formatting_colours:
     - pass: '#5cb85c'
     - warn: '#f0ad4e'
     - fail: '#d9534f'
+    - snp_pass: '#5cb85c'
     - snp_warn: '#f05c4e'
     - snp_fail: '#c9302c'
 
@@ -239,7 +240,7 @@ table_cond_formatting_rules:
             - lt: 0.995
         fail:
             - lt: 0.990
-        pass:
+        snp_pass:
             - lt: 0.920
         snp_warn:
             - lt: 0.850
@@ -250,7 +251,7 @@ table_cond_formatting_rules:
             - lt: 0.995
         fail:
             - lt: 0.990
-        pass:
+        snp_pass:
             - lt: 0.900
         snp_warn:
             - lt: 0.640
