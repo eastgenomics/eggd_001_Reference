@@ -1,5 +1,5 @@
 ###################################################
-# Eggd MultiQC Configuration File for Dias v.1.0.2
+# Eggd MultiQC Configuration File for Gemini
 ###################################################
 
 # This file can be saved either in the MultiQC installation
@@ -197,9 +197,9 @@ table_cond_formatting_colours:
     - pass: '#5cb85c'
     - warn: '#f0ad4e'
     - fail: '#d9534f'
-    - snp_pass: '#5cb85c'
-    - snp_warn: '#f05c4e'
-    - snp_fail: '#c9302c'
+    - indel_pass: '#5cb85c'
+    - indel_warn: '#f05c4e'
+    - indel_fail: '#c9302c'
 
 # Set conditional formatting rules for general stats FREEMIX
 table_cond_formatting_rules:
@@ -240,22 +240,22 @@ table_cond_formatting_rules:
             - lt: 0.995
         fail:
             - lt: 0.990
-        snp_pass:
+        indel_pass:
             - lt: 0.920
-        snp_warn:
+        indel_warn:
             - lt: 0.850
-        snp_fail:
+        indel_fail:
             - lt: 0.840
-    METRIC_Precision: # don't know how to separate SNP and INDEL rows
+    METRIC_Precision:
         warn:
             - lt: 0.995
         fail:
             - lt: 0.990
-        snp_pass:
+        indel_pass:
             - lt: 0.900
-        snp_warn:
+        indel_warn:
             - lt: 0.640
-        snp_fail:
+        indel_fail:
             - lt: 0.600
     # all_columns:
     #     pass:
