@@ -37,7 +37,20 @@ Contents:
 * :sleeping_bed: /bed_files/b37/kits/tso500/TST500C_manifest.bed
 > This is the bed file provided by Illumina for Trusight Oncology 500
 
+* :sleeping_bed: /bed_files/b37/kits/nimagen/nimagen_b37_v1.0.bed
+> This is the bed file provided by NimaGen for the Human Identification and Sample tracking kit
+* :sleeping_bed: /bed_files/b37/kits/nimagen/nimagen_amplicon_picard_v1.0.bed
+> This is the bed file provided by NimaGen that includes the amplicon coordinates for the Picard tool
+
+* :sleeping_bed: /bed_files/b37/kits/myeloid/myeloid_all_exons_interest_v1.0.0.bed
+> This is the bed file containing the exons of interest of the new myeloid panel 
+* :sleeping_bed: /bed_files/b37/kits/myeloid/myelod_coding_exons_v1.0.bed
+> This is the bed file containing only the coding exons of the new myeloid panel 
+
 * :sleeping_bed: /bed_files/b37/PAR_X.bed
 > This bed file contains the PAR regions on chromosome X
 * :sleeping_bed: /bed_files/b37/PAR_Y.bed
 > This bed file contains the PAR regions on chromosome Y
+
+* :sleeping_bed: /bed_files/b38/kits/nimagen/nimagen_b38_v1.0.bed
+> This is the bed file provided by NimaGen for the Human Identification and Sample tracking kit with b38 coordinates
