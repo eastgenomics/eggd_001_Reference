@@ -21,6 +21,12 @@ title: East GLH MultiQC Report
 # subtitle: Click logo to raise a help desk ticket            # Grey text below title
 # intro_text: null          # Set to False to remove, or your own text
 
+# # Add generic information to the top of reports
+# report_header_info:
+#     - Example Config:: 'This is arbitrary'
+#     - Another field:: 'Loaded from <code>multiqc_config_example.yaml</code>'
+#     - Something different:: 'You can put any key-value pairs here'
+#     - Want to know more?: 'See the <a href="http://multiqc.info/docs" target="_blank">MultiQC docs</a>'
 # # Specify a custom logo to add to reports (uncomment to use)
 # custom_logo: 'link to egglogo.png'         # '/path/to/logo.png'
 # custom_logo_url: 'https://cuhbioinformatics.atlassian.net/servicedesk/customer/portal/3'     # 'https://www.example.com'
@@ -154,7 +160,6 @@ custom_data:
             gender:
                 title:  'Inferred sex'
 
-
 # How to plot graphs. Different templates can override these settings, but
 # the default template can use interactive plots (Javascript using HighCharts)
 # or flat plots (images, using MatPlotLib). With interactive plots, the report
@@ -220,7 +225,7 @@ table_cond_formatting_rules:
             - eq: 1.80
             - gt: 1.80
     mqc-generalstats-picard-PCT_TARGET_BASES_20X: # Percentage of target bases at 20x    
-        pass:                                     # number in name depends on what is set below
+        pass:                                     # number in name depends on what is set above
             -lt: 101
         warn:
             - eq: 98.0
@@ -229,7 +234,7 @@ table_cond_formatting_rules:
         fail:
             - eq: 95.0
             - lt: 95.0
-    METRIC_Recall_indel: # Happy indel outputs
+    METRIC_Recall_indel: # Happy indel Recall outputs
         pass:
             - gt: 0.850
             - eq: 0.850
@@ -237,7 +242,7 @@ table_cond_formatting_rules:
             - lt: 0.850
         fail:
             - lt: 0.840
-    METRIC_Precision_indel: # Happy indel outputs
+    METRIC_Precision_indel: # Happy indel Precision outputs
         pass:
             - gt: 0.620
             - eq: 0.620
@@ -245,7 +250,7 @@ table_cond_formatting_rules:
             - lt: 0.620
         # fail:
         #     - lt: 0.600
-    METRIC_Recall_snp:  # Happy snp outputs
+    METRIC_Recall_snp:  # Happy snp Recall outputs
         pass:
             - gt: 0.995
             - eq: 0.995
@@ -253,7 +258,7 @@ table_cond_formatting_rules:
             - lt: 0.995
         fail:
             - lt: 0.990
-    METRIC_Precision_snp:  # Happy snp outputs
+    METRIC_Precision_snp:  # Happy snp Precision outputs
         pass:
             - gt: 0.995
             - eq: 0.995
@@ -310,13 +315,6 @@ sp:
         fn: '*snp.csv'
     happy_indel:
         fn: '*indel.csv'
-
-# # Add generic information to the top of reports
-# report_header_info:
-#     - Example Config:: 'This is arbitrary'
-#     - Another field:: 'Loaded from <code>multiqc_config_example.yaml</code>'
-#     - Something different:: 'You can put any key-value pairs here'
-#     - Want to know more?: 'See the <a href="http://multiqc.info/docs" target="_blank">MultiQC docs</a>'
 
 # Remove plots from HTML report
 remove_sections:
