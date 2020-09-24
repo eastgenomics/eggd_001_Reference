@@ -141,7 +141,7 @@ custom_data:
             'col3_header': 'mean homo ratio'
             'col4_header': 'het:homo ratio'
             'col5_header': 'X homo:het ratio'
-            'col6_header': 'gender'
+            # 'col6_header': 'gender'
         headers:
             mean het ratio:
                 format:  '{:,.2f}'
@@ -151,8 +151,8 @@ custom_data:
                 format:  '{:,.2f}'
             X homo:het ratio:
                 format:  '{:,.2f}'
-            gender:
-                title:  'Inferred sex'
+            # gender:
+            #     title:  'Inferred sex'
 
 
 # How to plot graphs. Different templates can override these settings, but
@@ -200,19 +200,16 @@ table_cond_formatting_colours:
 table_cond_formatting_rules:
     mqc-generalstats-verifybamid-FREEMIX: #verifyBamId Contaminantion column in General Stats
         pass:
-            - lt: 2
-        warn:
-            - eq: 2
-            - gt: 2
-        fail:
+            - lt: 5
             - eq: 5
+        fail:
             - gt: 5
-    # mean_het_ratio: # vcf_qc mean het ratio column
-    #     pass:
-    #         - gt: 0
-    #     fail:
-    #         - lt: 0.45
-    #         - gt: 0.50
+    mean_het_ratio: # vcf_qc mean het ratio column
+        pass:
+            - gt: 0.4
+        fail:
+            - gt: 0.52
+            - lt: 0.4
     FOLD_80_BASE_PENALTY: # Picard HSMetrics fold 80 base penalty column
         pass:
             - lt: 1.80
@@ -225,11 +222,10 @@ table_cond_formatting_rules:
         warn:
             - eq: 98.0
             - lt: 98.0
-            # - gt: 95.0
         fail:
             - eq: 95.0
             - lt: 95.0
-"""    METRIC_Recall_indel: # Happy indel outputs
+    METRIC_Recall_indel: # Happy indel outputs
         pass:
             - gt: 0.850
             - eq: 0.850
@@ -261,7 +257,7 @@ table_cond_formatting_rules:
             - lt: 0.995
         # fail:
         #     - lt: 0.990
-"""    
+    
     # all_columns:
     #     pass:
     #         - s_eq: 'pass'
