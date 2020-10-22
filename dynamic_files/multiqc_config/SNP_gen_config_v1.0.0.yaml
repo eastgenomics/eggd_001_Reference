@@ -203,15 +203,6 @@ table_cond_formatting_colours:
 
 # Set conditional formatting rules for general stats FREEMIX
 table_cond_formatting_rules:
-    mqc-generalstats-verifybamid-FREEMIX: #verifyBamId Contaminantion column in General Stats
-        pass:
-            - lt: 2
-        warn:
-            - eq: 2
-            - gt: 2
-        fail:
-            - eq: 5
-            - gt: 5
     mean_het_ratio: # vcf_qc mean het ratio column
         pass:
             - gt: 0
@@ -311,8 +302,6 @@ sp:
 
     vcf_qc_files:
         fn: '*.vcf.QC'
-    verifybamid/selfsm:
-        fn: '*.selfSM'
 
 
 # Remove plots from HTML report
