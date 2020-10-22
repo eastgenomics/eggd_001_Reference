@@ -113,9 +113,6 @@ no_version_check: False
 # See multiqc/utils/config_defaults.yaml for the defaults.
 module_order:
     - 'custom_content'
-    - verifybamid:
-        module_tag:
-            - DNA
     - picard:
         module_tag:
             - DNA
