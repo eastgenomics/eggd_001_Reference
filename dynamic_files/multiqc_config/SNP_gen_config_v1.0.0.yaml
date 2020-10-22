@@ -218,12 +218,6 @@ table_cond_formatting_rules:
         fail:
             - lt: 0.45
             - gt: 0.50
-    FOLD_80_BASE_PENALTY: # Picard HSMetrics fold 80 base penalty column
-        pass:
-            - lt: 1.80
-        warn:
-            - eq: 1.80
-            - gt: 1.80
     mqc-generalstats-picard-PCT_TARGET_BASES_100X: # Percentage of target bases at 100x    
         pass:                                     # number in name depends on what is set above
             -lt: 101
@@ -281,8 +275,10 @@ table_cond_formatting_rules:
 # Overwrite module filename search patterns. See multiqc/utils/search_patterns.yaml
 # for the defaults. Remove a default by setting it to null.
 sp:
-    fastqc/data:
-        fn: '*.stats-fastqc.txt'
+    happy_snp:
+        fn: '*snp.csv'
+    happy_indel:
+        fn: '*indel.csv'
     #picard/alignment_metrics:
     sentieon/alignment_metrics:
         fn: '*.AlignmentStat_metrics.txt'
@@ -307,17 +303,17 @@ sp:
     picard/pcr_metrics:
         contents: 'TargetedPcrMetrics' #or fn: '*TargetedPcrMetrics.txt'
         shared: true
-    verifybamid/selfsm:
-        fn: '*.selfSM'
     samtools/flagstat:
         contents: 'in total (QC-passed reads + QC-failed reads)'
         shared: true
+    fastqc/data:
+        fn: '*.stats-fastqc.txt'
+
     vcf_qc_files:
         fn: '*.vcf.QC'
-    happy_snp:
-        fn: '*snp.csv'
-    happy_indel:
-        fn: '*indel.csv'
+    verifybamid/selfsm:
+        fn: '*.selfSM'
+
 
 # Remove plots from HTML report
 remove_sections:
