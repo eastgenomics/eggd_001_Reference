@@ -192,7 +192,7 @@ table_columns_visible:
 # Set picard configs
 picard_config:
     general_stats_target_coverage: # should be referred to as 'mqc-generalstats-picard-PCT_TARGET_BASES_20X'
-        - 250                           # for conditional table formatting
+        - 100                           # for conditional table formatting
 
 table_cond_formatting_colours:
     - blue: '#337ab7'
@@ -203,15 +203,15 @@ table_cond_formatting_colours:
 
 # Set conditional formatting rules for general stats FREEMIX
 table_cond_formatting_rules:
-    mqc-generalstats-verifybamid-FREEMIX: #verifyBamId Contaminantion column in General Stats
-        pass:
-            - lt: 2
-        warn:
-            - eq: 2
-            - gt: 2
-        fail:
-            - eq: 5
-            - gt: 5
+    # mqc-generalstats-verifybamid-FREEMIX: #verifyBamId Contaminantion column in General Stats
+    #     pass:
+    #         - lt: 2
+    #     warn:
+    #         - eq: 2
+    #         - gt: 2
+    #     fail:
+    #         - eq: 5
+    #         - gt: 5
     # mean_het_ratio: # vcf_qc mean het ratio column
     #     pass:
     #         - gt: 0
@@ -224,7 +224,7 @@ table_cond_formatting_rules:
         warn:
             - eq: 1.80
             - gt: 1.80
-    mqc-generalstats-picard-PCT_TARGET_BASES_250X: # Percentage of target bases at 20x    
+    mqc-generalstats-picard-PCT_TARGET_BASES_100X: # Percentage of target bases at 20x    
         pass:                                     # number in name depends on what is set above
             -lt: 101
         warn:
