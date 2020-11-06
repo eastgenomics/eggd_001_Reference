@@ -219,7 +219,7 @@ table_cond_formatting_rules:
             - gt: 1.80
     mqc-generalstats-picard-PCT_TARGET_BASES_20X: # Percentage of target bases at 20x    
         pass:                                     # number in name depends on what is set below
-            -lt: 101
+            - lt: 101
         warn:
             - eq: 98.0
             - lt: 98.0
