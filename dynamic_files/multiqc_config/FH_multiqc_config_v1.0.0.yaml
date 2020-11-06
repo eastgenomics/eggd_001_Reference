@@ -207,9 +207,10 @@ table_cond_formatting_rules:
     mean_het_ratio: # vcf_qc mean het ratio column
         pass:
             - gt: 0.4
+            - eq: 0.4
         warn:
-            - gt: 0.52
             - lt: 0.4
+            - gt: 0.52
     FOLD_80_BASE_PENALTY: # Picard HSMetrics fold 80 base penalty column
         pass:
             - lt: 1.80
