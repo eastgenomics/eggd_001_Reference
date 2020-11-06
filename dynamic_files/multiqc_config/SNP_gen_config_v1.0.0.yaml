@@ -18,7 +18,7 @@
 
 # Title to use for the report.
 title: East GLH MultiQC Report
-# subtitle: Click logo to raise a help desk ticket            # Grey text below title
+subtitle: SNP genotyping            # Grey text below title
 # intro_text: null          # Set to False to remove, or your own text
 
 # # Add generic information to the top of reports
@@ -208,7 +208,7 @@ table_cond_formatting_rules:
             - gt: 0.50
     mqc-generalstats-picard-PCT_TARGET_BASES_100X: # Percentage of target bases at 100x    
         pass:                                     # number in name depends on what is set above
-            -lt: 101
+            - lt: 101
         warn:
             - eq: 98.0
             - lt: 98.0
