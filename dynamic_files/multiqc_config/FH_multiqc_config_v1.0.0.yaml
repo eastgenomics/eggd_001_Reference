@@ -18,7 +18,7 @@
 
 # Title to use for the report.
 title: East GLH MultiQC Report
-subtitle: Capture: Familial Hypocholesterolemia (FH)    # Grey text below title
+subtitle: Capture: Familial Hypercholesterolemia (FH)    # Grey text below title
 # intro_text: null          # Set to False to remove, or your own text
 
 # # Specify a custom logo to add to reports (uncomment to use)
