@@ -161,10 +161,16 @@ custom_data:
                 title:  'Inferred sex'
     custom_coverage:
         file_format: 'csv'
-        plot_type: 'generalstats'
-        namespace: 'custom_coverage'
+        section_name: 'Custom coverage'
+        description: 'This plot comes from custom coverage calculations'
+        plot_type: 'table'
         pconfig:
-            - 'percentage':
+            id: 'cov_table'
+            table_title: 'Covarage'
+            'col1_header': 'Sample'
+            'col2_header': 'percentage'
+        headers:
+            percentage:
                 max: 100
                 min: 0
                 scale: 'RdYlGn'
@@ -203,15 +209,15 @@ table_columns_visible:
     verifyBAMID:
         CHIPMIX: False
 
-table_columns_placement:
-    header_mqc-generalstats-bcl2fastq-yieldQ30: 9600
-    header_mqc-generalstats-bcl2fastq-perfectPercent: 970
-    header_mqc-generalstats-samtools-mapped_passed: 980
-    header_mqc-generalstats-verifybamid-FREEMIX: 990
-    header_mqc-generalstats-picard-PCT_TARGET_BASES_20X: 1000
-    mqc-generalstats-picard-PERCENT_DUPLICATION header: 1010
-    header_mqc-generalstats-sentieon-PCT_PF_READS_ALIGNED: 1020
-    mqc-generalstats-sentieon-summed_median header: 1030
+# table_columns_placement:
+#     header_mqc-generalstats-bcl2fastq-yieldQ30: 960
+#     header_mqc-generalstats-bcl2fastq-perfectPercent: 970
+#     header_mqc-generalstats-samtools-mapped_passed: 980
+#     header_mqc-generalstats-verifybamid-FREEMIX: 990
+#     header_mqc-generalstats-picard-PCT_TARGET_BASES_20X: 1000
+#     mqc-generalstats-picard-PERCENT_DUPLICATION header: 1010
+#     header_mqc-generalstats-sentieon-PCT_PF_READS_ALIGNED: 1020
+#     mqc-generalstats-sentieon-summed_median header: 1030
 
 
 # Set picard configs
@@ -337,7 +343,7 @@ sp:
     vcf_qc_files:
         fn: '*.vcf.QC'
     custom_coverage:
-        fn: '*x.csv'
+        fn: '*x.tsv'
     happy_snp:
         fn: '*snp.csv'
     happy_indel:
