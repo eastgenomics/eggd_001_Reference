@@ -161,16 +161,12 @@ custom_data:
                 title:  'Inferred sex'
     custom_coverage:
         file_format: 'csv'
-        section_name: 'Custom coverage'
-        description: 'This plot comes from custom coverage calculations'
-        plot_type: 'table'
+        plot_type: 'generalstats'
         pconfig:
-            id: 'cov_table'
-            table_title: 'Covarage'
-            'col1_header': 'Sample'
-            'col2_header': 'percentage'
-        headers:
-            percentage:
+            - Sample:
+                title: 'Sample Name'
+            - percentage:
+                title: 'Custom coverage'
                 max: 100
                 min: 0
                 scale: 'RdYlGn'
