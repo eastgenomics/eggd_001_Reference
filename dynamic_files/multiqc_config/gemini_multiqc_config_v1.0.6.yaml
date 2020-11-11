@@ -113,9 +113,6 @@ module_order:
     - happy:
         module_tag:
             - DNA
-    - bcl2fastq:
-        module_tag:
-            - DNA
     - 'custom_content'
     - verifybamid:
         module_tag:
@@ -135,6 +132,9 @@ module_order:
         module_tag:
             - RNA
             - DNA
+    - bcl2fastq:
+        module_tag:
+            - DNA
 
 # Overwrite the defaults of which table columns are visible by default
 table_columns_visible:
@@ -145,6 +145,8 @@ table_columns_visible:
         R1_trimmed_bases: False
         R2_trimmed_bases: False
     FastQC: False
+    Picard:
+        FOLD_ENRICHMENT: False
     Peddy:
         family_id: False
         ancestry-prediction: False
