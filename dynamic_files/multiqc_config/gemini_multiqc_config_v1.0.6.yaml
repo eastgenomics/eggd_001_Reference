@@ -140,8 +140,8 @@ module_order:
 table_columns_visible:
     bcl2fastq:
         total: False
-        mqc-generalstats-bcl2fastq-percent_R1_Q30: False
-        mqc-generalstats-bcl2fastq-percent_R2_Q30: False
+        percent_R1_Q30: False
+        percent_R2_Q30: False
         R1_trimmed_bases: False
         R2_trimmed_bases: False
     FastQC: False
@@ -158,14 +158,15 @@ table_columns_visible:
 
 # Specify order in which table columns are visible in General Statistics
 table_columns_placement:
-    mqc-generalstats-bcl2fastq-yieldQ30: 960
-    mqc-generalstats-bcl2fastq-perfectPercent: 970
-    mqc-generalstats-samtools-mapped_passed: 980
-    mqc-generalstats-verifybamid-FREEMIX: 990
-    mqc-generalstats-picard-PCT_TARGET_BASES_20X: 1000
-    mqc-generalstats-picard-PERCENT_DUPLICATION header: 1010
-    mqc-generalstats-sentieon-PCT_PF_READS_ALIGNED: 1020
-    mqc-generalstats-sentieon-summed_median header: 1030
+    general_stats_table:
+        yieldQ30: 960
+        perfectPercent: 970
+        mapped_passed: 980
+        FREEMIX: 990
+        PCT_TARGET_BASES_20X: 1000
+        percent_duplicates: 1010
+        PCT_PF_READS_ALIGNED: 1020
+        summed_median: 1030
 
 # Set picard configs: TARGET BASES COVERAGE
 picard_config:
