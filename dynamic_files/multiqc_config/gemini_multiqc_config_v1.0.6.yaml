@@ -81,22 +81,11 @@ extra_fn_clean_exts:
     # - .fq
     # - .bam
     # - .sam
-    # - .sra
-    # - _tophat
-    # - _star_aligned
     # - _fastqc
     # - type: replace
     #   pattern: '.sorted'
     # - type: regex
     #   pattern: '^Sample_\d+'
-
-# Ignore these files / directories / paths when searching for logs
-# fn_ignore_files:
-#     - .DS_Store
-# fn_ignore_dirs:
-#     - annoying_dirname
-# fn_ignore_paths:
-#     - '*/path/to/*_files/'
 
 # Ignore files larger than this when searcing for logs (bytes)
 log_filesize_limit: 5000000000
@@ -167,6 +156,7 @@ table_columns_visible:
     verifyBAMID:
         CHIPMIX: False
 
+# Specify order in which table columns are visible in General Statistics
 table_columns_placement:
     mqc-generalstats-bcl2fastq-yieldQ30: 960
     mqc-generalstats-bcl2fastq-perfectPercent: 970
@@ -177,7 +167,7 @@ table_columns_placement:
     mqc-generalstats-sentieon-PCT_PF_READS_ALIGNED: 1020
     mqc-generalstats-sentieon-summed_median header: 1030
 
-# Set picard configs
+# Set picard configs: TARGET BASES COVERAGE
 picard_config:
     general_stats_target_coverage: # should be referred to as 'mqc-generalstats-picard-PCT_TARGET_BASES_20X'
         - 20                           # for conditional table formatting
@@ -189,7 +179,7 @@ table_cond_formatting_colours:
     - warn: '#f0ad4e'
     - fail: '#d9534f'
 
-# Set conditional formatting rules for general stats FREEMIX
+# Set conditional formatting rules for general stats
 table_cond_formatting_rules:
     mqc-generalstats-picard-PCT_TARGET_BASES_20X: # Percentage of target bases at 20x    
         pass:                                     # number in name depends on what is set above
@@ -199,8 +189,8 @@ table_cond_formatting_rules:
             - lt: 98.0
         fail:
             - eq: 95.0
-            - lt: 95.0
-    mqc-generalstats-verifybamid-FREEMIX: #verifyBamId Contaminantion column in General Stats
+            - lt: 95.0      
+    mqc-generalstats-verifybamid-FREEMIX: #verifyBamId Contaminntion column in General Stats
         pass:
             - lt: 2
         warn:
@@ -209,6 +199,7 @@ table_cond_formatting_rules:
         fail:
             - eq: 5
             - gt: 5
+# Set conditional formatting rules for other modules
     mean_het_ratio: # vcf_qc mean het ratio column
         pass:
             - gt: 0
@@ -221,7 +212,15 @@ table_cond_formatting_rules:
         warn:
             - eq: 1.80
             - gt: 1.80
-
+    FREEMIX: #verifyBamId Contamination column in verifybamid
+        pass:
+            - lt: 2
+        warn:
+            - eq: 2
+            - gt: 2
+        fail:
+            - eq: 5
+            - gt: 5
     METRIC_Recall_indel: # Happy indel Recall outputs
         pass:
             - gt: 0.850
@@ -293,17 +292,6 @@ custom_data:
                 format:  '{:,.2f}'
             gender:
                 title:  'Inferred sex'
-    custom_coverage:
-        file_format: 'csv'
-        plot_type: 'generalstats'
-        pconfig:
-            - percentage: # same as in the csv column name
-                description: 'Target bases coverage at custom depth'
-                title: 'Custom coverage'
-                max: 100
-                min: 0
-                scale: 'RdYlGn'
-                suffix: '%'
 
 # Overwrite module filename search patterns. See multiqc/utils/search_patterns.yaml
 # for the defaults. Remove a default by setting it to null.
@@ -338,8 +326,6 @@ sp:
         shared: true
     vcf_qc_files:
         fn: '*.vcf.QC'
-    custom_coverage:
-        fn: '*x.csv'
     happy_snp:
         fn: '*snp.csv'
     happy_indel:
