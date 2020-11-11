@@ -279,7 +279,7 @@ sp:
     vcf_qc_files:
         fn: '*.vcf.QC'
     custom_coverage:
-        fn: '*x.csv'
+        fn: 'custom_coverage.csv'
     happy_snp:
         fn: '*snp.csv'
     happy_indel:
