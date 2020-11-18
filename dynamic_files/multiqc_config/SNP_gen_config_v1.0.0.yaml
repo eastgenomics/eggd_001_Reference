@@ -189,7 +189,9 @@ table_columns_visible:
 # Set picard configs
 picard_config:
     general_stats_target_coverage: # should be referred to as 'mqc-generalstats-picard-PCT_TARGET_BASES_20X'
-        - 100                           # for conditional table formatting
+        - 20                       # for conditional table formatting
+        - 30
+        - 100
 
 table_cond_formatting_colours:
     - blue: '#337ab7'
@@ -216,6 +218,7 @@ table_cond_formatting_rules:
         fail:
             - eq: 95.0
             - lt: 95.0
+
     METRIC_Recall_indel: # Happy indel Recall outputs
         pass:
             - gt: 0.850
