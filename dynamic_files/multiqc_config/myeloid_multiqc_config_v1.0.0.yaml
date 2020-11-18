@@ -122,8 +122,11 @@ module_order:
 
 # Overwrite the defaults of which table columns are visible by default
 table_columns_visible:
-    bcl2fastq:
-        total: False
+    custom_coverage:
+        200x: False
+        300x: False
+    # bcl2fastq:
+    #     total: False
     FastQC: False
     #     percent_fails: False
     #     total_sequences: True
@@ -152,7 +155,34 @@ table_cond_formatting_colours:
 
 # Set conditional formatting rules
 table_cond_formatting_rules:
-    mqc-generalstats-custom_coverage-percentage:
+    mqc-generalstats-picard-PCT_TARGET_BASES_100X:
+        pass:
+            - lt: 101
+        warn:
+            - eq: 98.0
+            - lt: 98.0
+        fail:
+            - eq: 95.0
+            - lt: 95.0
+    mqc-generalstats-custom_coverage-250x:
+        pass:
+            - lt: 101
+        warn:
+            - eq: 98.0
+            - lt: 98.0
+        fail:
+            - eq: 95.0
+            - lt: 95.0
+    mqc-generalstats-custom_coverage-500x:
+        pass:
+            - lt: 101
+        warn:
+            - eq: 98.0
+            - lt: 98.0
+        fail:
+            - eq: 95.0
+            - lt: 95.0
+    mqc-generalstats-custom_coverage-1000x:
         pass:
             - lt: 101
         warn:
@@ -237,12 +267,35 @@ custom_data:
         file_format: 'csv'
         plot_type: 'generalstats'
         pconfig:
-            - percentage: # same as in the csv column name
+            - 200x: # same as in the csv column name
                 description: 'Target bases coverage at custom depth'
-                title: 'Custom coverage'
+                title: '%coverage at 200x'
                 max: 100
                 min: 0
-                scale: 'RdYlGn'
+                suffix: '%'
+            - 250x:
+                description: 'Target bases coverage at custom depth'
+                title: '%coverage at 250x'
+                max: 100
+                min: 0
+                suffix: '%'
+            - 300x:
+                description: 'Target bases coverage at custom depth'
+                title: '%coverage at 300x'
+                max: 100
+                min: 0
+                suffix: '%'
+            - 500x:
+                description: 'Target bases coverage at custom depth'
+                title: '%coverage at 500x'
+                max: 100
+                min: 0
+                suffix: '%'
+            - 1000x:
+                description: 'Target bases coverage at custom depth'
+                title: '%coverage at 1000x'
+                max: 100
+                min: 0
                 suffix: '%'
 
 # Overwrite module filename search patterns. See multiqc/utils/search_patterns.yaml
