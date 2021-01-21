@@ -161,108 +161,36 @@ table_cond_formatting_rules:
         warn:
             - eq: 98.0
             - lt: 98.0
-        fail:
-            - eq: 95.0
-            - lt: 95.0
+        # fail:
+        #     - eq: 95.0
+        #     - lt: 95.0
     mqc-generalstats-custom_coverage-250x:
         pass:
             - lt: 101
         warn:
-            - eq: 98.0
-            - lt: 98.0
-        fail:
-            - eq: 95.0
-            - lt: 95.0
-    mqc-generalstats-custom_coverage-500x:
+            - eq: 90.0
+            - lt: 90.0
+    mqc-generalstats-verifybamid-FREEMIX: #verifyBamId Contaminntion column in General Stats
         pass:
-            - lt: 101
+            - lt: 2
         warn:
-            - eq: 98.0
-            - lt: 98.0
-        fail:
-            - eq: 95.0
-            - lt: 95.0
-    mqc-generalstats-custom_coverage-1000x:
+            - eq: 2
+            - gt: 2
+    FREEMIX: #verifyBamId Contamination column in verifybamid
         pass:
-            - lt: 101
+            - lt: 2
         warn:
-            - eq: 98.0
-            - lt: 98.0
-        fail:
-            - eq: 95.0
-            - lt: 95.0
-    # mean_het_ratio: # vcf_qc mean het ratio column
-    #     pass:
-    #         - gt: 0
-    #     fail:
-    #         - lt: 0.45
-    #         - gt: 0.50
+            - eq: 2
+            - gt: 2
     FOLD_80_BASE_PENALTY: # Picard HSMetrics fold 80 base penalty column
         pass:
             - lt: 1.80
         warn:
             - eq: 1.80
             - gt: 1.80
-    METRIC_Recall_indel: # Happy indel Recall outputs
-        pass:
-            - gt: 0.850
-            - eq: 0.850
-        warn:
-            - lt: 0.850
-        fail:
-            - lt: 0.840
-    METRIC_Precision_indel: # Happy indel Precision outputs
-        pass:
-            - gt: 0.620
-            - eq: 0.620
-        warn:
-            - lt: 0.620
-        # fail:
-        #     - lt: 0.600
-    METRIC_Recall_snp:  # Happy snp Recall outputs
-        pass:
-            - gt: 0.995
-            - eq: 0.995
-        warn:
-            - lt: 0.995
-        fail:
-            - lt: 0.990
-    METRIC_Precision_snp:  # Happy snp Precision outputs
-        pass:
-            - gt: 0.995
-            - eq: 0.995
-        warn:
-            - lt: 0.995
-        # fail:
-        #     - lt: 0.990
 
 # Add code to include data from custom QC reports
 custom_data:
-    vcf_qc_files:
-        file_format: 'tsv'
-        section_name: 'Het-hom analysis'
-        description: 'This plot comes from vcf_qc files'
-        plot_type: 'table'
-        pconfig:
-            id: 'het-hom_table'
-            table_title: 'Het-hom'
-            'col1_header': 'Sample'
-            'col2_header': 'mean het ratio'
-            'col3_header': 'mean homo ratio'
-            'col4_header': 'het:homo ratio'
-            'col5_header': 'X homo:het ratio'
-            'col6_header': 'gender'
-        headers:
-            mean het ratio:
-                format:  '{:,.2f}'
-            mean homo ratio:
-                format:  '{:,.2f}'
-            het:homo ratio:
-                format:  '{:,.2f}'
-            X homo:het ratio:
-                format:  '{:,.2f}'
-            gender:
-                title:  'Inferred sex'
     custom_coverage:
         file_format: 'csv'
         plot_type: 'generalstats'
