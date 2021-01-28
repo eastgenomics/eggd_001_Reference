@@ -107,17 +107,17 @@ module_order:
     - picard:
         module_tag:
             - DNA
-            - RNA
-    - sentieon:
-        module_tag:
-            - DNA
     - samtools:
         module_tag:
             - DNA
-            - RNA
     - fastqc:
         module_tag:
-            - RNA
+            - DNA
+    - bcl2fastq:
+        module_tag:
+            - DNA
+    - sentieon:
+        module_tag:
             - DNA
 
 # Overwrite the defaults of which table columns are visible by default
@@ -125,11 +125,18 @@ table_columns_visible:
     custom_coverage:
         200x: False
         300x: False
-    # bcl2fastq:
-    #     total: False
+        1000x: False
+    verifyBAMID:
+        CHIPMIX: False
+    Picard:
+        PERCENT_DUPLICATION: False
+        TOTAL_READS: False
+        PCT_PF_READS_ALIGNED: False
+        MEDIAN_TARGET_COVERAGE: False
+        FOLD_ENRICHMENT: False
+    bcl2fastq: False
     FastQC: False
-    #     percent_fails: False
-    #     total_sequences: True
+    Sentieon: False
     Peddy:
         family_id: False
         ancestry-prediction: False
@@ -138,8 +145,15 @@ table_columns_visible:
         predicted_sex_sex_check: False    
         sex_het_ratio: True
         sex_error: True
-    verifyBAMID:
-        CHIPMIX: False
+
+# Specify order in which table columns are visible in General Statistics
+table_columns_placement:
+    general_stats_table:
+        mapped_passed: 950         # M Reads Mapped
+        FREEMIX: 960               # contamination
+        PCT_TARGET_BASES_100X: 970 # 100x
+        250x: 980
+        500x: 990
 
 # Set picard configs
 picard_config:
@@ -272,3 +286,8 @@ remove_sections:
     - peddy-pca-plot
     - peddy-relatedness-plot
     - peddy-hetcheck-plot
+    - picard_hsmetrics_target_bases # Target Region Coverage plot
+    - fastqc_per_base_sequence_content # -  Per Base Sequence Content plot
+
+exclude_modules:
+  - sentieon
