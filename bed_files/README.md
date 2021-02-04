@@ -45,9 +45,9 @@ Contents:
 > This is the bed file provided by TWIST and includes all probes coordinates for the myeloid panel. This file is used by eggd_picardqc_v1.0.0 
 
 * :sleeping_bed: /bed_files/b38/kits/snp_genotyping/snp_genotyping_GRCh38_v1.0.bed
-> This is the bed file provided by NimaGen and includes all SNP positions
+> This is the bed file provided by NimaGen and includes all SNP positions. This bed file contains the following columns: chromosome, SNP position -1, SNP position, SNP RS ID
 * :sleeping_bed: /bed_files/b38/kits/snp_genotyping/snp_genotyping_amplicon_GRCh38_v1.0.bed
-> This is the bed file provided by NimaGen that includes all amplicon coordinates. This file is used by eggd_picardqc_v1.0.0
+> This is the bed file provided by NimaGen that includes all amplicon coordinates. This file is used by eggd_picardqc_v1.0.0. This bed file contains the following columns: chromosome, probe start position, probe end position, SNP RS ID, SNP position
 
 * :sleeping_bed: /bed_files/b37/PAR_X.bed
 > This bed file contains the PAR regions on chromosome X
