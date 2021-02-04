@@ -37,10 +37,10 @@ Contents:
 * :sleeping_bed: /bed_files/b37/kits/tso500/TST500C_manifest.bed
 > This is the bed file provided by Illumina for Trusight Oncology 500
 
-* :sleeping_bed: /bed_files/b38/kits/myeloid/coding_unrestricted_GRCh38_myeloid_v0.1.bed
-> This is the bed file provided by TWIST and includes all exons of the genes of interest. 
-* :sleeping_bed: /bed_files/b38/kits/myeloid/coding_restricted_GRCh38_myeloid_v0.1.bed
-> This is the bed file provided by TWIST and includes a subset of exons of the genes of interest. 
+* :sleeping_bed: /bed_files/b38/kits/myeloid/coding_unrestricted_GRCh38_myeloid_v1.0.bed
+> This is the bed file provided by TWIST and includes all exons of the genes of interest +/- 5bp. This bed file contains the following columns: chromosome, start position, end position, gene symbol, Refseq transcript ID, exon number. 
+* :sleeping_bed: /bed_files/b38/kits/myeloid/coding_restricted_GRCh38_myeloid_v1.0.bed
+> This is the bed file provided by TWIST and includes a subset of exons of the genes of interest +/- 5bp. This bed file contains only exons that are of clinical significance. This exon list was created by the myeloid team and other HODs clinicians. This bed file contains the following columns: chromosome, start position, end position, gene symbol, Refseq transcript ID, exon number.
 * :sleeping_bed: /bed_files/b38/kits/myeloid/probes_GRCh38_myeo_v1.0.bed
 > This is the bed file provided by TWIST and includes all probes coordinates for the myeloid panel. This file is used by eggd_picardqc_v1.0.0 
 
