@@ -44,7 +44,7 @@ Contents:
 * :sleeping_bed: /bed_files/b38/kits/myeloid/probes_GRCh38_myeo_v1.0.bed
 > This is the bed file provided by TWIST and includes all probes coordinates for the myeloid panel. This file is used by eggd_picardqc_v1.0.0 
 * :sleeping_bed: /bed_files/b38/kits/myeloid/pindel_cgppindel_filtering_coordinates_v1.0.bed
-> This bed file contains only regions of genes that the myeloid clinical team has deemed relevant for the detection of FLT3 ITDs and CEBPA/CALR Indels. It includes the  intron 12-13, exon 13, intron 13-14, exon 14, intron 14-15 of FLT3. It also includes exon 9 of CALR and exon 1 of CEBPA +/- 20bp padding. The coordinates were retrieved using Ensembl GRCh38.  The bed file contains the following columns: chromosome, start position, end position, gene symbol, Refseq transcript ID. 
+> This bed file contains only regions of genes that the myeloid clinical team has deemed relevant for the detection of FLT3 ITDs and CEBPA/CALR Indels. It includes the  exon 13, intron 13-14, exon 14, intron 14-15, exon 15 of FLT3. It also includes exon 9 of CALR and exon 1 of CEBPA +/- 20bp padding. The coordinates were retrieved using Ensembl GRCh38.  The bed file contains the following columns: chromosome, start position, end position, gene symbol, Refseq transcript ID. 
 
 
 * :sleeping_bed: /bed_files/b38/kits/snp_genotyping/snp_genotyping_GRCh38_v1.0.bed
