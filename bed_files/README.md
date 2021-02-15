@@ -43,8 +43,8 @@ Contents:
 > This bed file contains only exons that are of clinical significance, selected by the Haem-Onc clinical team, +/- 5bp. To create this bed file the coding_unrestricted_GRCh38_myeloid_v1.0.bed was filtered further based on the restricted exon list. This bed file contains the following columns: chromosome, start position, end position, gene symbol, Refseq transcript ID, exon number.
 * :sleeping_bed: /bed_files/b38/kits/myeloid/probes_GRCh38_myeo_v1.0.bed
 > This is the bed file provided by TWIST and includes all probes coordinates for the myeloid panel. This file is used by eggd_picardqc_v1.0.0 
-* :sleeping_bed: /bed_files/b38/kits/myeloid/pindel_cgppindel_filtering_exons_20bp_v1.0.bed
-> This bed file contains only exons of genes that the myeloid clinical team has deemed relevant for the detection of FLT3 ITDs and CEBPA/CALR Indels. It includes the a +/- 20bp padding. This bed file is a subset of the coding_unrestricted_GRCh38_myeloid_v1.0.bed with and addition of 15bp padding. The final bed file contains the following columns: chromosome, start position, end position, gene symbol, Refseq transcript ID, exon number. 
+* :sleeping_bed: /bed_files/b38/kits/myeloid/pindel_cgppindel_filtering_coordinates_v1.0.bed
+> This bed file contains only regions of genes that the myeloid clinical team has deemed relevant for the detection of FLT3 ITDs and CEBPA/CALR Indels. It includes the  intron 12-13, exon 12, intron 13-14, exon 14, intron 14-15 of FLT3. It also includes exon 9 of CALR and exon 1 of CEBPA +/- 20bp padding. The coordinates were retrieved using Ensembl GRCh38.  The bed file contains the following columns: chromosome, start position, end position, gene symbol, Refseq transcript ID. 
 
 
 * :sleeping_bed: /bed_files/b38/kits/snp_genotyping/snp_genotyping_GRCh38_v1.0.bed
