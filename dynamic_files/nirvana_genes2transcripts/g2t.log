@@ -1,0 +1,15 @@
+WARNING:__main__:HGNC:29529 - NM_024665.5: Review the clinical transcript
+WARNING:__main__:HGNC:8756 - NM_001184917.2: Review the clinical transcript
+WARNING:__main__:HGNC:11153 - NM_198216.1: Review the clinical transcript
+WARNING:__main__:HGNC:10316 - NM_000978.3: Review the clinical transcript
+WARNING:__main__:HGNC:29187 - NM_015048.1: Review the clinical transcript
+WARNING:__main__:HGNC:15791 - NM_080476.4: Review the clinical transcript
+WARNING:__main__:HGNC:11274 - NM_001024858.2: Review the clinical transcript
+
+HGNC:29529 - NM_024665.5: Good option
+HGNC:8756 - NM_001184917.2: Selected final transcript is NM_002861.3. MANE selected transcript, used in clinvar
+HGNC:11153 - NM_198216.1: Selected final transcript is NM_003091.3. These have different last exon, and are otherwise the same. Clinvar uses NM_003091
+HGNC:10316 - NM_000978.3: Good option
+HGNC:29187 - NM_015048.1: Only possible option
+HGNC:15791 - NM_080476.4: Good option
+HGNC:11274 - NM_001024858.2: New non-available transcript is NM_001355436.2. Differences are in non-coding regions
