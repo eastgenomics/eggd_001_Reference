@@ -181,8 +181,6 @@ table_cond_formatting_colours:
     - pass: '#5cb85c'
     - warn: '#f0ad4e'
     - fail: '#d9534f'
-    - true: '#5cb85c'
-    - false: '#d9534f'
 
 # Set conditional formatting rules for general stats
 table_cond_formatting_rules:
@@ -260,9 +258,9 @@ table_cond_formatting_rules:
         #     - lt: 0.990
     somalier_files:  # Somalier Matching Sex column
         true:
-            - s_eq: 'true'
+            - s_eq: 'pass'
         fail:
-            - s_eq: 'false'
+            - s_eq: 'fail'
 
     
     # all_columns:
@@ -274,7 +272,7 @@ table_cond_formatting_rules:
     #         - s_eq: 'unknown'
     #     fail:
     #         - s_eq: 'fail'
-    #         - s_eq: 'true'
+    #         - s_eq: 'false'
 
 # Add code to include data from custom QC data files
 custom_data:
@@ -404,4 +402,4 @@ remove_sections:
     - peddy-hetcheck-plot
 
 exclude_modules:
-  - somalier
+    - somalier
