@@ -13,3 +13,6 @@ HGNC:10316 - NM_000978.3: Good option
 HGNC:29187 - NM_015048.1: Only possible option
 HGNC:15791 - NM_080476.4: Good option
 HGNC:11274 - NM_001024858.2: New non-available transcript is NM_001355436.2. Differences are in non-coding regions
+
+Please use meta transcript NM_001267550.1 RC 29/03/2021
+TTN	NM_133378.4 --> TTN NM_001267550.2
