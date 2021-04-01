@@ -332,21 +332,26 @@ custom_data:
             X_n:
                 title: 'X total'
                 description: 'Total variant calls on X chromosome'
+                format:  '{:,.0f}'
             X_hom_ref:
                 title: 'X_hom_ref'
                 description: 'Homozygous ref variant calls on X chromosome'
+                format:  '{:,.0f}'
             X_het:
                 title: 'X_het'
                 description: 'Heterozygosity variant calls on X chromosome'
+                format:  '{:,.0f}'
             X_hom_alt:
                 title: 'X_hom_alt'
                 description: 'Homozygous alt variant calls on X chromosome'
+                format:  '{:,.0f}'
             Y_depth_mean:
                 title: 'Y_depth_mean'
                 description: 'Mean depth on Y chromosome'
             Y_n:
                 title: 'Y_n'
                 description: 'Total variant calls on Y chromosome'
+                format:  '{:,.0f}'
             Predicted_Sex:
                 title: 'Predicted sex'
                 description: 'Predicted sex based on thresholds on X_het'
