@@ -2796,12 +2796,12 @@ HGNC:8756	NM_001256434.1	not_clinical_transcript	not_canonical
 HGNC:8756	NM_002861.3	not_clinical_transcript	not_canonical
 HGNC:8756	NM_001256433.1	not_clinical_transcript	not_canonical
 HGNC:8756	NM_001256435.1	not_clinical_transcript	not_canonical
-HGNC:8756	NM_001184917.1	clinical_transcript	not_canonical
+HGNC:8756	NM_001184917.1	not_clinical_transcript	not_canonical
 HGNC:8756	NM_001256435.2	not_clinical_transcript	not_canonical
 HGNC:8756	NM_001256433.2	not_clinical_transcript	not_canonical
 HGNC:8756	NM_002861.4	not_clinical_transcript	not_canonical
 HGNC:8756	NM_001256434.2	not_clinical_transcript	not_canonical
-HGNC:8756	NM_001184917.2	not_clinical_transcript	canonical
+HGNC:8756	NM_001184917.2	clinical_transcript	canonical
 HGNC:13590	NM_025133.4	not_clinical_transcript	not_canonical
 HGNC:13590	XM_005264575.1	not_clinical_transcript	not_canonical
 HGNC:13590	NM_001190274.1	clinical_transcript	canonical
