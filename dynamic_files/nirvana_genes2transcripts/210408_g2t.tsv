@@ -4918,8 +4918,8 @@ HGNC:8772	NM_001130690.2	clinical_transcript	canonical
 HGNC:8772	NR_045597.1	not_clinical_transcript	not_canonical
 HGNC:8772	NM_006661.3	not_clinical_transcript	not_canonical
 HGNC:10856	NM_001041.3	clinical_transcript	canonical
-HGNC:11153	NM_198216.1	clinical_transcript	canonical
-HGNC:11153	NM_003091.3	not_clinical_transcript	not_canonical
+HGNC:11153	NM_198216.1	not_clinical_transcript	canonical
+HGNC:11153	NM_003091.3	clinical_transcript	not_canonical
 HGNC:939	XM_005270287.1	not_clinical_transcript	not_canonical
 HGNC:939	NM_004281.3	clinical_transcript	canonical
 HGNC:29077	XM_005255724.1	not_clinical_transcript	not_canonical
