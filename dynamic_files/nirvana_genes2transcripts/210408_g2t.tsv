@@ -3837,8 +3837,8 @@ HGNC:14540	XM_005253741.1	not_clinical_transcript	not_canonical
 HGNC:14540	XM_005253734.1	not_clinical_transcript	not_canonical
 HGNC:14540	XM_005253742.1	not_clinical_transcript	not_canonical
 HGNC:14540	XM_005253740.1	not_clinical_transcript	not_canonical
-HGNC:14540	NM_213655.4	not_clinical_transcript	canonical
-HGNC:14540	NM_018979.3	clinical_transcript	not_canonical
+HGNC:14540	NM_213655.4	clinical_transcript	canonical
+HGNC:14540	NM_018979.3	not_clinical_transcript	not_canonical
 HGNC:14540	NM_001184985.1	not_clinical_transcript	not_canonical
 HGNC:14540	NM_014823.2	not_clinical_transcript	not_canonical
 HGNC:14540	XM_005253743.1	not_clinical_transcript	not_canonical
@@ -10874,12 +10874,12 @@ HGNC:25302	XM_005256060.1	not_clinical_transcript	not_canonical
 HGNC:16512	NM_057176.2	clinical_transcript	canonical
 HGNC:12403	XM_005246831.1	not_clinical_transcript	not_canonical
 HGNC:12403	XM_005246830.1	not_clinical_transcript	not_canonical
-HGNC:12403	NM_001267550.2	not_clinical_transcript	canonical
+HGNC:12403	NM_001267550.2	clinical_transcript	canonical
 HGNC:12403	XM_005246829.1	not_clinical_transcript	not_canonical
 HGNC:12403	NM_001256850.1	not_clinical_transcript	not_canonical
 HGNC:12403	NM_133432.3	not_clinical_transcript	not_canonical
 HGNC:12403	NM_003319.4	not_clinical_transcript	not_canonical
-HGNC:12403	NM_133378.4	clinical_transcript	not_canonical
+HGNC:12403	NM_133378.4	not_clinical_transcript	not_canonical
 HGNC:12403	NM_133437.4	not_clinical_transcript	not_canonical
 HGNC:12403	XM_005246828.1	not_clinical_transcript	not_canonical
 HGNC:12403	NM_133379.4	not_clinical_transcript	not_canonical
