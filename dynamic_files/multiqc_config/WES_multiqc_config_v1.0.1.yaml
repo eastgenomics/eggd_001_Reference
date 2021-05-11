@@ -178,7 +178,7 @@ table_cond_formatting_rules:
             - lt: 95.0
         fail:
             - eq: 90.0
-            - lt: 90.0      
+            - lt: 90.0
     mqc-generalstats-verifybamid-FREEMIX: #verifyBamId Contaminntion column in General Stats
         pass:
             - lt: 2
