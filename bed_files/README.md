@@ -52,6 +52,9 @@ Contents:
 * :sleeping_bed: /bed_files/b38/kits/snp_genotyping/snp_genotyping_amplicon_GRCh38_v1.0.bed
 > This is the bed file provided by NimaGen that includes all amplicon coordinates. This file is used by eggd_picardqc_v1.0.0. This bed file contains the following columns: chromosome, probe start position, probe end position, SNP RS ID, SNP position
 
+* :sleeping_bed: /bed_files/b37/kits/twist_exome/panelapp_GMS_transcripts_210408.bed
+> This is the bed file containing RefSeq exons +/- 5bp of transcripts within /eggd_001_Reference/dynamic_files/nirvana_genes2transcripts/210408_g2t.tsv. This file delineates regions used to assess Twist WES performance using hap.py.
+
 * :sleeping_bed: /bed_files/b37/PAR_X.bed
 > This bed file contains the PAR regions on chromosome X
 * :sleeping_bed: /bed_files/b37/PAR_Y.bed
