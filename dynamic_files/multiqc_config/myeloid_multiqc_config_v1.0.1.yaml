@@ -156,9 +156,9 @@ table_columns_placement:
         250x: 980
 
 # Set picard configs
-#picard_config:
-    #general_stats_target_coverage: # should be referred to as 'mqc-generalstats-picard-PCT_TARGET_BASES_20X'
-        #- 100                           # for conditional table formatting
+picard_config:
+    general_stats_target_coverage: # should be referred to as 'mqc-generalstats-picard-PCT_TARGET_BASES_20X'
+        - 100                           # for conditional table formatting
 
 table_cond_formatting_colours:
     - blue: '#337ab7'
