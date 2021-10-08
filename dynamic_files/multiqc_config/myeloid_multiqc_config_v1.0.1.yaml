@@ -51,11 +51,11 @@ make_data_dir: True
 # extra_fn_clean_exts will append to the defaults
 extra_fn_clean_exts:
     - type: remove
-      pattern: '_001'      
+      pattern: '_001'
     - type: remove
       pattern: '.markdup'
     - type: remove
-      pattern: '_markdup' 
+      pattern: '_markdup'
     - type: remove
       pattern: '.realigned'
     - type: remove
@@ -152,8 +152,8 @@ table_columns_visible:
 table_columns_placement:
     general_stats_table:
         mapped_passed: 950         # M Reads Mapped
-        FREEMIX: 960               # contamination
-        250x: 980
+        FREEMIX: 970               # contamination
+        250x: 990
 
 # Set picard configs
 picard_config:
