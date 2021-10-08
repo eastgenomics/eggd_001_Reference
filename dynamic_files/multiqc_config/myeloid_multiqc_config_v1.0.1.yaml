@@ -152,8 +152,10 @@ table_columns_visible:
 table_columns_placement:
     general_stats_table:
         mapped_passed: 950         # M Reads Mapped
-        FREEMIX: 970               # contamination
-        250x: 990
+        FREEMIX: 960               # contamination
+        250x: 970
+        summed_median: 980
+        PCT_AMPLIFIED_BASES: 990
 
 # Set picard configs
 picard_config:
