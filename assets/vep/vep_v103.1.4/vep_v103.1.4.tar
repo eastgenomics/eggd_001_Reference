@@ -1,4 +1,5 @@
 Resource bundled for VEP annotation for Uranus pipeline.
+Documentation for provenance of contents: https://cuhbioinformatics.atlassian.net/wiki/spaces/DAA/pages/2307751940/VEP+v103.1.4
 Includes:
 - vep_v103.1_docker.tar.gz
 - homo_sapiens_refseq_vep_103_GRCh38.tar.gz
