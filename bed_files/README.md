@@ -4,6 +4,8 @@ For BED files
 
 Contents:
 
+* :sleeping_bed: /bed_files/b37/kits/CEN/
+> This is the bed file containing RefSeq exons +/- 5bp of transcripts used in CEN panel design. This file delineates regions used to assess Twist WES performance using hap.py.
 
 * :sleeping_bed: /bed_files/b37/kits/gemini/refseq_nirvana_203.bed
 > This is the bed file containing RefSeq exons +/- 0bp, extracted from the Nirvana 2.0.3 Cache GRCH37 RefSeq .gff. This file delineates the regions for coverage analysis in Gemini/Dias. Obsolete.
