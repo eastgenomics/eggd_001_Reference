@@ -4,7 +4,7 @@ For BED files
 
 Contents:
 
-* :sleeping_bed: /bed_files/b37/kits/CEN/
+* :sleeping_bed: /bed_files/b37/kits/CEN/CEN_genes_v1.0.0.bed
 > This is the bed file containing RefSeq exons +/- 5bp of transcripts used in CEN panel design. This file delineates regions used to assess Twist WES performance using hap.py.
 
 * :sleeping_bed: /bed_files/b37/kits/gemini/refseq_nirvana_203.bed
