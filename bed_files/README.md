@@ -61,3 +61,6 @@ Contents:
 > This bed file contains the PAR regions on chromosome X
 * :sleeping_bed: /bed_files/b37/PAR_Y.bed
 > This bed file contains the PAR regions on chromosome Y
+
+* :sleeping_bed: /bed_files/b37/kits/CEN/CEN_capture_v1.0.0.bed
+> This bed file contains the capture regions for the CEN assay. It is based on the Twist CEN capture bed but converted from b38 to b37.
