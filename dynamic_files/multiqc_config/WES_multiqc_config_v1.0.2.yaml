@@ -242,11 +242,16 @@ table_cond_formatting_rules:
             - lt: 0.995
         # fail:
         #     - lt: 0.990
-    somalier_files:  # Somalier Matching Sex column
+    Match_Sexes:  # Somalier Matching Sex column
         true:
             - s_eq: 'pass'
         fail:
             - s_eq: 'fail'
+        warn:
+            - s_eq: 'NA'
+    original_pedigree_sex: # Somalier Reported sex column
+        warn:
+            - s_eq: 'none'
 
     
     # all_columns:
@@ -342,7 +347,7 @@ custom_data:
                 title: 'Predicted sex'
                 description: 'Predicted sex based on thresholds on X_het'
             Match_Sexes:
-                title: 'Matching Sex'
+                title: 'Matching sex'
                 description: 'Whether reported and predicted sex of sample match'
 
 # Overwrite module filename search patterns. See multiqc/utils/search_patterns.yaml
@@ -383,7 +388,7 @@ sp:
     happy_indel:
         fn: '*indel.csv'
     somalier_files:
-        fn: '*somalier.samples.tsv'
+        fn: '*_somalier.samples.tsv'
 
 # Remove plots from HTML report
 remove_sections:
