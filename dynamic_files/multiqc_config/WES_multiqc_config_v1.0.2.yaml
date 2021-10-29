@@ -141,7 +141,7 @@ table_columns_visible:
     bcl2fastq: False
     FastQC: False
     Picard:
-        FOLD_ENRICHMENT: False  
+        FOLD_ENRICHMENT: False
     verifyBAMID:
         CHIPMIX: False
 
