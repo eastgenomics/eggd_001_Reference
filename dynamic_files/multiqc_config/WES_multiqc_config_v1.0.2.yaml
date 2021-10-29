@@ -141,8 +141,7 @@ table_columns_visible:
     bcl2fastq: False
     FastQC: False
     Picard:
-        FOLD_ENRICHMENT: False
-    Peddy: False    
+        FOLD_ENRICHMENT: False  
     verifyBAMID:
         CHIPMIX: False
 
@@ -391,11 +390,7 @@ sp:
         fn: '*_somalier.samples.tsv'
 
 # Remove plots from HTML report
-remove_sections:
-    # For peddy, keep only the sex-check plot
-    - peddy-pca-plot
-    - peddy-relatedness-plot
-    - peddy-hetcheck-plot
+# remove_sections:
 
 exclude_modules:
     - somalier
