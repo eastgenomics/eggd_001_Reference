@@ -211,20 +211,20 @@ table_cond_formatting_rules:
             - gt: 5
     METRIC_Recall_indel: # Happy indel Recall outputs
         pass:
-            - gt: 0.850
-            - eq: 0.850
-        warn:
-            - lt: 0.850
+            - gt: 0.830
+            - eq: 0.830
+        # warn:
+        #     - lt: 0.850
         fail:
-            - lt: 0.840
+            - lt: 0.830
     METRIC_Precision_indel: # Happy indel Precision outputs
         pass:
-            - gt: 0.620
-            - eq: 0.620
-        warn:
-            - lt: 0.620
-        # fail:
-        #     - lt: 0.600
+            - gt: 0.850
+            - eq: 0.850
+        # warn:
+        #    - lt: 0.620
+        fail:
+            - lt: 0.850
     METRIC_Recall_snp:  # Happy snp Recall outputs
         pass:
             - eq: 1.00
