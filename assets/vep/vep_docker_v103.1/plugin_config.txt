@@ -1,0 +1,2 @@
+plugin config file for VEP
+dx-file-id: file-G61zfvj433GxkQXF414xP1yF
