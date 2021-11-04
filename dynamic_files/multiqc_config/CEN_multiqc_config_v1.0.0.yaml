@@ -227,20 +227,18 @@ table_cond_formatting_rules:
         #     - lt: 0.600
     METRIC_Recall_snp:  # Happy snp Recall outputs
         pass:
-            - gt: 0.999
-            - eq: 0.99
+            - eq: 1.00
         warn:
-            - lt: 0.999
+            - lt: 1.00
         fail:
             - lt: 0.990
     METRIC_Precision_snp:  # Happy snp Precision outputs
         pass:
-            - gt: 0.995
-            - eq: 0.995
+            - eq: 1.000
         warn:
-            - lt: 0.995
-        # fail:
-        #     - lt: 0.990
+            - lt: 1.000
+        fail:
+            - lt: 0.990
     Match_Sexes:  # Somalier Matching Sex column
         true:
             - s_eq: 'pass'
