@@ -192,14 +192,14 @@ table_cond_formatting_rules:
         pass:
             - gt: 0
         fail:
-            - lt: 0.45
-            - gt: 0.50
+            - lt: 0.47
+            - gt: 0.55
     FOLD_80_BASE_PENALTY: # Picard HSMetrics fold 80 base penalty column
         pass:
-            - lt: 1.60
+            - lt: 1.30
         warn:
-            - eq: 1.60
-            - gt: 1.60
+            - eq: 1.30
+            - gt: 1.30
     FREEMIX: #verifyBamId Contamination column in verifybamid
         pass:
             - lt: 2
