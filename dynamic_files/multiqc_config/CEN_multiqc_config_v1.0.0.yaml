@@ -173,11 +173,11 @@ table_cond_formatting_rules:
         pass:                                     # number in name depends on what is set above
             - lt: 101
         warn:
+            - eq: 98.0
+            - lt: 98.0
+        fail:
             - eq: 95.0
             - lt: 95.0
-        fail:
-            - eq: 90.0
-            - lt: 90.0
     mqc-generalstats-verifybamid-FREEMIX: #verifyBamId Contaminntion column in General Stats
         pass:
             - lt: 2
