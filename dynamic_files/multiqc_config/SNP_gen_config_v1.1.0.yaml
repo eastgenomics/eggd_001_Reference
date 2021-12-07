@@ -207,10 +207,10 @@ table_cond_formatting_rules:
         pass:
             - gt: 0
         warn:
-            - gt: 0.52
-            - eq: 0.52
-        fail:
             - lt: 0.47
+            - gt: 0.51
+        fail:
+            - lt: 0.45
             - gt: 0.55 
     mqc-generalstats-picard-PCT_TARGET_BASES_100X: # Percentage of target bases at 100x    
         pass:                                     # number in name depends on what is set above
