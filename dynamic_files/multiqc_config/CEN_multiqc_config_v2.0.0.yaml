@@ -347,22 +347,27 @@ custom_data:
 # Overwrite module filename search patterns. See multiqc/utils/search_patterns.yaml
 # for the defaults. Remove a default by setting it to null.
 sp:
+    bcl2fastq:
+        fn: 'Stats.json'
     fastqc/data:
         fn: '*.stats-fastqc.txt'
-    #picard/alignment_metrics:
     sentieon/alignment_metrics:
         fn: '*.AlignmentStat_metrics.txt'
         shared: true
-    #picard/insertsize:
+    sentieon/markdups:
+        fn: '*.Duplication_metrics.txt'
+        shared: true
+    sentieon/gcbias:
+        fn: '*.GCBias_metrics.txt'
+        shared: true
     sentieon/insertsize:
         fn: '*.InsertSize_metrics.txt'
         shared: true
-    picard/markdups:
-        fn: '*.Duplication_metrics.txt'
+    picard/hsmetrics:
+        fn: '*.hsmetrics.tsv'
         shared: true
-    #picard/gcbias:
-    sentieon/gcbias:
-        fn: '*.GCBias_metrics.txt'
+    picard/pcr_metrics:
+        fn: '*.pertarget_coverage.tsv'
         shared: true
     picard/quality_by_cycle:
         fn: '*.MeanQualityByCycle_metrics.txt'
@@ -373,19 +378,49 @@ sp:
     verifybamid/selfsm:
         fn: '*.selfSM'
     samtools/flagstat:
+        fn: '*.flagstat'
         contents: 'in total (QC-passed reads + QC-failed reads)'
         shared: true
+    happy:
+        fn: "*.summary.csv"
+        contents: "Type,Filter,TRUTH"
     vcf_qc_files:
         fn: '*.vcf.QC'
-    happy_snp:
-        fn: '*snp.csv'
-    happy_indel:
-        fn: '*indel.csv'
     somalier_files:
         fn: '*_somalier.samples.tsv'
 
 # Remove plots from HTML report
 # remove_sections:
 
+# Remove module sections from HTML report
 exclude_modules:
     - somalier
+
+# Specify location and file extensions of QC metrics to be downloaded
+# to the workstation by the app:
+dx_sp:
+    primary:
+        fastqc:
+            - '*.stats-fastqc.txt'
+        sentieon/sample:
+            - '*.AlignmentStat_metrics.txt'
+            - '*.Duplication_metrics.txt'
+            - '*.GCBias_metrics.txt'
+            - '*.InsertSize_metrics.txt'
+            # - '*.MeanQualityByCycle_metrics.txt'
+            # - '*.QualDistribution_metrics.txt'
+        picard/QC:
+            - '*.hsmetrics.tsv'
+            - '*.pertarget_coverage.tsv'
+        verifybamid/QC:
+            - '*.selfSM'
+            # - '*.depthSM'
+        samtools:
+            - '*.flagstat'
+        vcf_qc:
+            - '*.vcf.QC'
+    secondary:
+        somalier_relate2multiqc:
+            - '*_somalier.samples.tsv'
+        vcfeval_hap.py:
+            - "*.summary.csv"
