@@ -101,11 +101,7 @@ max_table_rows: 500              # Swap tables for a beeswarm plot above this
 # See multiqc/utils/config_defaults.yaml for the defaults.
 module_order:
     - fastqc:
-        module_tag:
-            - DNA
-    - fastqc:
-        module_tag:
-            - RNA
+        path_filters: '*.stats-fastqc.txt'
 
 # # Overwrite the defaults of which table columns are visible by default
 # table_columns_visible:
