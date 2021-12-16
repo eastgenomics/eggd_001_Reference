@@ -113,14 +113,9 @@ module_order:
     - fastqc:
         module_tag:
             - DNA
-    - bcl2fastq:
-        module_tag:
-            - DNA
-    - sentieon:
-        module_tag:
-            - DNA
 
 # Overwrite the defaults of which table columns are visible by default
+# in the General Statistics table
 table_columns_visible:
     custom_coverage:
         200x: False
@@ -136,19 +131,16 @@ table_columns_visible:
         PCT_PF_READS_ALIGNED: False
         MEDIAN_TARGET_COVERAGE: False
         FOLD_ENRICHMENT: False
-    bcl2fastq: False
     FastQC: False
-    Sentieon: False
-    Peddy: False
 
 # Specify order in which table columns are visible in General Statistics
 table_columns_placement:
     general_stats_table:
         mapped_passed: 930         # M Reads Mapped
         FREEMIX: 940               # contamination
-        250x: 950
-        summed_median: 980
-        PCT_AMPLIFIED_BASES: 990
+        250x: 950                  # coverage at 250x
+        summed_median: 960
+        PCT_AMPLIFIED_BASES: 970
 
 # Set picard configs
 picard_config:
@@ -164,6 +156,7 @@ table_cond_formatting_colours:
 
 # Set conditional formatting rules
 table_cond_formatting_rules:
+    # Columns in the General Statistics table
     mqc-generalstats-custom_coverage-250x:
         pass:
             - lt: 101
@@ -176,6 +169,19 @@ table_cond_formatting_rules:
         warn:
             - eq: 10
             - gt: 10
+    mqc-generalstats-picard-PCT_AMPLIFIED_BASES: # % Amplified Bases
+        pass:
+            - gt: 50
+        warn:
+            - eq: 50
+            - lt: 50
+    mqc-generalstats-picard-summed_median: # Picard Median Insert Size
+        pass:
+            - gt: 150
+        warn:
+            - eq: 150
+            - lt: 150
+    # Columns in tables from other modules
     FREEMIX: #verifyBamId Contamination column in verifybamid
         pass:
             - lt: 10
@@ -188,18 +194,6 @@ table_cond_formatting_rules:
         warn:
             - eq: 1.80
             - gt: 1.80
-    mqc-generalstats-picard-summed_median: # Picard Median Insert Size
-        pass:
-            - gt: 150
-        warn:
-            - eq: 150
-            - lt: 150
-    mqc-generalstats-picard-PCT_AMPLIFIED_BASES: # % Amplified Bases
-        pass:
-            - gt: 50
-        warn:
-            - eq: 50
-            - lt: 50
 
 # Add code to include data from custom QC reports
 custom_data:
