@@ -231,6 +231,12 @@ custom_data:
                 max: 100
                 min: 0
                 suffix: '%'
+            - Usable unique bases on-target:
+                description: 'Percentage of unique bases on target'
+                title: 'Pct usable unique bases on-target'
+                max: 100
+                min: 0
+                suffix: '%'
 
 # Overwrite module filename search patterns. See multiqc/utils/search_patterns.yaml
 # for the defaults. Remove a default by setting it to null.
