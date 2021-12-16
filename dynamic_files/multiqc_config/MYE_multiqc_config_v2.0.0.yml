@@ -131,7 +131,6 @@ table_columns_visible:
         PCT_PF_READS_ALIGNED: False
         MEDIAN_TARGET_COVERAGE: False
         FOLD_ENRICHMENT: False
-    bcl2fastq: False
     FastQC: False
 
 # Specify order in which table columns are visible in General Statistics
@@ -238,26 +237,26 @@ custom_data:
 sp:
     fastqc/data:
         fn: '*.stats-fastqc.txt'
-    #picard/alignment_metrics:
-    sentieon/alignment_metrics:
-        fn: '*.AlignmentStat_metrics.txt'
+    picard/alignment_metrics:
+        fn: '*.alignment_summary_metrics'
         shared: true
-    #picard/insertsize:
-    sentieon/insertsize:
-        fn: '*.InsertSize_metrics.txt'
+    picard/insertsize:
+        fn: '*.insert_size_metrics'
         shared: true
-    picard/markdups:
-        fn: '*.Duplication_metrics.txt'
+    picard/hsmetrics:
+        fn: '*.hsmetrics.tsv'
         shared: true
-    #picard/gcbias:
-    sentieon/gcbias:
-        fn: '*.GCBias_metrics.txt'
+    picard/gcbias:
+        fn: '*.gc_bias.detail_metrics'
+        shared: true
+    picard/pcr_metrics:
+        fn: '*.pertarget_coverage.tsv'
         shared: true
     picard/quality_by_cycle:
-        fn: '*.MeanQualityByCycle_metrics.txt'
+        fn: '*.quality_by_cycle_metrics'
         shared: true
     picard/quality_score_distribution:
-        fn: '*.QualDistribution_metrics.txt'
+        fn: '*.quality_distribution_metrics'
         shared: true
     verifybamid/selfsm:
         fn: '*.selfSM'
@@ -268,19 +267,33 @@ sp:
         fn: '*.vcf.QC'
     custom_coverage:
         fn: 'custom_coverage.csv'
-    happy_snp:
-        fn: '*snp.csv'
-    happy_indel:
-        fn: '*indel.csv'
 
 # Remove plots from HTML report
 remove_sections:
-    # For peddy, keep only the sex-check plot
-    - peddy-pca-plot
-    - peddy-relatedness-plot
-    - peddy-hetcheck-plot
+    # - picard_alignment_readlength # Mean readlength plot
     - picard_hsmetrics_target_bases # Target Region Coverage plot
     - fastqc_per_base_sequence_content # -  Per Base Sequence Content plot
 
 exclude_modules:
-    - sentieon
+  - sentieon
+  - bcl2fastq
+
+# Specify location and file extensions of QC metrics to be downloaded
+# to the workstation by the app:
+dx_sp:
+    primary:
+        fastqc:
+            - '*.stats-fastqc.txt'
+        picard/QC:
+            - '*.alignment_summary_metrics'
+            - '*.hsmetrics.tsv'
+            - '*.gc_bias.detail_metrics'
+            - '*.insert_size_metrics'
+            - '*.pertarget_coverage.tsv'
+            # - '*.quality_by_cycle_metrics'
+            # - '*.quality_distribution_metrics'
+        verifybamid/QC:
+            - '*.selfSM'
+            # - '*.depthSM'
+        samtools:
+            - '*.flagstat'
