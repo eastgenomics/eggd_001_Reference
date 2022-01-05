@@ -240,6 +240,15 @@ table_cond_formatting_rules:
     original_pedigree_sex: # Somalier Reported sex column
         warn:
             - s_eq: 'none'
+    FOLD_ENRICHMENT: # Picard HSMetrics fold enrichment column
+        warn:
+            - gt: 44
+            - eq: 44
+            - lt: 33
+            - eq: 33
+        pass:
+            - gt: 33
+            - lt: 44
 
     # all_columns:
     #     pass:
