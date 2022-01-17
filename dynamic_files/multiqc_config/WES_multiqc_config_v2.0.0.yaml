@@ -205,7 +205,7 @@ table_cond_formatting_rules:
         warn:
             - lt: 0.850
         fail:
-            - lt: 0.840
+            - lt: 0.820
     METRIC_Precision_indel: # Happy indel Precision outputs
         pass:
             - gt: 0.620
@@ -217,7 +217,7 @@ table_cond_formatting_rules:
     METRIC_Recall_snp:  # Happy snp Recall outputs
         pass:
             - gt: 0.999
-            - eq: 0.99
+            - eq: 0.999
         warn:
             - lt: 0.999
         fail:
@@ -240,6 +240,15 @@ table_cond_formatting_rules:
     original_pedigree_sex: # Somalier Reported sex column
         warn:
             - s_eq: 'none'
+    FOLD_ENRICHMENT: # Picard HSMetrics fold enrichment column
+        warn:
+            - gt: 44
+            - eq: 44
+            - lt: 33
+            - eq: 33
+        pass:
+            - gt: 33
+            - lt: 44
 
     # all_columns:
     #     pass:
