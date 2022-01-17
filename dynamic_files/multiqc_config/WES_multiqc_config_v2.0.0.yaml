@@ -205,7 +205,7 @@ table_cond_formatting_rules:
         warn:
             - lt: 0.850
         fail:
-            - lt: 0.840
+            - lt: 0.820
     METRIC_Precision_indel: # Happy indel Precision outputs
         pass:
             - gt: 0.620
