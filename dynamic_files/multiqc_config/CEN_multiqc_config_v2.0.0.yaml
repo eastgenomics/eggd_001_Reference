@@ -247,11 +247,14 @@ table_cond_formatting_rules:
         warn:
             - s_eq: 'none'
     FOLD_ENRICHMENT: # Picard HSMetrics fold enrichment column
-        warn:
-            - lt: 135
-            - eq: 135
         pass:
-            - gt: 135
+            - gt: 1350
+            - lt: 1650
+        warn:
+            - lt: 1350
+            - eq: 1350
+            - eq: 1650
+            - gt: 1650
 
     
     # all_columns:
