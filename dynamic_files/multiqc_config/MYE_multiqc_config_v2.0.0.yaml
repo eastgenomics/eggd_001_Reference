@@ -290,10 +290,7 @@ dx_sp:
             - '*.gc_bias.detail_metrics'
             - '*.insert_size_metrics'
             - '*.pertarget_coverage.tsv'
-            # - '*.quality_by_cycle_metrics'
-            # - '*.quality_distribution_metrics'
         verifybamid/QC:
             - '*.selfSM'
-            # - '*.depthSM'
         samtools:
             - '*.flagstat'
