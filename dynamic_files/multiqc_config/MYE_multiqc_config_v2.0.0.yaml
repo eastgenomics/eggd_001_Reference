@@ -141,6 +141,7 @@ table_columns_placement:
         250x: 950                  # coverage at 250x
         summed_median: 960
         PCT_AMPLIFIED_BASES: 970
+        Usable_unique_bases_on_target: 980
 
 # Set picard configs
 picard_config:
@@ -228,6 +229,12 @@ custom_data:
             - 1000x:
                 description: 'Target bases coverage at custom depth'
                 title: '%coverage at 1000x'
+                max: 100
+                min: 0
+                suffix: '%'
+            - Usable unique bases on-target:
+                description: 'Percentage of unique bases on target'
+                title: '% Usable unique bases on-target'
                 max: 100
                 min: 0
                 suffix: '%'
