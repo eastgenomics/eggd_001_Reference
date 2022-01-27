@@ -141,6 +141,7 @@ table_columns_placement:
         250x: 950                  # coverage at 250x
         summed_median: 960
         PCT_AMPLIFIED_BASES: 970
+        Usable_unique_bases_on_target: 980
 
 # Set picard configs
 picard_config:
