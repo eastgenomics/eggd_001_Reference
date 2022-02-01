@@ -1,0 +1,37 @@
+File creation described in:
+GEN.BI.617
+https://cuhbioinformatics.atlassian.net/wiki/spaces/BT/pages/2546139144
+Below:
+
+# Download exomes vcf
+wget https://hgdownload.soe.ucsc.edu/gbdb/hg19/gnomAD/vcf/gnomad.exomes.r2.0.2.sites.vcf.gz
+wget https://hgdownload.soe.ucsc.edu/gbdb/hg19/gnomAD/vcf/gnomad.exomes.r2.0.2.sites.vcf.gz.tbi
+
+# Download genome fasta
+wget http://www.broadinstitute.org/ftp/pub/seq/references/Homo_sapiens_assembly19.fasta
+wget http://www.broadinstitute.org/ftp/pub/seq/references/Homo_sapiens_assembly19.fasta.fai
+
+wget https://github.com/samtools/bcftools/releases/download/1.13/bcftools-1.13.tar.bz2
+tar -xvjf bcftools-1.13.tar.bz2
+cd bcftools-1.13
+make
+cd -
+
+# Remove CSQ, keep only PASS variants, normalise/decompose
+bcftools-1.13/bcftools annotate -x INFO/CSQ -Ou gnomad.exomes.r2.0.2.sites.vcf.gz |
+bcftools-1.13/bcftools view -f ".,PASS" -Ou |
+bcftools-1.13/bcftools norm --threads 4 -m -any -f Homo_sapiens_assembly19.fasta -Oz \
+> gnomad.exomes.r2.0.2.sites.noVEP_normalised_decomposed_PASS.vcf.gz
+Lines   total/split/realigned/skipped:  12164292/1610182/302292/0
+
+# Index
+tabix -p vcf gnomad.exomes.r2.0.2.sites.noVEP_normalised_decomposed_PASS.vcf.gz
+
+
+# Upload
+unset DX_WORKSPACE_ID
+dx cd $DX_PROJECT_CONTEXT_ID:
+dx mkdir gnomad_exomes_vcf
+dx cd gnomad_exomes_vcf
+dx upload gnomad.exomes.r2.0.2.sites.noVEP_normalised_decomposed_PASS.vcf.gz
+
