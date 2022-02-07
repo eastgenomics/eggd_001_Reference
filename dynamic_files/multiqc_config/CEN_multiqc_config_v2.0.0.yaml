@@ -250,13 +250,13 @@ table_cond_formatting_rules:
         pass:
             - gt: 1350
             - lt: 1650
-        warn:
+        fail:
             - lt: 1350
             - eq: 1350
             - eq: 1650
             - gt: 1650
 
-    
+
     # all_columns:
     #     pass:
     #         - s_eq: 'pass'
