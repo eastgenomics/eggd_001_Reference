@@ -244,7 +244,6 @@ table_cond_formatting_rules:
         pass:
             - gt: 33
             - lt: 44
-        warn:
         fail:
             - gt: 44
             - eq: 44
