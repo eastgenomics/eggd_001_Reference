@@ -113,6 +113,9 @@ module_order:
     - fastqc:
         module_tag:
             - DNA
+    - bcl2fastq:
+        module_tag:
+            - DNA
 
 # Overwrite the defaults of which table columns are visible by default
 # in the General Statistics table
@@ -332,6 +335,8 @@ sp:
         fn: 'custom_coverage.csv'
     somalier_files:
         fn: '*_somalier.samples.tsv'
+    bcl2fastq:
+        fn: 'Stats.json'
 
 # Remove plots from HTML report
 remove_sections:
@@ -341,7 +346,6 @@ remove_sections:
 
 exclude_modules:
     - sentieon
-    - bcl2fastq
 
 # Specify location and file extensions of QC metrics to be downloaded
 # to the workstation by the app:
