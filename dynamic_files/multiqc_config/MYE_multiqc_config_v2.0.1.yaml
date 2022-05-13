@@ -135,6 +135,7 @@ table_columns_visible:
         MEDIAN_TARGET_COVERAGE: False
         FOLD_ENRICHMENT: False
     FastQC: False
+    bcl2fastq: False
 
 # Specify order in which table columns are visible in General Statistics
 table_columns_placement:
