@@ -76,11 +76,6 @@ extra_fn_clean_exts:
       pattern: '.MeanQualityByCycle_metrics'
     - type: remove
       pattern: '.QualDistribution_metrics'
-    - type: regex
-      pattern: '_S[0-9]{1,2}_L00[1,2]'
-    - type: regex
-      pattern: '_S[0-9]{1,2}_L00[1,2]'
-      module: custom_data
 
 # Ignore files larger than this when searcing for logs (bytes)
 log_filesize_limit: 5000000000
