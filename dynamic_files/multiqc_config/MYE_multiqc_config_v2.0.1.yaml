@@ -199,6 +199,16 @@ table_cond_formatting_rules:
         warn:
             - eq: 1.80
             - gt: 1.80
+    Match_Sexes:  # Somalier Matching Sex column
+        true:
+            - s_eq: 'pass'
+        fail:
+            - s_eq: 'fail'
+        warn:
+            - s_eq: 'NA'
+    original_pedigree_sex: # Somalier Reported sex column
+        warn:
+            - s_eq: 'none'
 
 # Add code to include data from custom QC reports
 custom_data:
