@@ -8,7 +8,8 @@ Contents:
 > This bed file contains the capture regions for the CEN assay. It is based on the Twist CEN capture bed but converted from b38 to b37.
 * :sleeping_bed: /bed_files/b37/kits/CEN/CEN_genes_v1.0.0.bed
 > This bed file contains the regions of the target genes/transcripts of the CEN assay.
-
+* :sleeping_bed: /bed_files/b37/kits/CEN/CEN_CNV_targets_b37_v1.0.0.bed
+> This bed file contains target regions for CNV calling for the CEN assay. It is based on the Twist CEN capture bed v1.0.0, b37 but modified by merging overlapping regions, removal of regions of length 1, 2 and 3, merging resulting regions if within 10 bp and lastly splitting regions into equal length if longer than 250 bp.
 
 * :sleeping_bed: /bed_files/b37/kits/gemini/refseq_nirvana_203.bed
 > This is the bed file containing RefSeq exons +/- 0bp, extracted from the Nirvana 2.0.3 Cache GRCH37 RefSeq .gff. This file delineates the regions for coverage analysis in Gemini/Dias. Obsolete.
