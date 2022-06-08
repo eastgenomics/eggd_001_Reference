@@ -67,3 +67,6 @@ Contents:
 > This bed file contains the PAR regions on chromosome X
 * :sleeping_bed: /bed_files/b37/PAR_Y.bed
 > This bed file contains the PAR regions on chromosome Y
+* :sleeping_bed: /bed_files/b37/mappability_track_k100_220531_b37.bed
+> This bed file contains uniquely mappable regions on b37, chromosomes 1 through X to Y 
+
