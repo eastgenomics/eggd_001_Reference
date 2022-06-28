@@ -4862,12 +4862,14 @@ R150.1_Congenital adrenal hypoplasia_P	Congenital adrenal hypoplasia_2.2	HGNC:69
 R150.1_Congenital adrenal hypoplasia_P	Congenital adrenal hypoplasia_2.2	HGNC:7863
 R150.1_Congenital adrenal hypoplasia_P	Congenital adrenal hypoplasia_2.2	HGNC:7960
 R150.1_Congenital adrenal hypoplasia_P	Congenital adrenal hypoplasia_2.2	HGNC:7983
-R151.1_Familial hyperparathyroidism_P	Familial hyperparathyroidism_2.3	HGNC:1514
-R151.1_Familial hyperparathyroidism_P	Familial hyperparathyroidism_2.3	HGNC:16783
-R151.1_Familial hyperparathyroidism_P	Familial hyperparathyroidism_2.3	HGNC:1785
-R151.1_Familial hyperparathyroidism_P	Familial hyperparathyroidism_2.3	HGNC:565
-R151.1_Familial hyperparathyroidism_P	Familial hyperparathyroidism_2.3	HGNC:7010
-R151.1_Familial hyperparathyroidism_P	Familial hyperparathyroidism_2.3	HGNC:9967
+R151.1_Familial hyperparathyroidism_P	Familial hyperparathyroidism_2.22	HGNC:1514
+R151.1_Familial hyperparathyroidism_P	Familial hyperparathyroidism_2.22	HGNC:16783
+R151.1_Familial hyperparathyroidism_P	Familial hyperparathyroidism_2.22	HGNC:1785
+R151.1_Familial hyperparathyroidism_P	Familial hyperparathyroidism_2.22	HGNC:4198
+R151.1_Familial hyperparathyroidism_P	Familial hyperparathyroidism_2.22	HGNC:4379
+R151.1_Familial hyperparathyroidism_P	Familial hyperparathyroidism_2.22	HGNC:565
+R151.1_Familial hyperparathyroidism_P	Familial hyperparathyroidism_2.22	HGNC:7010
+R151.1_Familial hyperparathyroidism_P	Familial hyperparathyroidism_2.22	HGNC:9967
 R152.1_Hypocalciuric hypercalcaemia_P	Hypocalciuric hypercalcaemia_2.2	HGNC:1514
 R152.1_Hypocalciuric hypercalcaemia_P	Hypocalciuric hypercalcaemia_2.2	HGNC:4379
 R152.1_Hypocalciuric hypercalcaemia_P	Hypocalciuric hypercalcaemia_2.2	HGNC:565
@@ -4891,16 +4893,18 @@ R154.1_Hypophosphataemia or rickets_P	Hypophosphataemia or rickets_2.2	HGNC:8918
 R155.1_Autoimmune Polyendocrine Syndrome_G	HGNC:360_SG_panel_1.0.0	HGNC:360
 R156.1_Carney complex_G	HGNC:9388_SG_panel_1.0.0	HGNC:9388
 R157.1_IPEX - Immunodysregulation Polyendocrinopathy and Enteropathy, X-Linked_G	HGNC:6106_SG_panel_1.0.0	HGNC:6106
-R158.1_Lipodystrophy - childhood onset_P	Lipodystrophy - childhood onset_2.4	HGNC:12877
-R158.1_Lipodystrophy - childhood onset_P	Lipodystrophy - childhood onset_2.4	HGNC:1527
-R158.1_Lipodystrophy - childhood onset_P	Lipodystrophy - childhood onset_2.4	HGNC:15832
-R158.1_Lipodystrophy - childhood onset_P	Lipodystrophy - childhood onset_2.4	HGNC:325
-R158.1_Lipodystrophy - childhood onset_P	Lipodystrophy - childhood onset_2.4	HGNC:6621
-R158.1_Lipodystrophy - childhood onset_P	Lipodystrophy - childhood onset_2.4	HGNC:6636
-R158.1_Lipodystrophy - childhood onset_P	Lipodystrophy - childhood onset_2.4	HGNC:9076
-R158.1_Lipodystrophy - childhood onset_P	Lipodystrophy - childhood onset_2.4	HGNC:9175
-R158.1_Lipodystrophy - childhood onset_P	Lipodystrophy - childhood onset_2.4	HGNC:9236
-R158.1_Lipodystrophy - childhood onset_P	Lipodystrophy - childhood onset_2.4	HGNC:9688
+R158.1_Lipodystrophy - childhood onset_P	Lipodystrophy - childhood onset_2.23	HGNC:12877
+R158.1_Lipodystrophy - childhood onset_P	Lipodystrophy - childhood onset_2.23	HGNC:1527
+R158.1_Lipodystrophy - childhood onset_P	Lipodystrophy - childhood onset_2.23	HGNC:15832
+R158.1_Lipodystrophy - childhood onset_P	Lipodystrophy - childhood onset_2.23	HGNC:325
+R158.1_Lipodystrophy - childhood onset_P	Lipodystrophy - childhood onset_2.23	HGNC:6091
+R158.1_Lipodystrophy - childhood onset_P	Lipodystrophy - childhood onset_2.23	HGNC:6621
+R158.1_Lipodystrophy - childhood onset_P	Lipodystrophy - childhood onset_2.23	HGNC:6636
+R158.1_Lipodystrophy - childhood onset_P	Lipodystrophy - childhood onset_2.23	HGNC:7506
+R158.1_Lipodystrophy - childhood onset_P	Lipodystrophy - childhood onset_2.23	HGNC:9076
+R158.1_Lipodystrophy - childhood onset_P	Lipodystrophy - childhood onset_2.23	HGNC:9175
+R158.1_Lipodystrophy - childhood onset_P	Lipodystrophy - childhood onset_2.23	HGNC:9236
+R158.1_Lipodystrophy - childhood onset_P	Lipodystrophy - childhood onset_2.23	HGNC:9688
 R159.1_Pituitary hormone deficiency_P	Pituitary hormone deficiency_2.2	HGNC:11195
 R159.1_Pituitary hormone deficiency_P	Pituitary hormone deficiency_2.2	HGNC:11199
 R159.1_Pituitary hormone deficiency_P	Pituitary hormone deficiency_2.2	HGNC:1133
@@ -5166,12 +5170,13 @@ R175.1_Pancreatitis_P	Pancreatitis_2.2	HGNC:9475
 R177.1_Hirschsprung disease - familial_G	HGNC:9967_SG_panel_1.0.0	HGNC:9967
 R18.1_Haemophagocytic syndrome with absent XIAP expression_G	HGNC:592_SG_panel_1.0.0	HGNC:592
 R180.1_Congenital adrenal hyperplasia diagnostic test_G	HGNC:2600_SG_panel_1.0.0	HGNC:2600
-R182.1_Hyperthyroidism_P	Hyperthyroidism_2.2	HGNC:10923
-R182.1_Hyperthyroidism_P	Hyperthyroidism_2.2	HGNC:11796
-R182.1_Hyperthyroidism_P	Hyperthyroidism_2.2	HGNC:11799
-R182.1_Hyperthyroidism_P	Hyperthyroidism_2.2	HGNC:12373
-R182.1_Hyperthyroidism_P	Hyperthyroidism_2.2	HGNC:30972
-R182.1_Hyperthyroidism_P	Hyperthyroidism_2.2	HGNC:399
+R182.1_Hyperthyroidism_P	Hyperthyroidism_2.13	HGNC:10923
+R182.1_Hyperthyroidism_P	Hyperthyroidism_2.13	HGNC:11796
+R182.1_Hyperthyroidism_P	Hyperthyroidism_2.13	HGNC:11799
+R182.1_Hyperthyroidism_P	Hyperthyroidism_2.13	HGNC:12373
+R182.1_Hyperthyroidism_P	Hyperthyroidism_2.13	HGNC:12405
+R182.1_Hyperthyroidism_P	Hyperthyroidism_2.13	HGNC:30972
+R182.1_Hyperthyroidism_P	Hyperthyroidism_2.13	HGNC:399
 R184.2_Cystic fibrosis diagnostic test_G	HGNC:1884_SG_panel_1.0.0	HGNC:1884
 R186.1_Hereditary haemorrhagic telangiectasia_P	Hereditary haemorrhagic telangiectasia_2.2	HGNC:175
 R186.1_Hereditary haemorrhagic telangiectasia_P	Hereditary haemorrhagic telangiectasia_2.2	HGNC:3349
