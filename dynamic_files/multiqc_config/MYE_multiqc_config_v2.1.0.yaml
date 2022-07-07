@@ -92,7 +92,7 @@ no_version_check: False
 # can prevent automatically rendering all graphs if there are lots of samples
 # to prevent the browser being locked up when the report opens.
 plots_force_flat: False          # Try to use only flat image graphs
-plots_force_interactive: False   # Try to use only interactive javascript graphs
+plots_force_interactive: True   # Try to use only interactive javascript graphs
 plots_flat_numseries: 200        # If neither of the above, use flat if > this number of datasets
 num_datasets_plot_limit: 100      # If interactive, don't plot on load if > this number of datasets
 max_table_rows: 500              # Swap tables for a beeswarm plot above this
