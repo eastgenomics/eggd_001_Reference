@@ -104,6 +104,7 @@ module_order:
     - verifybamid:
         module_tag:
             - DNA
+        info: ""
     - picard:
         module_tag:
             - DNA
