@@ -381,3 +381,5 @@ dx_sp:
             - '*.flagstat'
         somalier_relate2multiqc:
             - '*_somalier.samples.tsv'
+        sompy:
+            - '*stats.csv'
