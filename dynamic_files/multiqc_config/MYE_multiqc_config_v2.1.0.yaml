@@ -179,12 +179,6 @@ table_cond_formatting_rules:
         warn:
             - eq: 10
             - gt: 10
-    mqc-generalstats-picard-PCT_AMPLIFIED_BASES: # % Amplified Bases
-        pass:
-            - gt: 50
-        warn:
-            - eq: 50
-            - lt: 50
     mqc-generalstats-picard-summed_median: # Picard Median Insert Size
         pass:
             - gt: 150
