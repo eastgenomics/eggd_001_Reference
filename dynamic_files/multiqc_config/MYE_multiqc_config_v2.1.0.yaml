@@ -153,6 +153,10 @@ picard_config:
     general_stats_target_coverage: # should be referred to as 'mqc-generalstats-picard-PCT_TARGET_BASES_20X'
         - 100                           # for conditional table formatting
 
+custom_plot_config:
+    picard_gcbias_plot:
+        yCeiling: 50
+
 table_cond_formatting_colours:
     - blue: '#337ab7'
     - lbue: '#5bc0de'
