@@ -54258,7 +54258,8 @@ HGNC:5347	NM_001039132.3	not_clinical_transcript	not_canonical
 HGNC:5347	NM_001544.5	not_clinical_transcript	not_canonical
 HGNC:5348	NM_003259.4	not_clinical_transcript	not_canonical
 HGNC:37245	NM_001103167.1	not_clinical_transcript	not_canonical
-HGNC:30546	NM_001397406.1	clinical_transcript	not_canonical
+HGNC:30546	NM_001397406.1	not_clinical_transcript	not_canonical
+HGNC:30546	NM_001031734.4	clinical_transcript	not_canonical
 HGNC:30296	NM_133452.3	not_clinical_transcript	not_canonical
 HGNC:30296	NM_001366174.1	not_clinical_transcript	not_canonical
 HGNC:5346	NM_002162.5	not_clinical_transcript	not_canonical
