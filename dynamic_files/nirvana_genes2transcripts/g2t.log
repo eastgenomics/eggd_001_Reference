@@ -65,3 +65,12 @@ HGNC:20492  NM_001370595.2
 HGNC:23216  NM_001367624.2
 HGNC:29187  NM_001353345.2
 HGNC:30546  NM_001397406.1
+
+220711:
+Our GFF cache is not the same used in the VEP app. Meaning a few genes have no transcript:
+- PON
+- FDX2
+
+These need new transcripts to be assigned:
+- PON NM_001382658.3
+- FDX2 NM_001031734.4
