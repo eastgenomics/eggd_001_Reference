@@ -1,3 +1,3 @@
 A tarball contaning the GRCh38 masked decoys reference FASTA index file GRCh38.no_alt_analysis_set_maskedGRC_exclusions_v2_decoys_nochr.fasta-index.tar.gz is used by eggd_picard_qc app.
 This file is copied into 001 (\resources\genomes\b38\)
-and can be found at project-G6jGkX84kj49v7gk4J16V078:file-GF3V3784kj4FxJkZPP6KGg6Bs
+and can be found at file-GF8318j4kj44Z0K27KvfVQ0b
