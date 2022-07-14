@@ -1,3 +1,3 @@
 A gzipped VCF containing the SNPs used to calculate contamination for for build GRCh38 and is used by the verifybamid app.
 This file is copied into 001 (001_Reference/app_assets/verifyBamID)
-and can be found at project-G9FKYPQ4kBX36YFX155g2v39:file-G7YKFZj4kj47GxgQ2bKGYV1g
+and can be found with file-G7YKFZj4kj47GxgQ2bKGYV1g
