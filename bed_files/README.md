@@ -70,3 +70,8 @@ Contents:
 * :sleeping_bed: /bed_files/b37/mappability_track_k100_220531_b37.bed
 > This bed file contains uniquely mappable regions on b37, chromosomes 1 through X to Y 
 
+* :sleeping_bed: /bed_files/b38/kits/TWE/Twist_ComprehensiveExome_targets_hg38_noChr_220131.bed
+> This bed file contains the capture regions for the TWE assay. The file was downloaded from https://www.twistbioscience.com/sites/default/files/resources/2020-09/Twist_ComprehensiveExome_targets_hg38.bed. The 'chr' prefix has been removed from the file.
+
+* :sleeping_bed: /bed_files/b38/kits/CEN/CEN_v1_1X_TE-99347387_hg38_noChr_2020-09.bed
+> This bed file contains the capture regions for the CEN assay. This file was taken from \\clingen\Regional Genetics Laboratories\GLH_Rare_Disease_Improvement\CEN_TWIST_panel\CEN_panel_design_final_02_03_2021 . The 'chr' prefix has been removed from the file.
