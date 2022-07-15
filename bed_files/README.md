@@ -75,3 +75,6 @@ Contents:
 
 * :sleeping_bed: /bed_files/b38/kits/CEN/CEN_v1_1X_TE-99347387_hg38_noChr_2020-09.bed
 > This bed file contains the capture regions for the CEN assay. This file was taken from \\clingen\Regional Genetics Laboratories\GLH_Rare_Disease_Improvement\CEN_TWIST_panel\CEN_panel_design_final_02_03_2021 . The 'chr' prefix has been removed from the file.
+
+* :sleeping_bed: /bed_files/b38/kits/TWE/refseq_109.20200815_5bp.bed
+> This is the bed file containing RefSeq exons +/- 5bp, extracted from https://ftp.ncbi.nlm.nih.gov/refseq/H_sapiens/annotation/annotation_releases/109.20210514/GCF_000001405.39_GRCh38.p13/GCF_000001405.39_GRCh38.p13_genomic.gff.gz using gff2tsv.py from https://github.com/eastgenomics/exon_file_and_g2t_from_new_refseq_gff. The 'chr' prefix has been removed from the file.
