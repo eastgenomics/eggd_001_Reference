@@ -1,0 +1,3 @@
+A tarball containing the GRCh38 masked, decoy BWA reference genome index file GRCh38.no_alt_analysis_set_plus_hs38d1_maskedGRC_exclusions_v2_no_chr.bwa-index.tar.gz is used by sentieon-tnseq app.
+This file is copied into 001 (\resources\genomes\b38\)
+and can be found at file-GF82y4j4qBK70K1FKX9KzBZ4
