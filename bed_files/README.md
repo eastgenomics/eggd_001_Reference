@@ -8,12 +8,14 @@ Contents:
 > This bed file contains the regions requested to be captured for the CEN assay. It is based on the UCSC_combined_CUH_CEN_v1_TE-99347387_hg38.bed file provided by TWIST- combined covered, not covered, whole not covered, and targets in a UCSC format with header. Useful information extracted and liftovered to GRCh37.
 * :sleeping_bed: /bed_files/b37/kits/CEN/CEN_regions_captured_grch37_v1.0.0.bed
 > This bed file contains the captured regions for the CEN assay. It is based on the merged_probe_file_combined_CUH_CEN_v1_TE-99347387_hg38.bed provided by TWIST which contains all genomic regions that are covered by probes. It was converted from GRCh38 to GRCh37.
+> Associated ticket: [GCNV-25](https://cuhbioinformatics.atlassian.net/browse/GCNV-25?atlOrigin=eyJpIjoiM2YzMjkzMTk5YzNkNDcyZDlhMzVmNTIyMGFmODJmYzIiLCJwIjoiaiJ9)
 * :sleeping_bed: /bed_files/b37/kits/CEN/CEN_genes_v1.0.0.bed
 > This bed file contains the regions of the target genes/transcripts of the CEN assay.
 * :sleeping_bed: /bed_files/b37/kits/CEN/CEN_CNV_targets_b37_v1.0.1.bed
 > This bed file contains target regions for CNV calling for the CEN assay. It is based on the Twist CEN capture bed v1.0.0, b37 but modified by merging overlapping regions, removal of regions of length 1, 2 and 3, merging resulting regions if within 10 bp and lastly splitting regions into equal length if longer than 250 bp. Bed file is sorted in numberical order with X and Y at the end.
 * :sleeping_bed: /bed_files/b37/kits/CEN/CEN_CNV_targets_b37_v1.1.0.bed
 > This bed file contains target regions for CNV calling for the CEN assay. It is based on the Twist CEN_regions_captured_grch37_v1.0.0.bed but modified by intersecting with CEN_genes_v1.0.0.bed then merging resulting regions if within 10 bp and lastly splitting regions into equal length if longer than 250 bp. Bed file is sorted in numberical order with X and Y at the end.
+> Associated ticket: [GCNV-27](https://cuhbioinformatics.atlassian.net/browse/GCNV-27?atlOrigin=eyJpIjoiODZmNTQwNWIzZjUxNGYxYmE5ODNjMGQyMjc0MTE2ZjkiLCJwIjoiaiJ9)
 
 * :sleeping_bed: /bed_files/b37/kits/gemini/refseq_nirvana_203.bed
 > This is the bed file containing RefSeq exons +/- 0bp, extracted from the Nirvana 2.0.3 Cache GRCH37 RefSeq .gff. This file delineates the regions for coverage analysis in Gemini/Dias. Obsolete.
