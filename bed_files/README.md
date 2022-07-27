@@ -12,7 +12,7 @@ Contents:
 > This bed file contains the regions of the target genes/transcripts of the CEN assay.
 * :sleeping_bed: /bed_files/b37/kits/CEN/CEN_CNV_targets_b37_v1.0.1.bed
 > This bed file contains target regions for CNV calling for the CEN assay. It is based on the Twist CEN capture bed v1.0.0, b37 but modified by merging overlapping regions, removal of regions of length 1, 2 and 3, merging resulting regions if within 10 bp and lastly splitting regions into equal length if longer than 250 bp. Bed file is sorted in numberical order with X and Y at the end.
-* :sleeping_bed: /bed_files/b37/kits/CEN/CEN_CNV_targets_b37_v1.1.0bed
+* :sleeping_bed: /bed_files/b37/kits/CEN/CEN_CNV_targets_b37_v1.1.0.bed
 > This bed file contains target regions for CNV calling for the CEN assay. It is based on the Twist CEN_regions_captured_grch37_v1.0.0.bed but modified by intersecting with CEN_genes_v1.0.0.bed then merging resulting regions if within 10 bp and lastly splitting regions into equal length if longer than 250 bp. Bed file is sorted in numberical order with X and Y at the end.
 
 * :sleeping_bed: /bed_files/b37/kits/gemini/refseq_nirvana_203.bed
@@ -50,13 +50,13 @@ Contents:
 > This is the bed file was created based on the TST500C_manifest.bed and intersected with the exons_nirvana bed to allow for coverage report creation (eggd_athena).
 
 * :sleeping_bed: /bed_files/b38/kits/myeloid/coding_unrestricted_GRCh38_myeloid_v1.0.bed
-> This bed file contains all exons of the genes included in the panel +/- 5bp. It was created using the gff_to_bed.py (https://github.com/eastgenomics/nirvana_gff_to_bed) where the GRCh38 nirvana gff file (GRCh38_RefSeq_26.gff.gz) was specified as an input, additionally 5bp padding was specified. This was further filtered to include only genes in the panel and MANE refseq IDs. The final bed file contains the following columns: chromosome, start position, end position, gene symbol, Refseq transcript ID, exon number. 
+> This bed file contains all exons of the genes included in the panel +/- 5bp. It was created using the gff_to_bed.py (https://github.com/eastgenomics/nirvana_gff_to_bed) where the GRCh38 nirvana gff file (GRCh38_RefSeq_26.gff.gz) was specified as an input, additionally 5bp padding was specified. This was further filtered to include only genes in the panel and MANE refseq IDs. The final bed file contains the following columns: chromosome, start position, end position, gene symbol, Refseq transcript ID, exon number.
 * :sleeping_bed: /bed_files/b38/kits/myeloid/coding_restricted_GRCh38_myeloid_v1.0.bed
 > This bed file contains only exons that are of clinical significance, selected by the Haem-Onc clinical team, +/- 5bp. To create this bed file the coding_unrestricted_GRCh38_myeloid_v1.0.bed was filtered further based on the restricted exon list. This bed file contains the following columns: chromosome, start position, end position, gene symbol, Refseq transcript ID, exon number.
 * :sleeping_bed: /bed_files/b38/kits/myeloid/probes_GRCh38_myeo_v1.0.bed
-> This is the bed file provided by TWIST and includes all probes coordinates for the myeloid panel. This file is used by eggd_picardqc_v1.0.0 
+> This is the bed file provided by TWIST and includes all probes coordinates for the myeloid panel. This file is used by eggd_picardqc_v1.0.0
 * :sleeping_bed: /bed_files/b38/kits/myeloid/pindel_cgppindel_filtering_coordinates_v1.0.bed
-> This bed file contains only regions of genes that the myeloid clinical team has deemed relevant for the detection of FLT3 ITDs and CEBPA/CALR Indels. It includes the  exon 13, intron 13-14, exon 14, intron 14-15, exon 15 of FLT3. It also includes exon 9 of CALR and exon 1 of CEBPA +/- 20bp padding. The coordinates were retrieved using Ensembl GRCh38.  The bed file contains the following columns: chromosome, start position, end position, gene symbol, Refseq transcript ID. 
+> This bed file contains only regions of genes that the myeloid clinical team has deemed relevant for the detection of FLT3 ITDs and CEBPA/CALR Indels. It includes the  exon 13, intron 13-14, exon 14, intron 14-15, exon 15 of FLT3. It also includes exon 9 of CALR and exon 1 of CEBPA +/- 20bp padding. The coordinates were retrieved using Ensembl GRCh38.  The bed file contains the following columns: chromosome, start position, end position, gene symbol, Refseq transcript ID.
 
 
 * :sleeping_bed: /bed_files/b38/kits/snp_genotyping/snp_genotyping_GRCh38_v1.0.bed
@@ -72,7 +72,7 @@ Contents:
 * :sleeping_bed: /bed_files/b37/PAR_Y.bed
 > This bed file contains the PAR regions on chromosome Y
 * :sleeping_bed: /bed_files/b37/mappability_track_k100_220531_b37.bed
-> This bed file contains uniquely mappable regions on b37, chromosomes 1 through X to Y 
+> This bed file contains uniquely mappable regions on b37, chromosomes 1 through X to Y
 
 * :sleeping_bed: /bed_files/b38/kits/TWE/Twist_ComprehensiveExome_targets_hg38_noChr_220131.bed
 > This bed file contains the capture regions for the TWE assay. The file was downloaded from https://www.twistbioscience.com/sites/default/files/resources/2020-09/Twist_ComprehensiveExome_targets_hg38.bed. The 'chr' prefix has been removed from the file.
