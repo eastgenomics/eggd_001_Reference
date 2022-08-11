@@ -8,6 +8,8 @@ Docker images used for automated uploading using dx streaming upload.
   - Associated ticket: [IN-1](https://cuhbioinformatics.atlassian.net/browse/IN-1?atlOrigin=eyJpIjoiOTUxMTg0ZjI5NmUzNDZkY2FhNDY2NDFkZmNiYmNkN2QiLCJwIjoiaiJ9)
 - /assets/dx-streaming-upload/v1.1.1/dx-streaming-upload-v1.1.1.tar.gz
   - Associated ticket: [IN-46](https://cuhbioinformatics.atlassian.net/browse/IN-46?atlOrigin=eyJpIjoiZDg5Y2RmZjRjYzkyNDcxMmIwZWEyOTQ3YWFkMTY5ZDQiLCJwIjoiaiJ9)
+- /assets/dx-streaming-upload/v1.1.1/dx-streaming-upload-v1.1.2.tar.gz
+  - Associated ticket: [IN-73](https://cuhbioinformatics.atlassian.net/browse/IN-73)
 
 ### :wrench: GATK
 Assets used in GATK related apps.
