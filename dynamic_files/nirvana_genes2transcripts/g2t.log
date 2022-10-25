@@ -74,3 +74,13 @@ Our GFF cache is not the same used in the VEP app. Meaning a few genes have no t
 These need new transcripts to be assigned:
 - PON NM_001382658.3
 - FDX2 NM_001031734.4
+
+221025:
+R223 has 2 genes that need to be added to the database (https://cuhbioinformatics.atlassian.net/wiki/spaces/PPO/pages/2803695753/2022-10-24+Add+on+panels+for+inherited+cancer)
+
+HGNC:2911 NM_001244883.2
+HGNC:2911 NM_001933.5 --> clinical transcript
+
+HGNC:10981  NM_001165417.2
+HGNC:10981  NM_001165418.2
+HGNC:10981  NM_003562.5 --> clinical transcript

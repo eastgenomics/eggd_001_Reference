@@ -63496,3 +63496,8 @@ HGNC:15966	NM_020420.4	not_clinical_transcript	not_canonical
 HGNC:18225	NM_001002761.1	not_clinical_transcript	not_canonical
 HGNC:1809	NM_004680.3	not_clinical_transcript	not_canonical
 HGNC:1809	NM_170723.2	not_clinical_transcript	not_canonical
+HGNC:2911	NM_001244883.2	not_clinical_transcript	not_canonical
+HGNC:2911	NM_001933.5	clinical_transcript	not_canonical
+HGNC:10981	NM_001165417.2	not_clinical_transcript	not_canonical
+HGNC:10981	NM_001165418.2	not_clinical_transcript	not_canonical
+HGNC:10981	NM_003562.5	clinical_transcript	not_canonical
