@@ -4880,31 +4880,33 @@ R153.1_Familial hypoparathyroidism_P	Familial hypoparathyroidism_2.2	HGNC:4172
 R153.1_Familial hypoparathyroidism_P	Familial hypoparathyroidism_2.2	HGNC:4198
 R153.1_Familial hypoparathyroidism_P	Familial hypoparathyroidism_2.2	HGNC:4379
 R153.1_Familial hypoparathyroidism_P	Familial hypoparathyroidism_2.2	HGNC:9606
-R154.1_Hypophosphataemia or rickets_P	Hypophosphataemia or rickets_2.2	HGNC:11019
-R154.1_Hypophosphataemia or rickets_P	Hypophosphataemia or rickets_2.2	HGNC:12679
-R154.1_Hypophosphataemia or rickets_P	Hypophosphataemia or rickets_2.2	HGNC:20305
-R154.1_Hypophosphataemia or rickets_P	Hypophosphataemia or rickets_2.2	HGNC:20580
-R154.1_Hypophosphataemia or rickets_P	Hypophosphataemia or rickets_2.2	HGNC:22140
-R154.1_Hypophosphataemia or rickets_P	Hypophosphataemia or rickets_2.2	HGNC:2606
-R154.1_Hypophosphataemia or rickets_P	Hypophosphataemia or rickets_2.2	HGNC:2932
-R154.1_Hypophosphataemia or rickets_P	Hypophosphataemia or rickets_2.2	HGNC:3356
-R154.1_Hypophosphataemia or rickets_P	Hypophosphataemia or rickets_2.2	HGNC:3680
-R154.1_Hypophosphataemia or rickets_P	Hypophosphataemia or rickets_2.2	HGNC:8918
+R154.1_Hypophosphataemia or rickets_P	Hypophosphataemia or rickets_2.2|1	HGNC:11019
+R154.1_Hypophosphataemia or rickets_P	Hypophosphataemia or rickets_2.2|1	HGNC:12679
+R154.1_Hypophosphataemia or rickets_P	Hypophosphataemia or rickets_2.2|1	HGNC:20305
+R154.1_Hypophosphataemia or rickets_P	Hypophosphataemia or rickets_2.2|1	HGNC:20580
+R154.1_Hypophosphataemia or rickets_P	Hypophosphataemia or rickets_2.2|1	HGNC:22140
+R154.1_Hypophosphataemia or rickets_P	Hypophosphataemia or rickets_2.2|1	HGNC:2606
+R154.1_Hypophosphataemia or rickets_P	Hypophosphataemia or rickets_2.2|1	HGNC:2932
+R154.1_Hypophosphataemia or rickets_P	Hypophosphataemia or rickets_2.2|1	HGNC:3356
+R154.1_Hypophosphataemia or rickets_P	Hypophosphataemia or rickets_2.2|1	HGNC:3680
+R154.1_Hypophosphataemia or rickets_P	Hypophosphataemia or rickets_2.2|1	HGNC:438
+R154.1_Hypophosphataemia or rickets_P	Hypophosphataemia or rickets_2.2|1	HGNC:8108
+R154.1_Hypophosphataemia or rickets_P	Hypophosphataemia or rickets_2.2|1	HGNC:8918
 R155.1_Autoimmune Polyendocrine Syndrome_G	HGNC:360_SG_panel_1.0.0	HGNC:360
 R156.1_Carney complex_G	HGNC:9388_SG_panel_1.0.0	HGNC:9388
 R157.1_IPEX - Immunodysregulation Polyendocrinopathy and Enteropathy, X-Linked_G	HGNC:6106_SG_panel_1.0.0	HGNC:6106
-R158.1_Lipodystrophy - childhood onset_P	Lipodystrophy - childhood onset_2.23	HGNC:12877
-R158.1_Lipodystrophy - childhood onset_P	Lipodystrophy - childhood onset_2.23	HGNC:1527
-R158.1_Lipodystrophy - childhood onset_P	Lipodystrophy - childhood onset_2.23	HGNC:15832
-R158.1_Lipodystrophy - childhood onset_P	Lipodystrophy - childhood onset_2.23	HGNC:325
-R158.1_Lipodystrophy - childhood onset_P	Lipodystrophy - childhood onset_2.23	HGNC:6091
-R158.1_Lipodystrophy - childhood onset_P	Lipodystrophy - childhood onset_2.23	HGNC:6621
-R158.1_Lipodystrophy - childhood onset_P	Lipodystrophy - childhood onset_2.23	HGNC:6636
-R158.1_Lipodystrophy - childhood onset_P	Lipodystrophy - childhood onset_2.23	HGNC:7506
-R158.1_Lipodystrophy - childhood onset_P	Lipodystrophy - childhood onset_2.23	HGNC:9076
-R158.1_Lipodystrophy - childhood onset_P	Lipodystrophy - childhood onset_2.23	HGNC:9175
-R158.1_Lipodystrophy - childhood onset_P	Lipodystrophy - childhood onset_2.23	HGNC:9236
-R158.1_Lipodystrophy - childhood onset_P	Lipodystrophy - childhood onset_2.23	HGNC:9688
+R158.1_Lipodystrophy - childhood onset_P	Lipodystrophy - childhood onset_2.23|1	HGNC:12877
+R158.1_Lipodystrophy - childhood onset_P	Lipodystrophy - childhood onset_2.23|1	HGNC:1527
+R158.1_Lipodystrophy - childhood onset_P	Lipodystrophy - childhood onset_2.23|1	HGNC:15832
+R158.1_Lipodystrophy - childhood onset_P	Lipodystrophy - childhood onset_2.23|1	HGNC:325
+R158.1_Lipodystrophy - childhood onset_P	Lipodystrophy - childhood onset_2.23|1	HGNC:6091
+R158.1_Lipodystrophy - childhood onset_P	Lipodystrophy - childhood onset_2.23|1	HGNC:6621
+R158.1_Lipodystrophy - childhood onset_P	Lipodystrophy - childhood onset_2.23|1	HGNC:6636
+R158.1_Lipodystrophy - childhood onset_P	Lipodystrophy - childhood onset_2.23|1	HGNC:7506
+R158.1_Lipodystrophy - childhood onset_P	Lipodystrophy - childhood onset_2.23|1	HGNC:9076
+R158.1_Lipodystrophy - childhood onset_P	Lipodystrophy - childhood onset_2.23|1	HGNC:9175
+R158.1_Lipodystrophy - childhood onset_P	Lipodystrophy - childhood onset_2.23|1	HGNC:9236
+R158.1_Lipodystrophy - childhood onset_P	Lipodystrophy - childhood onset_2.23|1	HGNC:9688
 R159.1_Pituitary hormone deficiency_P	Pituitary hormone deficiency_2.2	HGNC:11195
 R159.1_Pituitary hormone deficiency_P	Pituitary hormone deficiency_2.2	HGNC:11199
 R159.1_Pituitary hormone deficiency_P	Pituitary hormone deficiency_2.2	HGNC:1133
@@ -5474,20 +5476,24 @@ R208.1_Inherited breast cancer and ovarian cancer_G	HGNC:1101_SG_panel_1.0.0	HGN
 R208.1_Inherited breast cancer and ovarian cancer_G	HGNC:16627_SG_panel_1.0.0	HGNC:16627
 R208.1_Inherited breast cancer and ovarian cancer_G	HGNC:26144_SG_panel_1.0.0	HGNC:26144
 R208.1_Inherited breast cancer and ovarian cancer_G	HGNC:795_SG_panel_1.0.0	HGNC:795
-R209.1_Inherited colorectal cancer (with or without polyposis)_P	Inherited polyposis_1.2	HGNC:1076
-R209.1_Inherited colorectal cancer (with or without polyposis)_P	Inherited polyposis_1.2	HGNC:11389
-R209.1_Inherited colorectal cancer (with or without polyposis)_P	Inherited polyposis_1.2	HGNC:11529
-R209.1_Inherited colorectal cancer (with or without polyposis)_P	Inherited polyposis_1.2	HGNC:583
-R209.1_Inherited colorectal cancer (with or without polyposis)_P	Inherited polyposis_1.2	HGNC:6770
-R209.1_Inherited colorectal cancer (with or without polyposis)_P	Inherited polyposis_1.2	HGNC:7127
-R209.1_Inherited colorectal cancer (with or without polyposis)_P	Inherited polyposis_1.2	HGNC:7325
-R209.1_Inherited colorectal cancer (with or without polyposis)_P	Inherited polyposis_1.2	HGNC:7329
-R209.1_Inherited colorectal cancer (with or without polyposis)_P	Inherited polyposis_1.2	HGNC:7527
-R209.1_Inherited colorectal cancer (with or without polyposis)_P	Inherited polyposis_1.2	HGNC:8028
-R209.1_Inherited colorectal cancer (with or without polyposis)_P	Inherited polyposis_1.2	HGNC:9122
-R209.1_Inherited colorectal cancer (with or without polyposis)_P	Inherited polyposis_1.2	HGNC:9175
-R209.1_Inherited colorectal cancer (with or without polyposis)_P	Inherited polyposis_1.2	HGNC:9177
-R209.1_Inherited colorectal cancer (with or without polyposis)_P	Inherited polyposis_1.2	HGNC:9588
+R208.1_Inherited breast cancer and ovarian cancer_G	HGNC:9820_SG_panel_1.0.0	HGNC:9820
+R208.1_Inherited breast cancer and ovarian cancer_G	HGNC:9823_SG_panel_1.0.0	HGNC:9823
+R209.1_Inherited colorectal cancer (with or without polyposis)_P	Inherited polyposis_1.2|1	HGNC:1076
+R209.1_Inherited colorectal cancer (with or without polyposis)_P	Inherited polyposis_1.2|1	HGNC:11389
+R209.1_Inherited colorectal cancer (with or without polyposis)_P	Inherited polyposis_1.2|1	HGNC:11529
+R209.1_Inherited colorectal cancer (with or without polyposis)_P	Inherited polyposis_1.2|1	HGNC:18505
+R209.1_Inherited colorectal cancer (with or without polyposis)_P	Inherited polyposis_1.2|1	HGNC:2001
+R209.1_Inherited colorectal cancer (with or without polyposis)_P	Inherited polyposis_1.2|1	HGNC:583
+R209.1_Inherited colorectal cancer (with or without polyposis)_P	Inherited polyposis_1.2|1	HGNC:6770
+R209.1_Inherited colorectal cancer (with or without polyposis)_P	Inherited polyposis_1.2|1	HGNC:7127
+R209.1_Inherited colorectal cancer (with or without polyposis)_P	Inherited polyposis_1.2|1	HGNC:7325
+R209.1_Inherited colorectal cancer (with or without polyposis)_P	Inherited polyposis_1.2|1	HGNC:7329
+R209.1_Inherited colorectal cancer (with or without polyposis)_P	Inherited polyposis_1.2|1	HGNC:7527
+R209.1_Inherited colorectal cancer (with or without polyposis)_P	Inherited polyposis_1.2|1	HGNC:8028
+R209.1_Inherited colorectal cancer (with or without polyposis)_P	Inherited polyposis_1.2|1	HGNC:9122
+R209.1_Inherited colorectal cancer (with or without polyposis)_P	Inherited polyposis_1.2|1	HGNC:9175
+R209.1_Inherited colorectal cancer (with or without polyposis)_P	Inherited polyposis_1.2|1	HGNC:9177
+R209.1_Inherited colorectal cancer (with or without polyposis)_P	Inherited polyposis_1.2|1	HGNC:9588
 R21.2_Fetal anomalies with a likely genetic cause_P	Fetal anomalies_1.92	HGNC:10023
 R21.2_Fetal anomalies with a likely genetic cause_P	Fetal anomalies_1.92	HGNC:1020
 R21.2_Fetal anomalies with a likely genetic cause_P	Fetal anomalies_1.92	HGNC:10249
@@ -6464,47 +6470,54 @@ R210.2_Inherited MMR deficiency (Lynch syndrome)_P	Inherited MMR deficiency (Lyn
 R210.2_Inherited MMR deficiency (Lynch syndrome)_P	Inherited MMR deficiency (Lynch syndrome)_1.2	HGNC:7325
 R210.2_Inherited MMR deficiency (Lynch syndrome)_P	Inherited MMR deficiency (Lynch syndrome)_1.2	HGNC:7329
 R210.2_Inherited MMR deficiency (Lynch syndrome)_P	Inherited MMR deficiency (Lynch syndrome)_1.2	HGNC:9122
-R211.1_Inherited polyposis - germline test_P	Inherited polyposis_1.2	HGNC:1076
-R211.1_Inherited polyposis - germline test_P	Inherited polyposis_1.2	HGNC:11389
-R211.1_Inherited polyposis - germline test_P	Inherited polyposis_1.2	HGNC:11529
-R211.1_Inherited polyposis - germline test_P	Inherited polyposis_1.2	HGNC:583
-R211.1_Inherited polyposis - germline test_P	Inherited polyposis_1.2	HGNC:6770
-R211.1_Inherited polyposis - germline test_P	Inherited polyposis_1.2	HGNC:7127
-R211.1_Inherited polyposis - germline test_P	Inherited polyposis_1.2	HGNC:7325
-R211.1_Inherited polyposis - germline test_P	Inherited polyposis_1.2	HGNC:7329
-R211.1_Inherited polyposis - germline test_P	Inherited polyposis_1.2	HGNC:7527
-R211.1_Inherited polyposis - germline test_P	Inherited polyposis_1.2	HGNC:8028
-R211.1_Inherited polyposis - germline test_P	Inherited polyposis_1.2	HGNC:9122
-R211.1_Inherited polyposis - germline test_P	Inherited polyposis_1.2	HGNC:9175
-R211.1_Inherited polyposis - germline test_P	Inherited polyposis_1.2	HGNC:9177
-R211.1_Inherited polyposis - germline test_P	Inherited polyposis_1.2	HGNC:9588
+R211.1_Inherited polyposis - germline test_P	Inherited polyposis_1.2|1	HGNC:1076
+R211.1_Inherited polyposis - germline test_P	Inherited polyposis_1.2|1	HGNC:11389
+R211.1_Inherited polyposis - germline test_P	Inherited polyposis_1.2|1	HGNC:11529
+R211.1_Inherited polyposis - germline test_P	Inherited polyposis_1.2|1	HGNC:18505
+R211.1_Inherited polyposis - germline test_P	Inherited polyposis_1.2|1	HGNC:2001
+R211.1_Inherited polyposis - germline test_P	Inherited polyposis_1.2|1	HGNC:583
+R211.1_Inherited polyposis - germline test_P	Inherited polyposis_1.2|1	HGNC:6770
+R211.1_Inherited polyposis - germline test_P	Inherited polyposis_1.2|1	HGNC:7127
+R211.1_Inherited polyposis - germline test_P	Inherited polyposis_1.2|1	HGNC:7325
+R211.1_Inherited polyposis - germline test_P	Inherited polyposis_1.2|1	HGNC:7329
+R211.1_Inherited polyposis - germline test_P	Inherited polyposis_1.2|1	HGNC:7527
+R211.1_Inherited polyposis - germline test_P	Inherited polyposis_1.2|1	HGNC:8028
+R211.1_Inherited polyposis - germline test_P	Inherited polyposis_1.2|1	HGNC:9122
+R211.1_Inherited polyposis - germline test_P	Inherited polyposis_1.2|1	HGNC:9175
+R211.1_Inherited polyposis - germline test_P	Inherited polyposis_1.2|1	HGNC:9177
+R211.1_Inherited polyposis - germline test_P	Inherited polyposis_1.2|1	HGNC:9588
 R212.1_Peutz Jegher Syndrome_G	HGNC:11389_SG_panel_1.0.0	HGNC:11389
 R213.1_PTEN Hamartoma Tumor Syndrome_G	HGNC:9588_SG_panel_1.0.0	HGNC:9588
 R214.1_Nevoid Basal Cell Carcinoma Syndrome or Gorlin syndrome_G	HGNC:16466_SG_panel_1.0.0	HGNC:16466
 R214.1_Nevoid Basal Cell Carcinoma Syndrome or Gorlin syndrome_G	HGNC:9585_SG_panel_1.0.0	HGNC:9585
 R215.1_CDH1-related cancer syndrome_G	HGNC:1748_SG_panel_1.0.0	HGNC:1748
 R216.1_Li Fraumeni Syndrome_G	HGNC:11998_SG_panel_1.0.0	HGNC:11998
-R217.1_Endocrine neoplasia_P	Endocrine neoplasms_1.3	HGNC:16783
-R217.1_Endocrine neoplasia_P	Endocrine neoplasms_1.3	HGNC:1785
-R217.1_Endocrine neoplasia_P	Endocrine neoplasms_1.3	HGNC:358
-R217.1_Endocrine neoplasia_P	Endocrine neoplasms_1.3	HGNC:7010
-R217.1_Endocrine neoplasia_P	Endocrine neoplasms_1.3	HGNC:9967
+R217.1_Endocrine neoplasia_P	Endocrine neoplasms_1.3|1	HGNC:12687
+R217.1_Endocrine neoplasia_P	Endocrine neoplasms_1.3|1	HGNC:16783
+R217.1_Endocrine neoplasia_P	Endocrine neoplasms_1.3|1	HGNC:1785
+R217.1_Endocrine neoplasia_P	Endocrine neoplasms_1.3|1	HGNC:358
+R217.1_Endocrine neoplasia_P	Endocrine neoplasms_1.3|1	HGNC:7010
+R217.1_Endocrine neoplasia_P	Endocrine neoplasms_1.3|1	HGNC:9388
+R217.1_Endocrine neoplasia_P	Endocrine neoplasms_1.3|1	HGNC:9967
 R218.1_Multiple endocrine neoplasia type 2_G	HGNC:9967_SG_panel_1.0.0	HGNC:9967
 R219.1_Retinoblastoma_G	HGNC:9884_SG_panel_1.0.0	HGNC:9884
 R220.1_Wilms tumour with features suggestive of predisposition_G	HGNC:12796_SG_panel_1.0.0	HGNC:12796
 R221.1_Neurofibromatosis type 2_G	HGNC:7773_SG_panel_1.0.0	HGNC:7773
 R222.1_Neurofibromatosis type 1_G	HGNC:7765_SG_panel_1.0.0	HGNC:7765
-R223.1_Inherited phaeochromocytoma and paraganglioma_P	Inherited phaeochromocytoma and paraganglioma excluding NF1_1.4	HGNC:10680
-R223.1_Inherited phaeochromocytoma and paraganglioma_P	Inherited phaeochromocytoma and paraganglioma excluding NF1_1.4	HGNC:10681
-R223.1_Inherited phaeochromocytoma and paraganglioma_P	Inherited phaeochromocytoma and paraganglioma excluding NF1_1.4	HGNC:10682
-R223.1_Inherited phaeochromocytoma and paraganglioma_P	Inherited phaeochromocytoma and paraganglioma excluding NF1_1.4	HGNC:10683
-R223.1_Inherited phaeochromocytoma and paraganglioma_P	Inherited phaeochromocytoma and paraganglioma excluding NF1_1.4	HGNC:12687
-R223.1_Inherited phaeochromocytoma and paraganglioma_P	Inherited phaeochromocytoma and paraganglioma excluding NF1_1.4	HGNC:26034
-R223.1_Inherited phaeochromocytoma and paraganglioma_P	Inherited phaeochromocytoma and paraganglioma excluding NF1_1.4	HGNC:26038
-R223.1_Inherited phaeochromocytoma and paraganglioma_P	Inherited phaeochromocytoma and paraganglioma excluding NF1_1.4	HGNC:3700
-R223.1_Inherited phaeochromocytoma and paraganglioma_P	Inherited phaeochromocytoma and paraganglioma excluding NF1_1.4	HGNC:6913
-R223.1_Inherited phaeochromocytoma and paraganglioma_P	Inherited phaeochromocytoma and paraganglioma excluding NF1_1.4	HGNC:7010
-R223.1_Inherited phaeochromocytoma and paraganglioma_P	Inherited phaeochromocytoma and paraganglioma excluding NF1_1.4	HGNC:9967
+R223.1_Inherited phaeochromocytoma and paraganglioma_P	Inherited phaeochromocytoma and paraganglioma excluding NF1_1.4|1	HGNC:10680
+R223.1_Inherited phaeochromocytoma and paraganglioma_P	Inherited phaeochromocytoma and paraganglioma excluding NF1_1.4|1	HGNC:10681
+R223.1_Inherited phaeochromocytoma and paraganglioma_P	Inherited phaeochromocytoma and paraganglioma excluding NF1_1.4|1	HGNC:10682
+R223.1_Inherited phaeochromocytoma and paraganglioma_P	Inherited phaeochromocytoma and paraganglioma excluding NF1_1.4|1	HGNC:10683
+R223.1_Inherited phaeochromocytoma and paraganglioma_P	Inherited phaeochromocytoma and paraganglioma excluding NF1_1.4|1	HGNC:10981
+R223.1_Inherited phaeochromocytoma and paraganglioma_P	Inherited phaeochromocytoma and paraganglioma excluding NF1_1.4|1	HGNC:12687
+R223.1_Inherited phaeochromocytoma and paraganglioma_P	Inherited phaeochromocytoma and paraganglioma excluding NF1_1.4|1	HGNC:26034
+R223.1_Inherited phaeochromocytoma and paraganglioma_P	Inherited phaeochromocytoma and paraganglioma excluding NF1_1.4|1	HGNC:26038
+R223.1_Inherited phaeochromocytoma and paraganglioma_P	Inherited phaeochromocytoma and paraganglioma excluding NF1_1.4|1	HGNC:2911
+R223.1_Inherited phaeochromocytoma and paraganglioma_P	Inherited phaeochromocytoma and paraganglioma excluding NF1_1.4|1	HGNC:3700
+R223.1_Inherited phaeochromocytoma and paraganglioma_P	Inherited phaeochromocytoma and paraganglioma excluding NF1_1.4|1	HGNC:6913
+R223.1_Inherited phaeochromocytoma and paraganglioma_P	Inherited phaeochromocytoma and paraganglioma excluding NF1_1.4|1	HGNC:6971
+R223.1_Inherited phaeochromocytoma and paraganglioma_P	Inherited phaeochromocytoma and paraganglioma excluding NF1_1.4|1	HGNC:7010
+R223.1_Inherited phaeochromocytoma and paraganglioma_P	Inherited phaeochromocytoma and paraganglioma excluding NF1_1.4|1	HGNC:9967
 R224.1_Inherited renal cancer_P	Inherited renal cancer_1.2	HGNC:10681
 R224.1_Inherited renal cancer_P	Inherited renal cancer_1.2	HGNC:12687
 R224.1_Inherited renal cancer_P	Inherited renal cancer_1.2	HGNC:27310
@@ -9510,7 +9523,10 @@ R29.1_Intellectual disability - microarray, fragile X and sequencing_P	Intellect
 R290.1_Mucopolysaccharidosis type VI_G	HGNC:714_SG_panel_1.0.0	HGNC:714
 R291.1_Mucopolysaccharidosis type IIIA_G	HGNC:10818_SG_panel_1.0.0	HGNC:10818
 R292.1_Mucopolysaccharidosis type IIIB_G	HGNC:7632_SG_panel_1.0.0	HGNC:7632
+R293.1_Albright hereditary osteodystrophy, pseudohypoparathyroidism and pseudopseudohypoparathyroidism_G	HGNC:11431_SG_panel_1.0.0	HGNC:11431
 R293.1_Albright hereditary osteodystrophy, pseudohypoparathyroidism and pseudopseudohypoparathyroidism_G	HGNC:4392_SG_panel_1.0.0	HGNC:4392
+R293.1_Albright hereditary osteodystrophy, pseudohypoparathyroidism and pseudopseudohypoparathyroidism_G	HGNC:8783_SG_panel_1.0.0	HGNC:8783
+R293.1_Albright hereditary osteodystrophy, pseudohypoparathyroidism and pseudopseudohypoparathyroidism_G	HGNC:9388_SG_panel_1.0.0	HGNC:9388
 R295.1_Ataxia telangiectasia - mutation testing_G	HGNC:795_SG_panel_1.0.0	HGNC:795
 R31.1_Bilateral congenital or childhood onset cataracts_P	Cataracts_2.2	HGNC:1040
 R31.1_Bilateral congenital or childhood onset cataracts_P	Cataracts_2.2	HGNC:1041
@@ -11213,6 +11229,7 @@ R41.1_Optic neuropathy_P	Optic neuropathy_2.2	HGNC:30224
 R41.1_Optic neuropathy_P	Optic neuropathy_2.2	HGNC:7975
 R41.1_Optic neuropathy_P	Optic neuropathy_2.2	HGNC:8140
 R41.1_Optic neuropathy_P	Optic neuropathy_2.2	HGNC:8142
+R414.1_APC Associated Polyposis_G	APC Associated Polyposis_1.0	HGNC:583
 R42.2_Leber hereditary optic neuropathy_P	Optic neuropathy_2.2	HGNC:11237
 R42.2_Leber hereditary optic neuropathy_P	Optic neuropathy_2.2	HGNC:11317
 R42.2_Leber hereditary optic neuropathy_P	Optic neuropathy_2.2	HGNC:118
