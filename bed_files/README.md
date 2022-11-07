@@ -9,6 +9,7 @@ Contents:
 * :sleeping_bed: /bed_files/b37/kits/CEN/CEN_CNV_additional_regions_b37_v1.0.0.bed
 > This bed file contains additional regions that are captured and used for CNV calling (for the CEN assay) but are not exonic regions and would be filtered out. More information about the selected genes and regions can be found on Confluence.
 > Associated ticket: [GCNV-11](https://cuhbioinformatics.atlassian.net/browse/GCNV-11)
+> DEPRECATED, now replaced by file in dynamic_files/CNV_related, see ticket [GCNV-85](https://cuhbioinformatics.atlassian.net/browse/GCNV-85)
 
 * :sleeping_bed: /bed_files/b37/kits/CEN/CEN_regions_captured_grch37_v1.0.0.bed
 > This bed file contains the captured regions for the CEN assay. It is based on the merged_probe_file_combined_CUH_CEN_v1_TE-99347387_hg38.bed provided by TWIST which contains all genomic regions that are covered by probes. It was converted from GRCh38 to GRCh37.
