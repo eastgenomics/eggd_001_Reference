@@ -4,6 +4,9 @@
     "assay_code": "EGG6",
     "version": "1.0.0",
     "details": "Includes TSO500 local app only",
+    "changelog": {
+        "v1.0.0": "Initial working version"
+    },
     "demultiplex": false,
     "users": {
         "org-emee_1": "ADMINISTER"
