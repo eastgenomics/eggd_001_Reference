@@ -6,7 +6,7 @@
     "details": "Includes main Uranus workflow, multi_fastqc, somalier workflow and multiQC",
     "changelog": {
         "v1.0.0": "Initial working version",
-        "v1.1.0": "Updated main workflow to v1.11.0; updated multiQC config file and Docker image"
+        "v1.1.0": "Updated main workflow to v1.11.0; updated multiQC app to v2.0.1 + config file and Docker image"
     },
     "demultiplex": true,
     "users": {
@@ -99,7 +99,7 @@
                 }
             },
             "output_dirs": {
-                "app-G6FyybQ4f4xqqpFfGqg34y2Y": "/OUT-FOLDER/APP-NAME"
+                "app-GF3K4Qj4bJyvpzx055V3G8q7": "/OUT-FOLDER/APP-NAME"
             }
         }
     }
