@@ -1,21 +1,7 @@
 # filtered gnomad 3.1.2 with info removed and AF>0.01
 
-# Run a CWIC on project which contains the downloaded chromosomes, use an instance type with large enough storage space
-# https://cuhbioinformatics.atlassian.net/wiki/spaces/DAA/pages/2599452681/htslib+bcftools+samtools+bgzip+tabix+version+1.15.0
-# https://documentation.dnanexus.com/developer/api/running-analyses/instance-types#summary-of-instance-types
-dx select project-GB6V0Y84zBg3Ff6J0814pfV1
-dx run cwic -icredentials="project-Fqz77X04G16yz82Z4qGPZ0Bp:cwic_creds.json" --ssh -y --instance-type mem1_ssd2_x16
-
-# concat all the vcfs, filter AF > 0.01, remove INFO field, bgzip the file
-bcftools concat /project/003_220524_primer_design_v2_0_0_testing/gnomad/* | bcftools filter -i "INFO/AF>0.01" | bcftools annotate -x INFO | bgzip -c > gnomad.genomes.v3.1.2.AF.0.01.info.removed.vcf.gz
-
-# change "chr1" to "1"
-# create a naming convention txt file
-for i in {1..22} X Y M; do echo "chr$i $i" >> chr_name_conv.txt; done;
-bcftools annotate --rename-chrs chr_name_conv.txt gnomad.genomes.v3.1.2.AF.0.01.info.removed.vcf.gz > gnomad.genomes.v3.1.2.AF.0.01.info.removed.no_chr.vcf.gz
-
-# create tabix index
-tabix -p vcf gnomad.genomes.v3.1.2.AF.0.01.info.removed.no_chr.vcf.gz
+# Confluence page about the file
+https://cuhbioinformatics.atlassian.net/l/cp/8PDr0Ts9
 
 File copid to DNANexus
 project-Fkb6Gkj433GVVvj73J7x8KbV:/annotation/b38/gnomad/file-GFF87Q84zBg4f0X44K7JQxxF

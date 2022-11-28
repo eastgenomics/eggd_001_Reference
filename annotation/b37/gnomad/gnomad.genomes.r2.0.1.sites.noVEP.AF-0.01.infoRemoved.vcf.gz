@@ -1,24 +1,7 @@
 # filtered gnomad 2.0.1 with info removed and AF>0.01
 
-# Modification
-Original: 
-001_Reference/annotation/b37/annotation/2.0.1/gnomad.genomes.r2.0.1.sites.noVEP.vcf.gz 
-file-G6BZ9Pj433GbJPBq21XB939z
-
-# filter function for AF > 0.01
-bcftools filter -i "INFO/AF>0.01" gnomad.genomes.r2.0.1.sites.noVEP.vcf.gz > gnomad.genomes.r2.0.1.sites.noVEP.AF-0.01.vcf
-
-# zip the vcf > vcf.gz
-bgzip -c gnomad.genomes.r2.0.1.sites.noVEP.AF-0.01.vcf > gnomad.genomes.r2.0.1.sites.noVEP.AF-0.01.vcf.gz
-
-# remove INFO field
-bcftools annotate -x INFO gnomad.genomes.r2.0.1.sites.noVEP.AF-0.01.vcf.gz > gnomad.genomes.r2.0.1.sites.noVEP.AF-0.01.infoRemoved.vcf
-
-# zip the vcf > vcf.gz
-bgzip -c gnomad.genomes.r2.0.1.sites.noVEP.AF-0.01.infoRemoved.vcf > gnomad.genomes.r2.0.1.sites.noVEP.AF-0.01.infoRemoved.vcf.gz
-
-# create tabix index
-tabix -p vcf gnomad.genomes.r2.0.1.sites.noVEP.AF-0.01.infoRemoved.vcf.gz
+# Confluence page about the file
+https://cuhbioinformatics.atlassian.net/l/cp/zyHpM9Kp
 
 File copid to DNANexus
 project-Fkb6Gkj433GVVvj73J7x8KbV:/annotation/b37/gnomad/2.0.1/file-GBYb7x84zBg0z7k1Px5b97F6
