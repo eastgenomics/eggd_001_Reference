@@ -35,7 +35,9 @@
                 "stage-Fy4j4K041zgF5Z8y0x9KjV55": "/OUT-FOLDER/STAGE-NAME",
                 "stage-G02ZG6Q433GV76v29b6Gggjp": "/OUT-FOLDER/STAGE-NAME",
                 "stage-G9x7pbj41bQx1XXKGKXJxv7K": "/OUT-FOLDER/STAGE-NAME",
-                "stage-G9x7x0Q41bQkpZXgBGzqGqX5": "/OUT-FOLDER/STAGE-NAME"            }
+                "stage-G9x7x0Q41bQkpZXgBGzqGqX5": "/OUT-FOLDER/STAGE-NAME",
+                "stage-GJq28Pj4y1bKyQJkBjJbJpP7": "/OUT-FOLDER/STAGE-NAME"
+            }
         },
         "applet-FvyXygj433GbKPPY0QY8ZKQG": {
             "name": "multi_fastqc",
@@ -73,7 +75,7 @@
                 "stage-G9Z2B7Q41bQg2Jy40zVqqGg4": "/OUT-FOLDER/STAGE-NAME"
             }
         },
-        "app-G6FyybQ4f4xqqpFfGqg34y2Y": {
+        "app-GF3K4Qj4bJyvpzx055V3G8q7": {
             "name": "MultiQC",
             "details": "",
             "url": "https://github.com/eastgenomics/eggd_multiqc",
