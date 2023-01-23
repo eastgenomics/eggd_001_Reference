@@ -4786,7 +4786,7 @@ HGNC:11953	NM_003285.3	not_clinical_transcript	not_canonical
 HGNC:17440	NM_022457.7	not_clinical_transcript	not_canonical
 HGNC:17440	NM_001001740.4	not_clinical_transcript	not_canonical
 HGNC:17440	NM_001286644.2	not_clinical_transcript	not_canonical
-HGNC:14615	NM_020318.3	not_clinical_transcript	not_canonical
+HGNC:14615	NM_020318.3	clinical_transcript	not_canonical
 HGNC:14615	NM_021936.3	not_clinical_transcript	not_canonical
 HGNC:773	NM_004319.3	not_clinical_transcript	not_canonical
 HGNC:773	NM_001364856.2	not_clinical_transcript	not_canonical

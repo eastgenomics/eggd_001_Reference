@@ -84,3 +84,7 @@ HGNC:2911 NM_001933.5 --> clinical transcript
 HGNC:10981  NM_001165417.2
 HGNC:10981  NM_001165418.2
 HGNC:10981  NM_003562.5 --> clinical transcript
+
+230123:
+PAPPA2 was requested to be added in our system (https://cuhbioinformatics.atlassian.net/jira/servicedesk/projects/EBH/queues/custom/14/EBH-1496)
+HGNC:14615  NM_020318.3 --> clinical transcript
