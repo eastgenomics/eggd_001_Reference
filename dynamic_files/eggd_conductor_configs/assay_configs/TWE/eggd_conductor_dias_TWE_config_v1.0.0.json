@@ -1,5 +1,5 @@
 {
-    "name": "Config for Twist assay",
+    "name": "Config for Twist whole exome assay",
     "assay": "TWE",
     "assay_code": "EGG4",
     "version": "1.0.0",
