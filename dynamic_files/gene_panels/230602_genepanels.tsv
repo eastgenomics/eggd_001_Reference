@@ -18211,11 +18211,18 @@ R91.1_Cytopenia - NOT Fanconi anaemia_P	Cytopenia - NOT Fanconi anaemia_3.0	HGNC
 R91.1_Cytopenia - NOT Fanconi anaemia_P	Cytopenia - NOT Fanconi anaemia_3.0	HGNC:6345
 R91.1_Cytopenia - NOT Fanconi anaemia_P	Cytopenia - NOT Fanconi anaemia_3.0	HGNC:7217
 R91.1_Cytopenia - NOT Fanconi anaemia_P	Cytopenia - NOT Fanconi anaemia_3.0	HGNC:8609
+R92.2_Rare anaemia_P	HGNC:10301_SG_panel_1.0.0	HGNC:10301
+R92.2_Rare anaemia_P	HGNC:10345_SG_panel_1.0.0	HGNC:10345
+R92.2_Rare anaemia_P	HGNC:10360_SG_panel_1.0.0	HGNC:10360
+R92.2_Rare anaemia_P	HGNC:10397_SG_panel_1.0.0	HGNC:10397
+R92.2_Rare anaemia_P	HGNC:10402_SG_panel_1.0.0	HGNC:10402
+R92.2_Rare anaemia_P	HGNC:10414_SG_panel_1.0.0	HGNC:10414
 R92.2_Rare anaemia_P	HGNC:4823_SG_panel_1.0.0	HGNC:4823
 R92.2_Rare anaemia_P	HGNC:4824_SG_panel_1.0.0	HGNC:4824
 R92.2_Rare anaemia_P	HGNC:4827_SG_panel_1.0.0	HGNC:4827
 R92.2_Rare anaemia_P	HGNC:4831_SG_panel_1.0.0	HGNC:4831
 R92.2_Rare anaemia_P	HGNC:4832_SG_panel_1.0.0	HGNC:4832
+R92.2_Rare anaemia_P	HGNC:9020_SG_panel_1.0.0	HGNC:9020
 R92.3_Rare anaemia_P	Rare anaemia_3.0	HGNC:10006
 R92.3_Rare anaemia_P	Rare anaemia_3.0	HGNC:10301
 R92.3_Rare anaemia_P	Rare anaemia_3.0	HGNC:10306
