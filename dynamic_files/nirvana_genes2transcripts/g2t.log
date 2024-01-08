@@ -91,3 +91,6 @@ HGNC:14615  NM_020318.3 --> clinical transcript
 
 230421:
 Merged 230123 g2t with database to capture the 420 new genes required by the test directory v5
+
+231219:
+New version of g2t for Jan 2024 Test directory
