@@ -1,3 +1,11 @@
+C1.1_Inherited Stroke	CUH_Inherited Stroke_1.0	HGNC:12269	
+C1.1_Inherited Stroke	CUH_Inherited Stroke_1.0	HGNC:2202	
+C1.1_Inherited Stroke	CUH_Inherited Stroke_1.0	HGNC:2203	
+C1.1_Inherited Stroke	CUH_Inherited Stroke_1.0	HGNC:4296	
+C1.1_Inherited Stroke	CUH_Inherited Stroke_1.0	HGNC:7883	
+C1.1_Inherited Stroke	CUH_Inherited Stroke_1.0	HGNC:9251	
+C1.1_Inherited Stroke	CUH_Inherited Stroke_1.0	HGNC:9476	
+C2.1_INSR	CUH_INSR_1.0	HGNC:6091	
 R100.3_Rare syndromic craniosynostosis or isolated multisuture synostosis_P	Rare syndromic craniosynostosis or isolated multisuture synostosis_4.0	HGNC:10472	168
 R100.3_Rare syndromic craniosynostosis or isolated multisuture synostosis_P	Rare syndromic craniosynostosis or isolated multisuture synostosis_4.0	HGNC:10887	168
 R100.3_Rare syndromic craniosynostosis or isolated multisuture synostosis_P	Rare syndromic craniosynostosis or isolated multisuture synostosis_4.0	HGNC:10896	168
@@ -7967,7 +7975,6 @@ R210.2_Inherited MMR deficiency (Lynch syndrome)_P	Inherited MMR deficiency (Lyn
 R210.2_Inherited MMR deficiency (Lynch syndrome)_P	Inherited MMR deficiency (Lynch syndrome)_1.2	HGNC:7325	503
 R210.2_Inherited MMR deficiency (Lynch syndrome)_P	Inherited MMR deficiency (Lynch syndrome)_1.2	HGNC:7329	503
 R210.2_Inherited MMR deficiency (Lynch syndrome)_P	Inherited MMR deficiency (Lynch syndrome)_1.2	HGNC:9122	503
-R211.1_Inherited polyposis and early onset colorectal cancer - germline testing_P	HGNC:2001_SG_panel_1.0.0	HGNC:2001	
 R211.1_Inherited polyposis and early onset colorectal cancer - germline testing_P	Inherited polyposis and early onset colorectal cancer - germline testing_2.0	HGNC:1076	504
 R211.1_Inherited polyposis and early onset colorectal cancer - germline testing_P	Inherited polyposis and early onset colorectal cancer - germline testing_2.0	HGNC:11389	504
 R211.1_Inherited polyposis and early onset colorectal cancer - germline testing_P	Inherited polyposis and early onset colorectal cancer - germline testing_2.0	HGNC:11529	504
@@ -8002,7 +8009,8 @@ R212.1_Peutz Jeghers Syndrome_G	Peutz Jeghers Syndrome_1.0	HGNC:11389	1377
 R213.1_PTEN Hamartoma Tumor Syndrome_G	PTEN Hamartoma Tumor Syndrome_1.0	HGNC:9588	1382
 R214.1_Nevoid Basal Cell Carcinoma Syndrome or Gorlin syndrome_P	Nevoid Basal Cell Carcinoma Syndrome or Gorlin syndrome_1.0	HGNC:16466	1373
 R214.1_Nevoid Basal Cell Carcinoma Syndrome or Gorlin syndrome_P	Nevoid Basal Cell Carcinoma Syndrome or Gorlin syndrome_1.0	HGNC:9585	1373
-R215.1_Hereditary diffuse gastric cancer_P	CDH1-related cancer syndrome_1.0	HGNC:1748	1221
+R215.1_Hereditary diffuse gastric cancer_P	Hereditary diffuse gastric cancer_2.0	HGNC:1748	1221
+R215.1_Hereditary diffuse gastric cancer_P	Hereditary diffuse gastric cancer_2.0	HGNC:2509	1221
 R216.1_Li Fraumeni Syndrome_P	Li Fraumeni Syndrome_1.0	HGNC:11998	1222
 R216.1_Li Fraumeni Syndrome_P	Li Fraumeni Syndrome_1.0	HGNC:17284	1222
 R216.2_Li Fraumeni Syndrome_P	Li Fraumeni Syndrome_1.0	HGNC:11998	1222
@@ -8021,12 +8029,12 @@ R220.1_Wilms tumour with features suggestive of predisposition_P	Wilms tumour wi
 R220.1_Wilms tumour with features suggestive of predisposition_P	Wilms tumour with features suggestive of predisposition_1.0	HGNC:16850	1108
 R220.1_Wilms tumour with features suggestive of predisposition_P	Wilms tumour with features suggestive of predisposition_1.0	HGNC:1786	1108
 R220.1_Wilms tumour with features suggestive of predisposition_P	Wilms tumour with features suggestive of predisposition_1.0	HGNC:9966	1108
-R221.1_Familial tumours of the nervous system_P	Familial tumours of the nervous system_1.0	HGNC:11103	1334
-R221.1_Familial tumours of the nervous system_P	Familial tumours of the nervous system_1.0	HGNC:11109	1334
-R221.1_Familial tumours of the nervous system_P	Familial tumours of the nervous system_1.0	HGNC:16466	1334
-R221.1_Familial tumours of the nervous system_P	Familial tumours of the nervous system_1.0	HGNC:2847	1334
-R221.1_Familial tumours of the nervous system_P	Familial tumours of the nervous system_1.0	HGNC:6741	1334
-R221.1_Familial tumours of the nervous system_P	Familial tumours of the nervous system_1.0	HGNC:7773	1334
+R221.1_Familial tumours of the nervous system_P	Familial tumours of the nervous system_2.0	HGNC:11103	1334
+R221.1_Familial tumours of the nervous system_P	Familial tumours of the nervous system_2.0	HGNC:11109	1334
+R221.1_Familial tumours of the nervous system_P	Familial tumours of the nervous system_2.0	HGNC:16466	1334
+R221.1_Familial tumours of the nervous system_P	Familial tumours of the nervous system_2.0	HGNC:2847	1334
+R221.1_Familial tumours of the nervous system_P	Familial tumours of the nervous system_2.0	HGNC:6742	1334
+R221.1_Familial tumours of the nervous system_P	Familial tumours of the nervous system_2.0	HGNC:7773	1334
 R222.1_Neurofibromatosis type 1_P	Neurofibromatosis type 1 (GMS)_1.0	HGNC:20249	1370
 R222.1_Neurofibromatosis type 1_P	Neurofibromatosis type 1 (GMS)_1.0	HGNC:7765	1370
 R223.1_Inherited phaeochromocytoma and paraganglioma excluding NF1_P	Inherited phaeochromocytoma and paraganglioma excluding NF1_2.0	HGNC:10680	649
@@ -12626,7 +12634,6 @@ R292.1_Mucopolysaccharidosis type IIIB_G	Mucopolysaccharidosis type IIIB_1.0	HGN
 R293.1_Albright hereditary osteodystrophy, pseudohypoparathyroidism, pseudopseudohypoparathyroidism, acrodysostosis and osteoma cutis_P	Albright hereditary osteodystrophy, pseudohypoparathyroidism, pseudopseudohypoparathyroidism, acrodysostosis and osteoma cutis_1.0	HGNC:4392	1209
 R293.1_Albright hereditary osteodystrophy, pseudohypoparathyroidism, pseudopseudohypoparathyroidism, acrodysostosis and osteoma cutis_P	Albright hereditary osteodystrophy, pseudohypoparathyroidism, pseudopseudohypoparathyroidism, acrodysostosis and osteoma cutis_1.0	HGNC:8783	1209
 R293.1_Albright hereditary osteodystrophy, pseudohypoparathyroidism, pseudopseudohypoparathyroidism, acrodysostosis and osteoma cutis_P	Albright hereditary osteodystrophy, pseudohypoparathyroidism, pseudopseudohypoparathyroidism, acrodysostosis and osteoma cutis_1.0	HGNC:9388	1209
-R293.1_Albright hereditary osteodystrophy, pseudohypoparathyroidism, pseudopseudohypoparathyroidism, acrodysostosis and osteoma cutis_P	HGNC:11431_SG_panel_1.0.0	HGNC:11431	
 R295.1_Ataxia telangiectasia - mutation testing_G	Ataxia telangiectasia - mutation testing_1.0	HGNC:795	1213
 R31.3_Bilateral congenital or childhood onset cataracts_P	Bilateral congenital or childhood onset cataracts_4.0	HGNC:1040	230
 R31.3_Bilateral congenital or childhood onset cataracts_P	Bilateral congenital or childhood onset cataracts_4.0	HGNC:1041	230
@@ -13982,7 +13989,6 @@ R371.2_Malignant hyperthermia_P	Malignant hyperthermia_1.0	HGNC:10483	1076
 R371.2_Malignant hyperthermia_P	Malignant hyperthermia_1.0	HGNC:1397	1076
 R371.2_Malignant hyperthermia_P	Malignant hyperthermia_1.0	HGNC:28423	1076
 R376.1_Segmental or atypical neurofibromatosis type 1 testing_G	Segmental or atypical neurofibromatosis type 1 testing_1.0	HGNC:7765	1387
-R38.2_Sporadic aniridia_P	HGNC:12796_SG_panel_1.0.0	HGNC:12796	
 R38.2_Sporadic aniridia_P	Sporadic aniridia_3.2	HGNC:3800	510
 R38.2_Sporadic aniridia_P	Sporadic aniridia_3.2	HGNC:6180	510
 R38.2_Sporadic aniridia_P	Sporadic aniridia_3.2	HGNC:8620	510
@@ -23720,18 +23726,11 @@ R91.1_Cytopenia - NOT Fanconi anaemia_P	Cytopenia - NOT Fanconi anaemia_3.0	HGNC
 R91.1_Cytopenia - NOT Fanconi anaemia_P	Cytopenia - NOT Fanconi anaemia_3.0	HGNC:6345	519
 R91.1_Cytopenia - NOT Fanconi anaemia_P	Cytopenia - NOT Fanconi anaemia_3.0	HGNC:7217	519
 R91.1_Cytopenia - NOT Fanconi anaemia_P	Cytopenia - NOT Fanconi anaemia_3.0	HGNC:8609	519
-R92.2_Rare anaemia_P	HGNC:10301_SG_panel_1.0.0	HGNC:10301	
-R92.2_Rare anaemia_P	HGNC:10345_SG_panel_1.0.0	HGNC:10345	
-R92.2_Rare anaemia_P	HGNC:10360_SG_panel_1.0.0	HGNC:10360	
-R92.2_Rare anaemia_P	HGNC:10397_SG_panel_1.0.0	HGNC:10397	
-R92.2_Rare anaemia_P	HGNC:10402_SG_panel_1.0.0	HGNC:10402	
-R92.2_Rare anaemia_P	HGNC:10414_SG_panel_1.0.0	HGNC:10414	
 R92.2_Rare anaemia_P	HGNC:4823_SG_panel_1.0.0	HGNC:4823	
 R92.2_Rare anaemia_P	HGNC:4824_SG_panel_1.0.0	HGNC:4824	
 R92.2_Rare anaemia_P	HGNC:4827_SG_panel_1.0.0	HGNC:4827	
 R92.2_Rare anaemia_P	HGNC:4831_SG_panel_1.0.0	HGNC:4831	
 R92.2_Rare anaemia_P	HGNC:4832_SG_panel_1.0.0	HGNC:4832	
-R92.2_Rare anaemia_P	HGNC:9020_SG_panel_1.0.0	HGNC:9020	
 R92.3_Rare anaemia_P	Rare anaemia_3.0	HGNC:10006	518
 R92.3_Rare anaemia_P	Rare anaemia_3.0	HGNC:10301	518
 R92.3_Rare anaemia_P	Rare anaemia_3.0	HGNC:10306	518
