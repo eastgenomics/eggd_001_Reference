@@ -1,0 +1,805 @@
+{
+  "td_source": "Rare and Inherited Disease National Genomic Test Directory (GLH FACING) V6 FINAL TRACKED JAN 2024_modified_EGLH-binfx-240311.ods",
+  "config_source": "240226_RD",
+  "date": "240327",
+  "indications": [
+    {
+      "name": "Alstrom syndrome",
+      "code": "R106.1",
+      "gemini_name": "R106.1_Alstrom syndrome_G",
+      "test_method": "Single gene sequencing >=10 amplicons",
+      "panels": [
+        "1210"
+      ],
+      "original_targets": "ALMS1 (1210)",
+      "changes": "No change"
+    },
+    {
+      "name": "Familial hypercholesterolaemia",
+      "code": "R134.1",
+      "gemini_name": "R134.1_Familial hypercholesterolaemia_P",
+      "test_method": "Small panel",
+      "panels": [
+        "772"
+      ],
+      "original_targets": "Familial hypercholesterolaemia (GMS) (772)",
+      "changes": "No change"
+    },
+    {
+      "name": "Familial hypercholesterolaemia",
+      "code": "R134.2",
+      "gemini_name": "R134.2_Familial hypercholesterolaemia_P",
+      "test_method": "MLPA or equivalent",
+      "panels": [
+        "772"
+      ],
+      "original_targets": "Familial hypercholesterolaemia (GMS) (772)",
+      "changes": "No change"
+    },
+    {
+      "name": "Congenital hypothyroidism",
+      "code": "R145.1",
+      "gemini_name": "R145.1_Congenital hypothyroidism_P",
+      "test_method": "WES or Medium panel",
+      "panels": [
+        "31"
+      ],
+      "original_targets": "Congenital hypothyroidism (31)",
+      "changes": "No change"
+    },
+    {
+      "name": "Congenital hypothyroidism",
+      "code": "R145.2",
+      "gemini_name": "R145.2_Congenital hypothyroidism_P",
+      "test_method": "Exon level CNV detection by MLPA or equivalent",
+      "panels": [
+        "31"
+      ],
+      "original_targets": "Congenital hypothyroidism (31)",
+      "changes": "No change"
+    },
+    {
+      "name": "Differences in sex development",
+      "code": "R146.2",
+      "gemini_name": "R146.2_Differences in sex development_P",
+      "test_method": "WES or Medium Panel",
+      "panels": [
+        "9"
+      ],
+      "original_targets": "Disorders of sex development (9)",
+      "changes": "Clinical Indication name changed to Differences in sex development"
+    },
+    {
+      "name": "Differences in sex development",
+      "code": "R146.3",
+      "gemini_name": "R146.3_Differences in sex development_P",
+      "test_method": "Exon level CNV detection by MLPA or equivalent",
+      "panels": [
+        "9"
+      ],
+      "original_targets": "Disorders of sex development (9)",
+      "changes": "Clinical Indication name changed to Differences in sex development"
+    },
+    {
+      "name": "Growth failure in early childhood",
+      "code": "R147.1",
+      "gemini_name": "R147.1_Growth failure in early childhood_P",
+      "test_method": "WES or Medium Panel",
+      "panels": [
+        "473"
+      ],
+      "original_targets": "Growth failure in early childhood (473)",
+      "changes": "Updated routing for CSGLH"
+    },
+    {
+      "name": "Growth failure in early childhood",
+      "code": "R147.4",
+      "gemini_name": "R147.4_Growth failure in early childhood_P",
+      "test_method": "Exon level CNV detection by MLPA or equivalent",
+      "panels": [
+        "473"
+      ],
+      "original_targets": "Growth failure in early childhood (473)",
+      "changes": "Updated routing for CSGLH"
+    },
+    {
+      "name": "Hypogonadotropic hypogonadism",
+      "code": "R148.1",
+      "gemini_name": "R148.1_Hypogonadotropic hypogonadism_P",
+      "test_method": "Small panel",
+      "panels": [
+        "650"
+      ],
+      "original_targets": "Hypogonadotropic hypogonadism idiopathic (650)",
+      "changes": "No change"
+    },
+    {
+      "name": "Hypogonadotropic hypogonadism",
+      "code": "R148.2",
+      "gemini_name": "R148.2_Hypogonadotropic hypogonadism_P",
+      "test_method": "Exon level CNV detection by MLPA or equivalent",
+      "panels": [
+        "650"
+      ],
+      "original_targets": "Hypogonadotropic hypogonadism idiopathic (650)",
+      "changes": "No change"
+    },
+    {
+      "name": "Severe early-onset obesity",
+      "code": "R149.1",
+      "gemini_name": "R149.1_Severe early-onset obesity_P",
+      "test_method": "WES or Medium panel",
+      "panels": [
+        "130"
+      ],
+      "original_targets": "Severe early-onset obesity (130)",
+      "changes": "No change"
+    },
+    {
+      "name": "Severe early-onset obesity",
+      "code": "R149.2",
+      "gemini_name": "R149.2_Severe early-onset obesity_P",
+      "test_method": "Exon level CNV detection by MLPA or equivalent",
+      "panels": [
+        "130"
+      ],
+      "original_targets": "Severe early-onset obesity (130)",
+      "changes": "No change"
+    },
+    {
+      "name": "Familial hyperparathyroidism or Hypocalciuric hypercalcaemia",
+      "code": "R151.1",
+      "gemini_name": "R151.1_Familial hyperparathyroidism or Hypocalciuric hypercalcaemia_P",
+      "test_method": "Small panel",
+      "panels": [
+        "480"
+      ],
+      "original_targets": "Familial hyperparathyroidism (480)",
+      "changes": "Panelapp panel ID 481 has been retired "
+    },
+    {
+      "name": "Familial hyperparathyroidism or Hypocalciuric hypercalcaemia",
+      "code": "R151.2",
+      "gemini_name": "R151.2_Familial hyperparathyroidism or Hypocalciuric hypercalcaemia_P",
+      "test_method": "Exon level CNV detection by MLPA or equivalent",
+      "panels": [
+        "480"
+      ],
+      "original_targets": "Familial hyperparathyroidism (480)",
+      "changes": "Panelapp panel ID 481 has been retired "
+    },
+    {
+      "name": "Familial hypoparathyroidism",
+      "code": "R153.1",
+      "gemini_name": "R153.1_Familial hypoparathyroidism_P",
+      "test_method": "Small panel",
+      "panels": [
+        "312"
+      ],
+      "original_targets": "Familial hypoparathyroidism (312)",
+      "changes": "No change"
+    },
+    {
+      "name": "Familial hypoparathyroidism",
+      "code": "R153.2",
+      "gemini_name": "R153.2_Familial hypoparathyroidism_P",
+      "test_method": "MLPA or equivalent",
+      "panels": [
+        "312"
+      ],
+      "original_targets": "Familial hypoparathyroidism (312)",
+      "changes": "No change"
+    },
+    {
+      "name": "Hypophosphataemia or rickets",
+      "code": "R154.1",
+      "gemini_name": "R154.1_Hypophosphataemia or rickets_P",
+      "test_method": "Small panel",
+      "panels": [
+        "482"
+      ],
+      "original_targets": "Hypophosphataemia or rickets (482)",
+      "changes": "No change"
+    },
+    {
+      "name": "Hypophosphataemia or rickets",
+      "code": "R154.2",
+      "gemini_name": "R154.2_Hypophosphataemia or rickets_P",
+      "test_method": "Exon level CNV detection by MLPA or equivalent",
+      "panels": [
+        "482"
+      ],
+      "original_targets": "Hypophosphataemia or rickets (482)",
+      "changes": "No change"
+    },
+    {
+      "name": "Carney complex",
+      "code": "R156.1",
+      "gemini_name": "R156.1_Carney complex_G",
+      "test_method": "Single gene sequencing >=10 amplicons",
+      "panels": [
+        "1313"
+      ],
+      "original_targets": "PRKAR1A (1313)",
+      "changes": "No change"
+    },
+    {
+      "name": "IPEX - Immunodysregulation Polyendocrinopathy and Enteropathy, X-Linked",
+      "code": "R157.1",
+      "gemini_name": "R157.1_IPEX - Immunodysregulation Polyendocrinopathy and Enteropathy, X-Linked_G",
+      "test_method": "Single gene sequencing >=10 amplicons",
+      "panels": [
+        "1350"
+      ],
+      "original_targets": "FOXP3 (1350)",
+      "changes": "No change"
+    },
+    {
+      "name": "Lipodystrophy - childhood onset",
+      "code": "R158.1",
+      "gemini_name": "R158.1_Lipodystrophy - childhood onset_P",
+      "test_method": "Small panel",
+      "panels": [
+        "546"
+      ],
+      "original_targets": "Lipodystrophy - childhood onset (546)",
+      "changes": "No change"
+    },
+    {
+      "name": "Lipodystrophy - childhood onset",
+      "code": "R158.2",
+      "gemini_name": "R158.2_Lipodystrophy - childhood onset_P",
+      "test_method": "Exon level CNV detection by MLPA or equivalent",
+      "panels": [
+        "546"
+      ],
+      "original_targets": "Lipodystrophy - childhood onset (546)",
+      "changes": "No change"
+    },
+    {
+      "name": "Pituitary hormone deficiency",
+      "code": "R159.1",
+      "gemini_name": "R159.1_Pituitary hormone deficiency_P",
+      "test_method": "WES or Medium panel",
+      "panels": [
+        "483"
+      ],
+      "original_targets": "Pituitary hormone deficiency (483)",
+      "changes": "Updated routing for CSGLH"
+    },
+    {
+      "name": "Pituitary hormone deficiency",
+      "code": "R159.2",
+      "gemini_name": "R159.2_Pituitary hormone deficiency_P",
+      "test_method": "Exon level CNV detection by MLPA or equivalent",
+      "panels": [
+        "483"
+      ],
+      "original_targets": "Pituitary hormone deficiency (483)",
+      "changes": "Updated routing for CSGLH"
+    },
+    {
+      "name": "Primary pigmented nodular adrenocortical disease",
+      "code": "R160.1",
+      "gemini_name": "R160.1_Primary pigmented nodular adrenocortical disease_P",
+      "test_method": "Small panel",
+      "panels": [
+        "566"
+      ],
+      "original_targets": "Primary pigmented nodular adrenocortical disease (566)",
+      "changes": "No change"
+    },
+    {
+      "name": "Primary pigmented nodular adrenocortical disease",
+      "code": "R160.2",
+      "gemini_name": "R160.2_Primary pigmented nodular adrenocortical disease_P",
+      "test_method": "Exon level CNV detection by MLPA or equivalent",
+      "panels": [
+        "566"
+      ],
+      "original_targets": "Primary pigmented nodular adrenocortical disease (566)",
+      "changes": "No change"
+    },
+    {
+      "name": "Hyperthyroidism",
+      "code": "R182.1",
+      "gemini_name": "R182.1_Hyperthyroidism_P",
+      "test_method": "Small panel",
+      "panels": [
+        "236"
+      ],
+      "original_targets": "Hyperthyroidism (236)",
+      "changes": "No change"
+    },
+    {
+      "name": "Hyperthyroidism",
+      "code": "R182.2",
+      "gemini_name": "R182.2_Hyperthyroidism_P",
+      "test_method": "Exon level CNV detection by MLPA or equivalent",
+      "panels": [
+        "236"
+      ],
+      "original_targets": "Hyperthyroidism (236)",
+      "changes": "No change"
+    },
+    {
+      "name": "Cystic fibrosis diagnostic test",
+      "code": "R184.2",
+      "gemini_name": "R184.2_Cystic fibrosis diagnostic test_G",
+      "test_method": "Single gene sequencing >=10 amplicons",
+      "panels": [
+        "1318"
+      ],
+      "original_targets": "CFTR (1318)",
+      "changes": "No change"
+    },
+    {
+      "name": "Cystic fibrosis diagnostic test",
+      "code": "R184.3",
+      "gemini_name": "R184.3_Cystic fibrosis diagnostic test_P",
+      "test_method": "MLPA or equivalent",
+      "panels": [
+        "1318"
+      ],
+      "original_targets": "CFTR (1318)",
+      "changes": "No change"
+    },
+    {
+      "name": "Inherited ovarian cancer (without breast cancer)",
+      "code": "R207.1",
+      "gemini_name": "R207.1_Inherited ovarian cancer (without breast cancer)_P",
+      "test_method": "Small panel",
+      "panels": [
+        "143"
+      ],
+      "original_targets": "Inherited ovarian cancer (without breast cancer) (143)",
+      "changes": "No change"
+    },
+    {
+      "name": "Inherited ovarian cancer (without breast cancer)",
+      "code": "R207.2",
+      "gemini_name": "R207.2_Inherited ovarian cancer (without breast cancer)_P",
+      "test_method": "MLPA or equivalent",
+      "panels": [
+        "143"
+      ],
+      "original_targets": "Inherited ovarian cancer (without breast cancer) (143)",
+      "changes": "No change"
+    },
+    {
+      "name": "Inherited breast cancer and ovarian cancer",
+      "code": "R208.1",
+      "gemini_name": "R208.1_Inherited breast cancer and ovarian cancer_P",
+      "test_method": "Small panel",
+      "panels": [
+        "635"
+      ],
+      "original_targets": "Inherited breast cancer and ovarian cancer (635)",
+      "changes": "No change"
+    },
+    {
+      "name": "Inherited breast cancer and ovarian cancer",
+      "code": "R208.2",
+      "gemini_name": "R208.2_Inherited breast cancer and ovarian cancer_P",
+      "test_method": "MLPA or equivalent",
+      "panels": [
+        "635"
+      ],
+      "original_targets": "Inherited breast cancer and ovarian cancer (635)",
+      "changes": "No change"
+    },
+    {
+      "name": "Inherited MMR deficiency (Lynch syndrome)",
+      "code": "R210.2",
+      "gemini_name": "R210.2_Inherited MMR deficiency (Lynch syndrome)_P",
+      "test_method": "Small panel",
+      "panels": [
+        "503"
+      ],
+      "original_targets": "Inherited MMR deficiency (Lynch syndrome) (503)",
+      "changes": "No change"
+    },
+    {
+      "name": "Inherited MMR deficiency (Lynch syndrome)",
+      "code": "R210.5",
+      "gemini_name": "R210.5_Inherited MMR deficiency (Lynch syndrome)_P",
+      "test_method": "MLPA or equivalent",
+      "panels": [
+        "503"
+      ],
+      "original_targets": "Inherited MMR deficiency (Lynch syndrome) (503)",
+      "changes": "No change"
+    },
+    {
+      "name": "Inherited polyposis and early onset colorectal cancer - germline testing",
+      "code": "R211.1",
+      "gemini_name": "R211.1_Inherited polyposis and early onset colorectal cancer - germline testing_P",
+      "test_method": "Small panel",
+      "panels": [
+        "504"
+      ],
+      "original_targets": "Inherited polyposis (504)",
+      "changes": "No change"
+    },
+    {
+      "name": "Inherited polyposis and early onset colorectal cancer - germline testing",
+      "code": "R211.2",
+      "gemini_name": "R211.2_Inherited polyposis and early onset colorectal cancer - germline testing_P",
+      "test_method": "Exon level CNV detection by MLPA or equivalent",
+      "panels": [
+        "504"
+      ],
+      "original_targets": "Inherited polyposis (504)",
+      "changes": "No change"
+    },
+    {
+      "name": "Endocrine neoplasia",
+      "code": "R217.1",
+      "gemini_name": "R217.1_Endocrine neoplasia_P",
+      "test_method": "Small panel",
+      "panels": [
+        "648"
+      ],
+      "original_targets": "Endocrine neoplasms (648)",
+      "changes": "Updated routing for CSGLH"
+    },
+    {
+      "name": "Endocrine neoplasia",
+      "code": "R217.2",
+      "gemini_name": "R217.2_Endocrine neoplasia_P",
+      "test_method": "MLPA or equivalent",
+      "panels": [
+        "648"
+      ],
+      "original_targets": "Endocrine neoplasms (648)",
+      "changes": "Updated routing for CSGLH"
+    },
+    {
+      "name": "Multiple endocrine neoplasia type 2",
+      "code": "R218.1",
+      "gemini_name": "R218.1_Multiple endocrine neoplasia type 2_G",
+      "test_method": "Single gene sequencing >=10 amplicons",
+      "panels": [
+        "1366"
+      ],
+      "original_targets": "RET (1366)",
+      "changes": "No change"
+    },
+    {
+      "name": "Neurofibromatosis type 1",
+      "code": "R222.1",
+      "gemini_name": "R222.1_Neurofibromatosis type 1_P",
+      "test_method": "Small panel",
+      "panels": [
+        "1370"
+      ],
+      "original_targets": "NF1; SPRED1 (1370)",
+      "changes": "No change"
+    },
+    {
+      "name": "Neurofibromatosis type 1",
+      "code": "R222.2",
+      "gemini_name": "R222.2_Neurofibromatosis type 1_P",
+      "test_method": "MLPA or equivalent",
+      "panels": [
+        "1370"
+      ],
+      "original_targets": "NF1; SPRED1 (1370)",
+      "changes": "No change"
+    },
+    {
+      "name": "Inherited phaeochromocytoma and paraganglioma excluding NF1",
+      "code": "R223.1",
+      "gemini_name": "R223.1_Inherited phaeochromocytoma and paraganglioma excluding NF1_P",
+      "test_method": "Small panel",
+      "panels": [
+        "649"
+      ],
+      "original_targets": "Inherited phaeochromocytoma and paraganglioma excluding NF1 (649)",
+      "changes": "Updated routing for CSGLH"
+    },
+    {
+      "name": "Inherited phaeochromocytoma and paraganglioma excluding NF1",
+      "code": "R223.2",
+      "gemini_name": "R223.2_Inherited phaeochromocytoma and paraganglioma excluding NF1_P",
+      "test_method": "MLPA or equivalent",
+      "panels": [
+        "649"
+      ],
+      "original_targets": "Inherited phaeochromocytoma and paraganglioma excluding NF1 (649)",
+      "changes": "Updated routing for CSGLH"
+    },
+    {
+      "name": "Inherited parathyroid cancer",
+      "code": "R226.1",
+      "gemini_name": "R226.1_Inherited parathyroid cancer_G",
+      "test_method": "Single gene sequencing >=10 amplicons",
+      "panels": [
+        "1348"
+      ],
+      "original_targets": "CDC73 (1348)",
+      "changes": "No change"
+    },
+    {
+      "name": "Tuberous sclerosis",
+      "code": "R228.1",
+      "gemini_name": "R228.1_Tuberous sclerosis_P",
+      "test_method": "Small panel",
+      "panels": [
+        "1400"
+      ],
+      "original_targets": "TSC1;TSC2 (1400)",
+      "changes": "No change"
+    },
+    {
+      "name": "Tuberous sclerosis",
+      "code": "R228.2",
+      "gemini_name": "R228.2_Tuberous sclerosis_P",
+      "test_method": "MLPA or equivalent",
+      "panels": [
+        "1400"
+      ],
+      "original_targets": "TSC1;TSC2 (1400)",
+      "changes": "No change"
+    },
+    {
+      "name": "Tuberous sclerosis",
+      "code": "R228.3",
+      "gemini_name": "R228.3_Tuberous sclerosis_P",
+      "test_method": "Small panel - deep sequencing",
+      "panels": [
+        "1400"
+      ],
+      "original_targets": "TSC1;TSC2 (1400)",
+      "changes": "No change"
+    },
+    {
+      "name": "Thanatophoric dysplasia",
+      "code": "R25.1",
+      "gemini_name": "R25.1_Thanatophoric dysplasia_G",
+      "test_method": "Single gene sequencing >=10 amplicons",
+      "panels": [
+        "1398"
+      ],
+      "original_targets": "FGFR3 (1398)",
+      "changes": "No change"
+    },
+    {
+      "name": "Albright hereditary osteodystrophy, pseudohypoparathyroidism, pseudopseudohypoparathyroidism, acrodysostosis and osteoma cutis",
+      "code": "R293.1",
+      "gemini_name": "R293.1_Albright hereditary osteodystrophy, pseudohypoparathyroidism, pseudopseudohypoparathyroidism, acrodysostosis and osteoma cutis_P",
+      "test_method": "Small panel",
+      "panels": [
+        "HGNC:4392",
+        "HGNC:9388",
+        "HGNC:8783",
+        "HGNC:11431"
+      ],
+      "original_targets": "GNAS;PRKAR1A; PDE4D; STX16",
+      "changes": "No change"
+    },
+    {
+      "name": "Albright hereditary osteodystrophy, pseudohypoparathyroidism, pseudopseudohypoparathyroidism, acrodysostosis and osteoma cutis",
+      "code": "R293.3",
+      "gemini_name": "R293.3_Albright hereditary osteodystrophy, pseudohypoparathyroidism, pseudopseudohypoparathyroidism, acrodysostosis and osteoma cutis_P",
+      "test_method": "MLPA or equivalent",
+      "panels": [
+        "HGNC:4392",
+        "HGNC:9388",
+        "HGNC:8783",
+        "HGNC:11431"
+      ],
+      "original_targets": "GNAS;PRKAR1A; PDE4D; STX16",
+      "changes": "No change"
+    },
+    {
+      "name": "Familial dysalbuminaemic hyperthyroxinaemia",
+      "code": "R329.1",
+      "gemini_name": "R329.1_Familial dysalbuminaemic hyperthyroxinaemia_G",
+      "test_method": "Single gene sequencing >=10 amplicons",
+      "panels": [
+        "1333"
+      ],
+      "original_targets": "ALB (1333)",
+      "changes": "No change"
+    },
+    {
+      "name": "CADASIL",
+      "code": "R337.1",
+      "gemini_name": "R337.1_CADASIL_G",
+      "test_method": "Single gene sequencing >=10 amplicons",
+      "panels": [
+        "1311"
+      ],
+      "original_targets": "NOTCH3 (1311)",
+      "changes": "No change"
+    },
+    {
+      "name": "Primary hyperaldosteronism - KCNJ5",
+      "code": "R344.1",
+      "gemini_name": "R344.1_Primary hyperaldosteronism - KCNJ5_G",
+      "test_method": "Single gene sequencing <10 amplicons",
+      "panels": [
+        "1380"
+      ],
+      "original_targets": "KCNJ5 (1380)",
+      "changes": "No change"
+    },
+    {
+      "name": "APC associated Polyposis",
+      "code": "R414.1",
+      "gemini_name": "R414.1_APC associated Polyposis_G",
+      "test_method": "Single gene sequencing >=10 amplicons",
+      "panels": [
+        "1212"
+      ],
+      "original_targets": "APC (1212)",
+      "changes": "No change"
+    },
+    {
+      "name": "APC associated Polyposis",
+      "code": "R414.2",
+      "gemini_name": "R414.2_APC associated Polyposis_P",
+      "test_method": "MLPA or equivalent",
+      "panels": [
+        "1212"
+      ],
+      "original_targets": "APC (1212)",
+      "changes": "No change"
+    },
+    {
+      "name": "Inherited prostate cancer",
+      "code": "R430.1",
+      "gemini_name": "R430.1_Inherited prostate cancer_P",
+      "test_method": "Small panel",
+      "panels": [
+        "1223"
+      ],
+      "original_targets": "Inherited prostate cancer (1223)",
+      "changes": "No change"
+    },
+    {
+      "name": "Inherited prostate cancer",
+      "code": "R430.2",
+      "gemini_name": "R430.2_Inherited prostate cancer_P",
+      "test_method": "Exon level CNV detection by MLPA or equivalent",
+      "panels": [
+        "1223"
+      ],
+      "original_targets": "Inherited prostate cancer (1223)",
+      "changes": "No change"
+    },
+    {
+      "name": "NICE approved PARP inhibitor treatment",
+      "code": "R444.1",
+      "gemini_name": "R444.1_NICE approved PARP inhibitor treatment_P",
+      "test_method": "Small panel",
+      "panels": [
+        "HGNC:1100",
+        "HGNC:1101",
+        "HGNC:26144",
+        "HGNC:9820",
+        "HGNC:9823",
+        "HGNC:795",
+        "HGNC:16627"
+      ],
+      "original_targets": "BRCA1; BRCA2; PALB2; RAD51C; RAD51D; ATM; CHEK2\u00a0",
+      "changes": "No change"
+    },
+    {
+      "name": "NICE approved PARP inhibitor treatment",
+      "code": "R444.2",
+      "gemini_name": "R444.2_NICE approved PARP inhibitor treatment_P",
+      "test_method": "Small panel ",
+      "panels": [
+        "HGNC:1100",
+        "HGNC:1101"
+      ],
+      "original_targets": "BRCA1, BRCA2",
+      "changes": "No change"
+    },
+    {
+      "name": "NICE approved PARP inhibitor treatment",
+      "code": "R444.3",
+      "gemini_name": "R444.3_NICE approved PARP inhibitor treatment_P",
+      "test_method": "Exon level CNV detection by MLPA or equivalent",
+      "panels": [
+        "HGNC:1100",
+        "HGNC:1101",
+        "HGNC:26144",
+        "HGNC:9820",
+        "HGNC:9823",
+        "HGNC:795",
+        "HGNC:16627"
+      ],
+      "original_targets": "BRCA1; BRCA2; PALB2; RAD51C; RAD51D; ATM; CHEK2\u00a0",
+      "changes": "No change"
+    },
+    {
+      "name": "Stickler syndrome",
+      "code": "R45.1",
+      "gemini_name": "R45.1_Stickler syndrome_P",
+      "test_method": "Small panel",
+      "panels": [
+        "3"
+      ],
+      "original_targets": "Stickler syndrome (3)",
+      "changes": "No change"
+    },
+    {
+      "name": "Stickler syndrome",
+      "code": "R45.2",
+      "gemini_name": "R45.2_Stickler syndrome_P",
+      "test_method": "MLPA or equivalent",
+      "panels": [
+        "3"
+      ],
+      "original_targets": "Stickler syndrome (3)",
+      "changes": "No change"
+    },
+    {
+      "name": "Beckwith-Wiedemann syndrome",
+      "code": "R49.2",
+      "gemini_name": "R49.2_Beckwith-Wiedemann syndrome_P",
+      "test_method": "MLPA or equivalent",
+      "panels": [],
+      "original_targets": "11p15 imprinted growth regulatory region",
+      "changes": "No change"
+    },
+    {
+      "name": "Beckwith-Wiedemann syndrome",
+      "code": "R49.3",
+      "gemini_name": "R49.3_Beckwith-Wiedemann syndrome_G",
+      "test_method": "Single gene sequencing >=10 amplicons",
+      "panels": [
+        "1309"
+      ],
+      "original_targets": "CDKN1C (1309)",
+      "changes": "No change"
+    },
+    {
+      "name": "Paroxysmal central nervous system disorders",
+      "code": "R66.1",
+      "gemini_name": "R66.1_Paroxysmal central nervous system disorders_P",
+      "test_method": "WES or Medium Panel",
+      "panels": [
+        "541"
+      ],
+      "original_targets": "Paroxysmal central nervous system disorders (541)",
+      "changes": "No change"
+    },
+    {
+      "name": "Paroxysmal central nervous system disorders",
+      "code": "R66.2",
+      "gemini_name": "R66.2_Paroxysmal central nervous system disorders_P",
+      "test_method": "Exon level CNV detection by MLPA or equivalent",
+      "panels": [
+        "541"
+      ],
+      "original_targets": "Paroxysmal central nervous system disorders (541)",
+      "changes": "No change"
+    },
+    {
+      "name": "Duchenne or Becker muscular dystrophy",
+      "code": "R73.1",
+      "gemini_name": "R73.1_Duchenne or Becker muscular dystrophy_G",
+      "test_method": "Single gene sequencing >=10 amplicons",
+      "panels": [
+        "1321"
+      ],
+      "original_targets": "DMD (1321)",
+      "changes": "No change"
+    },
+    {
+      "name": "Duchenne or Becker muscular dystrophy",
+      "code": "R73.2",
+      "gemini_name": "R73.2_Duchenne or Becker muscular dystrophy_P",
+      "test_method": "MLPA or equivalent",
+      "panels": [
+        "1321"
+      ],
+      "original_targets": "DMD (1321)",
+      "changes": "No change"
+    }
+  ]
+}
