@@ -3,7 +3,7 @@
 ##source=dragen
 ##INFO=<ID=AF,Number=A,Type=Float,Description="Allele Frequency">
 ##INFO=<ID=DP,Number=1,Type=Integer,Description="Sequence Depth">
-#OM	POS	ID	REF	ALT	QUAL	FILTER	INFO
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
 1	9721354	.	C	G	.	.	AF=0.46416;DP=293
 1	11121270	.	C	T	.	.	AF=0.17711;DP=367
 1	11130589	.	G	A	.	.	AF=0.21000;DP=300
