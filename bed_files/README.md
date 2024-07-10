@@ -56,6 +56,9 @@ Contents:
 * :sleeping_bed: /bed_files/b37/kits/tso500/tso500_exons_nirvana_210813_511_genes_v1_0.bed
 > This is the bed file was created based on the TST500C_manifest.bed and intersected with the exons_nirvana bed to allow for coverage report creation (eggd_athena).
 
+* :sleeping_bed: /bed_files/b37/kits/pancan/PanCancerTargetRegions_hg19.bed
+> This is the bed file of the PanCancer assay, extracted from https://emea.support.illumina.com/downloads/trusight-rna-pan-cancer-target-regions-files.html. The confluence page describing the steps are documented here: https://cuhbioinformatics.atlassian.net/wiki/spaces/DV/pages/3291742245/PanCancerTargetRegions+hg19.bed.
+
 * :sleeping_bed: /bed_files/b38/kits/myeloid/coding_unrestricted_GRCh38_myeloid_v1.0.bed
 > This bed file contains all exons of the genes included in the panel +/- 5bp. It was created using the gff_to_bed.py (https://github.com/eastgenomics/nirvana_gff_to_bed) where the GRCh38 nirvana gff file (GRCh38_RefSeq_26.gff.gz) was specified as an input, additionally 5bp padding was specified. This was further filtered to include only genes in the panel and MANE refseq IDs. The final bed file contains the following columns: chromosome, start position, end position, gene symbol, Refseq transcript ID, exon number.
 * :sleeping_bed: /bed_files/b38/kits/myeloid/coding_restricted_GRCh38_myeloid_v1.0.bed
