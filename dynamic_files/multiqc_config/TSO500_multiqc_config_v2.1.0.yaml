@@ -97,6 +97,124 @@ plots_flat_numseries: 200        # If neither of the above, use flat if > this n
 num_datasets_plot_limit: 100      # If interactive, don't plot on load if > this number of datasets
 max_table_rows: 500              # Swap tables for a beeswarm plot above this
 
+custom_data:
+  metricsoutput_dna:
+    file_format: "tsv"
+    section_name: "MetricsOutput DNA"
+    description: "This table comes from the MetricsOutput.tsv file of eggd_tso500"
+    plot_type: "table"
+    pconfig:
+      id: "tso500_metricsoutput_dna"
+      title: "TSO500 MetricsOutput RNA"
+      scale: false
+    headers:
+      COMPLETED_ALL_STEPS:
+        title: "Completed"
+        description: "Are all steps completed?"
+        placement: 100
+      CONTAMINATION_SUMMARY:
+        title: "Contamination Pass"
+        description: "Contamination Summary"
+        placement: 200
+      CONTAMINATION_SCORE:
+        title: "Contamination Score"
+        description: "Contamination Score"
+        format: '{:,.0f}'
+        placement: 300
+      CONTAMINATION_P_VALUE:
+        title: "Contamination P value"
+        description: "Contamination P value"
+        format: '{:,.3f}'
+        placement: 400
+      MEDIAN_INSERT_SIZE_DNA:
+        title: "Insert Size"
+        description: "Median Insert Size DNA"
+        format: '{:,.0f}'
+        placement: 500
+      MEDIAN_EXON_COVERAGE:
+        title: "Exon Coverage"
+        description: "Median Exon Coverage"
+        format: '{:,.0f}'
+        placement: 600
+      PCT_EXON_50X:
+        title: "PCT Exon"
+        description: "PCT Exon 50x"
+        format: '{:,.1f}'
+        placement: 700
+      USABLE_MSI_SITES:
+        title: "Usable MSI Sites"
+        description: "Usable MSI Sites"
+        format: '{:,.0f}'
+        placement: 800
+      COVERAGE_MAD:
+        title: "Coverage Mad"
+        description: "Coverage Mad"
+        format: '{:,.3f}'
+        placement: 900
+      MEDIAN_BIN_COUNT_CNV_TARGET:
+        title: "Bin Count CNV"
+        description: "Median Bin Count CNV Target"
+        format: '{:,.1f}'
+        placement: 1000
+  metricsoutput_rna:
+    file_format: "tsv"
+    section_name: "MetricsOutput RNA"
+    description: "This table comes from the MetricsOutput.tsv file of eggd_tso500"
+    plot_type: "table"
+    pconfig:
+      id: "tso500_metricsoutput_rna"
+      title: "TSO500 MetricsOutput RNA"
+      scale: false
+    headers:
+      COMPLETED_ALL_STEPS:
+        title: "Completed"
+        description: "Are all steps completed?"
+        placement: 100
+      MEDIAN_CV_GENE_500X:
+        title: "CV Gene 500x"
+        description: "Median CV Gene 500x"
+        format: '{:,.2f}'
+        placement: 200
+      TOTAL_ON_TARGET_READS:
+        title: "Target Reads"
+        description: "Total On Target Reads"
+        format: '{:,.0f}'
+        placement: 300
+      MEDIAN_INSERT_SIZE_RNA:
+        title: "Insert Size"
+        description: "Median Insert Size RNA"
+        format: '{:,.0f}'
+        placement: 400
+
+table_cond_formatting_rules:
+  MEDIAN_INSERT_SIZE:
+    fail:
+      - lt: 70
+  MEDIAN_EXON_COVERAGE:
+    fail:
+      - lt: 150
+  PCT_EXON_50X:
+    fail:
+      - lt: 90
+  USABLE_MSI_SITES:
+    fail:
+      - lt: 40
+  COVERAGE_MAD:
+    fail:
+      - gt: 0.21
+  MEDIAN_BIN_COUNT_CNV_TARGET:
+    fail:
+      - lt: 1
+  MEDIAN_CV_GENE_500X:
+    fail:
+      - gt: 93
+  TOTAL_ON_TARGET_READS:
+    fail:
+      - lt: 9000000
+  MEDIAN_INSERT_SIZE_RNA:
+    fail:
+      - lt: 80
+
 # Overwrite module order (in report).
 # See multiqc/utils/config_defaults.yaml for the defaults.
 module_order:
@@ -113,6 +231,10 @@ sp:
     # samtools/flagstat:
     #     fn: '*.flagstat'
     #     contents: 'in total (QC-passed reads + QC-failed reads)'
+    metricsoutput_dna:
+        fn: 'MetricsOutput_MultiQC_DNA.tsv'
+    metricsoutput_rna:
+        fn: 'MetricsOutput_MultiQC_RNA.tsv'
 
 # # Remove plots from HTML report
 # remove_sections:
@@ -126,3 +248,7 @@ dx_sp:
     primary:
         fastqc:
             - '*.stats-fastqc.txt'
+        metricsoutput_dna:
+            - 'MetricsOutput_MultiQC_DNA.tsv'
+        metricsoutput_rna:
+            - 'MetricsOutput_MultiQC_RNA.tsv'
